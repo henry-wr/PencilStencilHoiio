@@ -1,0 +1,257 @@
+<Shapes xmlns="http://www.evolus.vn/Namespace/Pencil" 
+		xmlns:p="http://www.evolus.vn/Namespace/Pencil" 
+		xmlns:svg="http://www.w3.org/2000/svg" 
+		xmlns:xlink="http://www.w3.org/1999/xlink" 
+		id="hoiioiPhoneTemplate.Icons" 
+		displayName="Hoiio iPhone Elements" 
+		description="Common elements for iPhone Apps" 
+		author="Hoiio" 
+		url="http://www.evolus.vn/Pencil">
+		
+		<Script>
+		<![CDATA[
+			collection.customImage = {};
+			collection.customImage['buttons'] = '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';
+		]]>	
+	</Script>
+	
+	<Properties>
+        <PropertyGroup name="Default Text Size">
+            <Property name="defaultFontSmall" type="Font">Arial|normal|normal|13px</Property>
+			<Property name="defaultFontRegular" type="Font">Arial|normal|normal|17px</Property>
+			<Property name="defaultFontRegularBold" type="Font">Arial|bold|normal|17px</Property>
+			<Property name="defaultFontLargeBold" type="Font">Arial|bold|normal|21px</Property>
+        </PropertyGroup>
+        <PropertyGroup name="Default Text Color">
+			<Property name="defaultFontGrey" type="Color">#595959</Property>
+			<Property name="defaultFontWhite" type="Color">#FFFFFF</Property>
+			<Property name="defaultLinkColor" type="Color">#0081c7</Property>
+        </PropertyGroup>
+
+    </Properties>
+
+	<Shape id="testIcon" displayName="Test Button" icon="Icons/contactIcon.png">
+		<Properties>
+			<PropertyGroup>
+				<Property name="customStyle1" displayName="boxView" type="PlainText"><![CDATA[]]></Property>
+				<Property name="type" displayName="User" type="Enum" p:enumValues="['buttons|Blue', 'grey|Grey', 'disabled|Disabled']">buttons</Property>
+			</PropertyGroup>
+		</Properties>
+		
+		<Behaviors>
+			<For ref="image">
+				<Attr>
+					<Arg>"xlink:href"</Arg>
+					<Arg>
+						"data:image/png;base64," + collection.customImage[$type.value];
+					</Arg>
+					<Arg>PencilNamespaces.xlink</Arg>
+				</Attr>
+			</For>
+		</Behaviors>
+		
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg" >
+			<svg width="49px" height="34px" viewbox="0 0 49 34" >
+				<image id="image" width="49" height="34" x="-20" y="0" preserveAspectRatio="xMinYMin slice" />
+			</svg>
+		</p:Content>
+	</Shape>
+
+	<Shape id="BtnBlue" displayName="Test Image" icon="Icons/btnBlue.png">
+		<Properties>
+			<PropertyGroup name="Properties">
+				<Property name="textContent" displayName="Content" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, ($box.h/2)-15, $box.w-10, 30), font: $textFont, align: new Alignment(1, 1), multi: false})">Button</Property>
+				<Property name="type" displayName="State" type="Enum" p:enumValues="['blue|Blue', 'grey|Grey', 'inbetween|In Between']">buttons</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Text">
+				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFontRegularBold</E></Property>
+				<Property name="textColor" displayName="Color" type="Color"><E>$$defaultFontWhite</E></Property>
+			</PropertyGroup>
+			<PropertyGroup name="Additional CSS">
+				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
+				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>
+			</PropertyGroup>
+		</Properties>
+		
+		<Behaviors>
+            <For ref="divObject">
+                <Attr>
+                    <Arg>"style"</Arg>
+                    <Arg>
+						<!-- Set your CSS behaviours -->
+						"display: inline-block;" + 
+						"width: 49px;" +
+						"height: 34px;" +
+						"background-image: url(data:image/png;base64," + collection.customImage['buttons'] + ");" +
+						($type.value == 'grey' ? "background-position: -49px 0px;" : "") +
+						($type.value == 'inbetween' ? "background-position: -24px 0px;" : "") +
+						$customStyle1.value + 
+						$customStyle2.value
+					</Arg>
+                </Attr>
+            </For>
+            <For ref="container">
+                <Box>new Dimension(49, 34);</Box>
+            </For>
+        </Behaviors>
+		
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject id="container" height="34px" width="49px">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
+            </foreignObject>
+        </p:Content>
+		
+	</Shape>
+	
+	<Shape id="headerDefault" displayName="Header Bar" icon="Icons/headerDefault.png">
+		<Properties>
+			<PropertyGroup>
+				<Property name="box" type="Dimension" >320,44</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Text">
+				<Property name="textContent" displayName="Content" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, ($box.h/2)-15, $box.w-10, 30), font: $textFont, align: new Alignment(1, 1), multi: false})">Header</Property>
+				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFontRegularBold</E></Property>
+				<Property name="textColor" displayName="Color" type="Color"><E>$$defaultFontWhite</E></Property>
+			</PropertyGroup>
+			<PropertyGroup name="Additional CSS">
+				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
+				<Property name="customStyle2" displayName="Inner Shadow" type="PlainText"><![CDATA[]]></Property>
+			</PropertyGroup>
+		</Properties>
+		
+		<Behaviors>
+            <For ref="divObject">
+				<InnerText>$textContent.value</InnerText>
+                <Attr>
+                    <Arg>"style"</Arg>
+                    <Arg>
+						<!-- Standard CSS for mapping built-in palettes to CSS -->
+						"font-family: " + $textFont.family + ";" +
+						"font-size: " + $textFont.size + ";" +
+						"font-style: " + $textFont.style + ";" +
+						"font-weight: " + $textFont.weight + ";" +
+						"text-decoration: " + $textFont.decor + ";" +
+						"color: " + $textColor.toRGBString() + ";" +
+						
+						<!-- Set your CSS behaviours -->
+						"display: inline-block;" + 
+						"width: " + ($box.w) + "px;" +
+						"height: " + ($box.h-1) + "px;" +
+						"line-height: " + ($box.h-2-1) + "px;" +
+						"border-bottom: 1px solid #20546f;" +
+						"text-shadow: 0 1px 0 rgba(0, 0, 0, 0.16);" +
+						"text-align: center;" +
+						"background-image: -moz-linear-gradient(top, #2d9bd6 0%, #1c90d0 33%, #0986ca 66%, #0081c7 100%);" +
+						"color:#ffffff;" +
+						"box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255,255,255,0.15);" +						
+						$customStyle1.value 
+					</Arg>
+                </Attr>
+            </For>
+			<For ref="bottomInnerShadow">
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>
+						"display: block;" +
+						"background-color: #0070ad;" +
+						"height: 2px;" +
+						"width: " + ($box.w) + "px;" +
+						"position: absolute;" +
+						"bottom:4px;" +
+						$customStyle2.value
+					</Arg>
+				</Attr>
+			</For>
+            <For ref="container">
+                <Box>new Dimension($box.w, $box.h+3);</Box>
+            </For>
+        </Behaviors>
+		
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject id="container">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
+                <div xmlns="http://www.w3.org/1999/xhtml" id="bottomInnerShadow"></div>
+            </foreignObject>
+        </p:Content>
+		
+	</Shape>
+	
+	<Shape id="headerCustom" displayName="Header Bar Custom" icon="Icons/headerDefault.png">
+		<Properties>
+			<PropertyGroup>
+				<Property name="box" type="Dimension" >320,44</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Text">
+				<Property name="textContent" displayName="Content" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, ($box.h/2)-15, $box.w-10, 30), font: $textFont, align: new Alignment(1, 1), multi: false})">Header</Property>
+				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFontRegularBold</E></Property>
+				<Property name="textColor" displayName="Color" type="Color"><E>$$defaultFontWhite</E></Property>
+			</PropertyGroup>
+			<PropertyGroup name="Background">
+				<Property name="themeColor" type="Color" displayName="Theme Color">#0081C7ff</Property>
+				<Property name="shading1" displayName="1st Shading" type="PlainText">0.06</Property>
+				<Property name="shading2" displayName="2st Shading" type="PlainText">0.18</Property>
+			</PropertyGroup>
+
+			<PropertyGroup name="Additional CSS">
+				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
+				<Property name="customStyle2" displayName="Inner Shadow" type="PlainText"><![CDATA[]]></Property>
+			</PropertyGroup>
+		</Properties>
+		
+		<Behaviors>
+            <For ref="divObject">
+				<InnerText>$textContent.value</InnerText>
+                <Attr>
+                    <Arg>"style"</Arg>
+                    <Arg>
+						<!-- Standard CSS for mapping built-in palettes to CSS -->
+						"font-family: " + $textFont.family + ";" +
+						"font-size: " + $textFont.size + ";" +
+						"font-style: " + $textFont.style + ";" +
+						"font-weight: " + $textFont.weight + ";" +
+						"text-decoration: " + $textFont.decor + ";" +
+						"color: " + $textColor.toRGBString() + ";" +
+						
+						<!-- Set your CSS behaviours -->
+						"display: inline-block;" + 
+						"width: " + ($box.w) + "px;" +
+						"height: " + ($box.h-1) + "px;" +
+						"line-height: " + ($box.h-2-1) + "px;" +
+						"text-shadow: 0 1px 0 rgba(0, 0, 0, 0.16);" +
+						"text-align: center;" +
+						"box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 1px 0 rgba(255,255,255,0.15);" +
+						"background-image: -moz-linear-gradient(top, " + $themeColor.toRGBString() + " 0%, " + $themeColor.shaded($shading1.value).toRGBString() + " 50%, " + $themeColor.shaded($shading2.value).toRGBString() + ");" +
+						"border-bottom: 1px solid " + $themeColor.shaded(0.55).toRGBString() + ";" +
+						$customStyle1.value 
+					</Arg>
+                </Attr>
+            </For>
+			<For ref="bottomInnerShadow">
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>
+						"display: block;" +
+						"background-color: rgba(0,0,0,0.15);" +
+						"height: 2px;" +
+						"width: " + ($box.w) + "px;" +
+						"position: absolute;" +
+						"bottom:4px;" +
+						$customStyle2.value
+					</Arg>
+				</Attr>
+			</For>
+            <For ref="container">
+                <Box>new Dimension($box.w, $box.h+3);</Box>
+            </For>
+        </Behaviors>
+		
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject id="container">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
+                <div xmlns="http://www.w3.org/1999/xhtml" id="bottomInnerShadow"></div>
+            </foreignObject>
+        </p:Content>
+		
+	</Shape>
+
+</Shapes>

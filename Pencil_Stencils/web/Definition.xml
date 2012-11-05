@@ -27,16 +27,18 @@
 	</Script>
 	
 	<Properties>
-        <PropertyGroup name="Commons">
-            <Property name="defaultFont12" type="Font">Segoe UI|normal|normal|12px</Property>
-			<Property name="defaultFont14" type="Font">Segoe UI|normal|normal|14px</Property>
-			<Property name="defaultFont14Bold" type="Font">Segoe UI|bold|normal|14px</Property>
-			<Property name="defaultFont16Bold" type="Font">Segoe UI|bold|normal|16px</Property>
-			<Property name="defaultFont18Bold" type="Font">Segoe UI|bold|normal|18px</Property>
-			<Property name="heading3" type="Font">Segoe UI|bold|normal|22px</Property>
-			<Property name="defaultFontColor" type="Color">#595959</Property>
-			<Property name="defaultLinkColor" type="Color">#0081c7</Property>
-			<Property name="defaultDisabledTextColor" type="Color">#999999</Property>
+        <PropertyGroup name="Font Sizes">
+            <Property name="defaultFont12" displayName="Hint Text Font"type="Font">Segoe UI|normal|normal|12px</Property>
+			<Property name="defaultFont14" displayName="Body Text" type="Font">Segoe UI|normal|normal|14px</Property>
+			<Property name="defaultFont14Bold" displayName="Body Text (Bold)" type="Font">Segoe UI|bold|normal|14px</Property>
+			<Property name="defaultFont16Bold" displayName="Heading 16px" type="Font">Segoe UI|bold|normal|16px</Property>
+			<Property name="defaultFont18Bold" displayName="Heading 18px" type="Font">Segoe UI|bold|normal|18px</Property>
+			<Property name="heading3" displayName="Heading 22px" type="Font">Segoe UI|bold|normal|22px</Property>
+		</PropertyGroup>
+		<PropertyGroup name="Font Color">
+			<Property name="defaultFontColor" displayName="Font Color" type="Color">#595959</Property>
+			<Property name="defaultLinkColor" displayName="Link Color"type="Color">#0081c7</Property>
+			<Property name="defaultDisabledTextColor" displayName="Disabled Text Color" type="Color">#999999</Property>
         </PropertyGroup>
     </Properties>
 	
@@ -44,6 +46,7 @@
 		<Properties>
 			<PropertyGroup>
 				<Property name="type" displayName="User" type="Enum" p:enumValues="['stanley|Stanley', 'kc|KC', 'rup|Ruprecht']">stanley</Property>
+				<Property name="size" displayName="Size" type="Enum" p:enumValues="['small|Small (32px)','standard|Standard (56px)']">small</Property>
 			</PropertyGroup>
 		</Properties>
 		
@@ -56,12 +59,20 @@
 					</Arg>
 					<Arg>PencilNamespaces.xlink</Arg>
 				</Attr>
+				<Attr>
+					<Arg>"width"</Arg>
+					<Arg>$size.value == "standard" ? 56 : 32</Arg>
+				</Attr>
+				<Attr>
+					<Arg>"height"</Arg>
+					<Arg>$size.value == "standard" ? 56 : 32</Arg>
+				</Attr>
 			</For>
 		</Behaviors>
 		
 		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil"
 									xmlns="http://www.w3.org/2000/svg" >
-			<image id="image" width="32" height="32" x="0" y="0" />
+			<image id="image" x="0" y="0" />
 		</p:Content>
 	</Shape>
 	
@@ -771,7 +782,6 @@
 			</div>
 			</foreignObject>
 		</p:Content>
-
 	</Shape>
 
 	<Shape id="ComboBox" displayName="Combo Box" icon="Icons/combobox.png">
@@ -871,26 +881,27 @@
 		</p:Content>
 	</Shape>
 
+	<!--Updated BtnBlue hover & focused mode, created actions to resize to Micro, Standard, Large-->
 	<Shape id="BtnBlue" displayName="Blue Button" icon="Icons/btnBlue.png">
 		<Properties>
 			<PropertyGroup>
-				<Property name="box" type="Dimension" >95,30</Property>
+				<Property name="box" type="Dimension" p:lockHeight="true">95,30</Property>
 			</PropertyGroup>
 			<PropertyGroup name="Properties">
 				<Property name="textContent" displayName="Content" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, ($box.h/2)-15, $box.w-10, 30), font: $textFont, align: new Alignment(1, 1), multi: false})">Button</Property>
-				<Property name="state" displayName="State" type="Enum" p:enumValues="['normal|Normal', 'hover|Mouse Over', 'clicked|Clicked']">normal</Property>
+				<Property system="true" name="state" displayName="State" type="Enum" p:enumValues="['normal|Normal', 'hover|Mouse Over', 'clicked|Clicked']">normal</Property>
 				<Property name="disabled" displayName="Disabled?" type="Bool">false</Property>
 			</PropertyGroup>
 			<PropertyGroup name="Text">
-				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont14Bold</E></Property>
+				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont14</E></Property>
 				<Property name="textColor" displayName="Color" type="Color">#FFFFFF</Property>
 			</PropertyGroup>
 			<PropertyGroup name="Additional CSS">
 				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
 				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>
+				<Property name="customStyleHidden" type="PlainText"><![CDATA[]]></Property>
 			</PropertyGroup>
 		</Properties>
-		
 		<Behaviors>
             <For ref="divObject">
 				<InnerText>$textContent.value</InnerText>
@@ -907,13 +918,14 @@
 						
 						<!-- Set your CSS behaviours -->
 						"display: inline-block;" + 
-						"width: " + ($box.w-22) + "px;" +
-						"height: " + ($box.h-2) + "px;" +
-						"line-height: " + ($box.h-4) + "px;" +
 						"border-width: 1px;" +
 						"border-style: solid;" +
 						"border-radius: 5px;" +
-						
+
+						"height: " + ($box.h-2) + "px;" +
+						"width: " + ($box.w-2) + "px;" +
+						"line-height: " + ($box.h-4) + "px;" +
+
 						"text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);" +
 						"text-align: center;" +
 						"background-image: -moz-linear-gradient(top, #00a5ff, #0084cc);" +
@@ -921,28 +933,56 @@
 						"color:#ffffff;" +
 						"text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);" +
 						"box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);" +						
-						($state.value == "clicked" ? "background-image: -moz-linear-gradient(top, #00a5ff, #0074b2); box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.35);" : "") +
-						($state.value == "hover" ? "background-image: -moz-linear-gradient(top, #00a5ff, #0074b2);" : "") +
-						($disabled.value ? "background-image: -moz-linear-gradient(top, #cccccc, #cccccc); border-color:#c0c0c0; color:#666666; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35); box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.25);" : "") +
-						"padding:0px 10px;" +
+						($state.value == "clicked" ? "background-image: none; background-color: #007DC2; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);" : "") +
+						($state.value == "hover" ? "background-image: none; background-color: #007DC2;" : "") +
+						($disabled.value ? "background-image: none; background-color: #007DC2; box-shadow: none; opacity: 0.65;" : "") +
+						$customStyleHidden.value +
 						$customStyle1.value + 
 						$customStyle2.value
 					</Arg>
                 </Attr>
             </For>
             <For ref="container">
-                <Box>new Dimension($box.w, $box.h);</Box>
+            	<Box>$box</Box>
             </For>
         </Behaviors>
-		
+		<Actions>
+			<Action id="resizeToMicro" displayName="Resize to Small">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(65, 23));
+						this.setProperty("textFont", "Segoe UI|normal|normal|11px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToStandard" displayName="Resize to Standard">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(95, 30));
+						this.setProperty("textFont", "Segoe UI|normal|normal|14px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToLarge" displayName="Resize to Large">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(110, 41));
+						this.setProperty("textFont", "Segoe UI|normal|normal|16px");
+					]]>
+				</Impl>
+			</Action>
+		</Actions>
 		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
             <foreignObject id="container">
                 <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
             </foreignObject>
         </p:Content>
-		
 	</Shape>
 
+	<!--Updated BtnGrey hover & focused mode, created actions to resize to Micro, Standard, Large-->
 	<Shape id="BtnGrey" displayName="Grey Button" icon="Icons/btnGrey.png">
 		<Properties>
 			<PropertyGroup>				
@@ -954,15 +994,14 @@
 				<Property name="disabled" displayName="Disabled ?" type="Bool">false</Property>
 			</PropertyGroup>
 			<PropertyGroup name="Text">
-				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont14Bold</E></Property>
-				<Property name="textColor" displayName="Color" type="Color">#666666</Property>
+				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont14</E></Property>
+				<Property name="textColor" displayName="Color" type="Color"><E>$$defaultFontColor</E></Property>
 			</PropertyGroup>
 			<PropertyGroup name="Additional CSS">
 				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
 				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>30
 			</PropertyGroup>
 		</Properties>
-		
 		<Behaviors>
             <For ref="divObject">
 				<InnerText>$textContent.value</InnerText>
@@ -989,13 +1028,13 @@
 						"text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);" +
 						"text-align: center;" +
 						"background-image: -moz-linear-gradient(top, #eeeff1, #dadce1);" +
-						"border-color:#a0a1a1;" +
+						"border-color: rgba(0,0,0,0.15) rgba(0,0,0,0.15) rgba(0,0,0,0.25);" +
 						"color:#666666;" +
 						"text-shadow: 0 1px 0 rgba(255,255,255, 0.25);" +
 						"box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.45);" +
-						($state.value == "clicked" ? "background-image: -moz-linear-gradient(top, #eeeff1, #c1c3c7); box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.35);" : "") +
-						($state.value == "hover" ? "background-image: -moz-linear-gradient(top, #eeeff1, #c1c3c7);" : "") +
-						($disabled.value ? "background-image: -moz-linear-gradient(top, #cccccc, #cccccc); border-color:#c0c0c0; color:#666666; text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35); box-shadow: inset 0 0 0 rgba(255, 255, 255, 0.25);" : "") +
+						($state.value == "clicked" ? "background-image:none; background-color: #D4D7DC; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);" : "") +
+						($state.value == "hover" ? "background-image:none; background-color: #D4D7DC;" : "") +
+						($disabled.value ? "background-image: none; background-color: #D4D7DC; opacity: 0.65; box-shadow: none;" : "") +
 						"padding:0px 10px;" +
 						$customStyle1.value + 
 						$customStyle2.value
@@ -1006,19 +1045,142 @@
                 <Box>new Dimension($box.w, $box.h);</Box>
             </For>
         </Behaviors>
-		
+		<Actions>
+			<Action id="resizeToMicro" displayName="Resize to Small">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(65, 23));
+						this.setProperty("textFont", "Segoe UI|normal|normal|11px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToStandard" displayName="Resize to Standard">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(95, 30));
+						this.setProperty("textFont", "Segoe UI|normal|normal|14px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToLarge" displayName="Resize to Large">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(110, 41));
+						this.setProperty("textFont", "Segoe UI|normal|normal|16px");
+					]]>
+				</Impl>
+			</Action>
+		</Actions>
 		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
             <foreignObject id="container">
                 <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
             </foreignObject>
         </p:Content>
-		
 	</Shape>
 
-	<Shortcut displayName="Disabled Button" icon="Icons/btnDisabled.png" to="BtnBlue">
-		<PropertyValue name="disabled" >true</PropertyValue>
-	</Shortcut>
-	
+	<!--Button have actions to resize to Micro, Standard, Large-->
+	<Shape id="BtnPurchase" displayName="Purchase Button" icon="Icons/btnPurchase.png">
+		<Properties>
+			<PropertyGroup>
+				<Property name="box" type="Dimension" >95,30</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Properties">
+				<Property name="textContent" displayName="Content" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, ($box.h/2)-15, $box.w-10, 30), font: $textFont, align: new Alignment(1, 1), multi: false})">Purchase</Property>
+				<Property name="state" displayName="State" type="Enum" p:enumValues="['normal|Normal', 'hover|Mouse Over', 'clicked|Clicked']">normal</Property>
+				<Property name="disabled" displayName="Disabled?" type="Bool">false</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Text">
+				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont14</E></Property>
+				<Property name="textColor" displayName="Color" type="Color">#FFFFFF</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Additional CSS">
+				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
+				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>
+			</PropertyGroup>
+		</Properties>
+		<Behaviors>
+            <For ref="divObject">
+				<InnerText>$textContent.value</InnerText>
+                <Attr>
+                    <Arg>"style"</Arg>
+                    <Arg>
+						<!-- Standard CSS for mapping built-in palettes to CSS -->
+						"font-family: " + $textFont.family + ";" +
+						"font-size: " + $textFont.size + ";" +
+						"font-style: " + $textFont.style + ";" +
+						"font-weight: " + $textFont.weight + ";" +
+						"text-decoration: " + $textFont.decor + ";" +
+						"color: " + $textColor.toRGBString() + ";" +
+						
+						<!-- Set your CSS behaviours -->
+						"display: inline-block;" + 
+						"width: " + ($box.w-22) + "px;" +
+						"height: " + ($box.h-2) + "px;" +
+						"line-height: " + ($box.h-4) + "px;" +
+						"border-width: 1px;" +
+						"border-style: solid;" +
+						"border-radius: 5px;" +
+						
+						"text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);" +
+						"text-align: center;" +
+						"background-color: #E68C24;" +
+						"background-image: -moz-linear-gradient(top, #E7B433, #E79C2C 50%, #E59123 51%, #E97926);" +
+						"border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);" +
+						"color:#ffffff;" +
+						"text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);" +
+						"box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);" +						
+						($state.value == "clicked" ? "background-image: none; background-color: #E8731D; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);" : "") +
+						($state.value == "hover" ? "background-image: none; background-color: #E8731D;" : "") +
+						($disabled.value ? "background-image: none; background-color: #E8731D; box-shadow: none; opacity: 0.65;" : "") +
+						"padding:0px 10px;" +
+						$customStyle1.value + 
+						$customStyle2.value
+					</Arg>
+                </Attr>
+            </For>
+            <For ref="container">
+                <Box>new Dimension($box.w, $box.h);</Box>
+            </For>
+        </Behaviors>
+		<Actions>
+			<Action id="resizeToMicro" displayName="Resize to Small">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(65, 23));
+						this.setProperty("textFont", "Segoe UI|normal|normal|11px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToStandard" displayName="Resize to Standard">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(95, 30));
+						this.setProperty("textFont", "Segoe UI|normal|normal|14px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToLarge" displayName="Resize to Large">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(110, 41));
+						this.setProperty("textFont", "Segoe UI|normal|normal|16px");
+					]]>
+				</Impl>
+			</Action>
+		</Actions>		
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject id="container">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
+            </foreignObject>
+        </p:Content>
+	</Shape>
+
 	<Shape id="navSubMenu" displayName="Sub-Menu Tab" icon="Icons/tabNormal.png">
 		<Properties>
 			<PropertyGroup>
@@ -1526,7 +1688,7 @@
 			</PropertyGroup>
 			<PropertyGroup name="Text">
 				<Property name="textContent" displayName="Content" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, ($box.h/2)-15, $box.w-10, 30), font: $textFont, align: new Alignment(1, 1), multi: false})">Header</Property>
-				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont14Bold</E></Property>
+				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont14</E></Property>
 				<Property name="textColor" displayName="Color" type="Color">#FFFFFF</Property>
 			</PropertyGroup>
 			<PropertyGroup name="Additional CSS">

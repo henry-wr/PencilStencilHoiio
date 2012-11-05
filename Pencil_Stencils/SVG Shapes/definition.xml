@@ -1,0 +1,119 @@
+<Shapes xmlns="http://www.evolus.vn/Namespace/Pencil"
+        xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+        xmlns:svg="http://www.w3.org/2000/svg" 
+		xmlns:xlink="http://www.w3.org/1999/xlink" 
+		id="randomShape" 
+		displayName="Random Shapes" 
+		description="All Kinds of SVG drawing" 
+		author="Henry W" 
+		url="http://www.evolus.vn/Pencil">
+
+    <Properties>
+        <PropertyGroup name="Colors">
+            <Property name="color" type="Color" displayName="Color">#333333FF</Property>
+            <Property name="disabledColor" type="Color" displayName="disabledColor">#AAAAAAFF</Property>
+        </PropertyGroup>
+    </Properties>
+
+    <Shape id="carrierSprint" displayName="Sprint" icon="images/Sprint">
+        <Properties>
+            <PropertyGroup>
+                <Property name="box" type="Dimension" displayName="Size" p:lockRatio="true">56,69</Property>
+                <Property name="disabled" displayName="Disabled" type="Bool">false</Property>
+            </PropertyGroup>
+            <PropertyGroup name="Colors">
+                <Property name="color" type="Color" displayName="Color"><E>$$color</E></Property>
+                <Property name="disabledColor" type="Color" displayName="Disabled Color"><E>$$disabledColor</E></Property>
+            </PropertyGroup>
+        </Properties>
+        <Behaviors>
+            <For ref="glyph">
+                <Box>$box</Box>
+                <Disabled></Disabled>
+                <Fill>$disabled.value ? $disabledColor : $color</Fill>
+            </For>
+        </Behaviors>
+        <Content>
+            <svg xmlns="http://www.w3.org/2000/svg" id="glyph" width="56" height="69" viewBox="0 0 56 69"><path d="M 18.703354,26.57845 c 0,0 -1.0531,-3.42565 -5.15765,-11.02932 -4.10455,-7.603659 -5.36511,-8.436987 -5.96143,-9.168094 -0.96439,-1.182387 -6.88509,-6.560479 -7.41526,-6.393648 -0.7637,0.240302 -1.01923,0.226791 6.25867,9.460103 3.00077,3.807009 12.27567,17.130959 12.27567,17.130959 z m 3.7963,11.43955 c 0,0 0.88555,-6.81441 0.30761,-14.45521 -0.57794,-7.64078 -1.2865,-8.7747 -1.86298,-9.52188 -0.44396,-0.57542 -4.16453,-6.081308 -4.71401,-6.162197 -0.7915,-0.116525 -0.89955,0.521185 -0.55597,1.42922 6.43346,17.003447 6.82535,28.710067 6.82535,28.710067 z m -0.98309,10.83152 c 0,0 8.32637,-12.71848 10.40373,-20.14819 2.07736,-7.42971 1.70109,-8.01806 0.40515,-9.56863 -0.6605,-0.79027 -3.30489,-3.72335 -3.99783,-4.18868 -0.99815,-0.67028 -1.43535,-0.13904 -1.43075,1.02796 0.0659,16.72499 -5.3803,32.87754 -5.3803,32.87754 z m -5.8393,8.92551 c 0,0 17.44022,-15.17087 23.21889,-21.68724 5.77867,-6.51638 5.57709,-7.39391 5.18078,-8.55829 -0.43058,-1.26513 -3.08157,-3.52157 -3.62699,-3.90475 -1.18907,-0.83538 -1.89933,-0.85059 -2.48726,0.6628 -6.79743,17.49719 -22.28542,33.48748 -22.28542,33.48748 z m -13.55611,11.20856 c 0,0 29.1651,-12.40321 41.30846,-20.53089 12.14336,-8.12769 12.37007,-8.71238 12.37006,-10.53062 0,-1.97556 -4.4982,-6.06077 -5.39784,-6.36382 -0.89963,-0.30303 -1.11526,-1.17674 -2.69891,0.60608 -17.09317,19.24298 -45.58177,36.81925 -45.58177,36.81925 z" /></svg>
+        </Content>
+    </Shape>
+
+    <Shape id="carrierYMobile" displayName="Y-Mobile" icon="images/YMobile.png">
+        <Properties>
+            <PropertyGroup>
+                <Property name="box" type="Dimension" displayName="Size" p:lockRatio="true">49,47</Property>
+                <Property name="disabled" displayName="Disabled" type="Bool">false</Property>
+            </PropertyGroup>
+            <PropertyGroup name="Colors">
+                <Property name="color" type="Color" displayName="Color"><E>$$color</E></Property>
+                <Property name="disabledColor" type="Color" displayName="Disabled Color"><E>$$disabledColor</E></Property>
+            </PropertyGroup>
+        </Properties>
+        <Behaviors>
+            <For ref="glyph">
+                <Box>$box</Box>
+                <Disabled></Disabled>
+                <Fill>$disabled.value ? $disabledColor : $color</Fill>
+            </For>
+        </Behaviors>
+        <Content>
+            <svg xmlns="http://www.w3.org/2000/svg" id="glyph" width="49" height="47" viewBox="0 0 49 47">
+                <g>
+                    <path d="m 32.70996,-0.040147 16.167,0 0,1.264648 -0.88867,0 c -0.5925,4.5e-5 -1.45839,0.262089 -2.59766,0.786133 -1.13937,0.524132 -2.17615,1.276085 -3.11035,2.255859 -0.93429,0.979859 -2.085,2.57491 -3.45215,4.785157 l -11.17676,17.602539 0,11.621093 c -3e-5,2.848313 0.31898,4.625655 0.95703,5.332032 0.86586,0.957033 2.23304,1.435548 4.10156,1.435547 l 1.50391,0 0,1.264648 -19.6875,0 0,-1.264648 1.64063,0 c 1.95961,10e-7 3.34959,-0.592446 4.16992,-1.777344 0.50128,-0.729163 0.75193,-2.392573 0.75195,-4.990235 l 0,-10.971679 L 8.37403,7.88954 C 6.87011,5.610935 5.85042,4.186783 5.31495,3.617079 4.77946,3.047461 3.66862,2.363868 1.98243,1.566298 1.52669,1.338478 0.86589,1.224546 0,1.224501 l 0,-1.264648 19.82422,0 0,1.264648 -1.02539,0 c -1.07098,4.5e-5 -2.05649,0.250696 -2.95654,0.751953 -0.90008,0.501346 -1.35011,1.253299 -1.3501,2.25586 -1e-5,0.820353 0.69497,2.301472 2.08496,4.443359 L 26.25,23.612197 35.3418,9.325087 C 36.70895,7.183199 37.39254,5.588149 37.39258,4.539931 37.39254,3.901952 37.22734,3.332292 36.89698,2.830947 36.56654,2.329688 36.09372,1.936622 35.47852,1.651747 34.86325,1.366961 33.9404,1.224546 32.70996,1.224501 z" style="fill:#d3006d;fill-opacity:1;stroke:none;"/>
+                    <path d="m 38.97977,21.884383 8.09178,0 0,8.091776 -8.09178,0 z m -36.71753,0 8.09178,0 0,8.091776 -8.09178,0 z" style="fill:#6e6e6e;fill-opacity:1;stroke:none;"/>
+                </g>
+            </svg>
+        </Content>
+    </Shape>
+    <Shape id="carrierHorizon" displayName="Horizon" icon="images/Horizon.png">
+        <Properties>
+            <PropertyGroup>
+                <Property name="box" type="Dimension" displayName="Size" p:lockRatio="true">81,47</Property>
+                <Property name="disabled" displayName="Disabled" type="Bool">false</Property>
+            </PropertyGroup>
+            <PropertyGroup name="Colors">
+                <Property name="color" type="Color" displayName="Color"><E>$$color</E></Property>
+                <Property name="disabledColor" type="Color" displayName="Disabled Color"><E>$$disabledColor</E></Property>
+            </PropertyGroup>
+        </Properties>
+        <Behaviors>
+            <For ref="glyph">
+                <Box>$box</Box>
+                <Disabled></Disabled>
+                <Fill>$disabled.value ? $disabledColor : $color</Fill>
+            </For>
+        </Behaviors>
+        <Content>
+            <svg xmlns="http://www.w3.org/2000/svg" id="glyph" width="81" height="47" viewBox="0 0 81 47">
+                <g>
+                    <path d="M 79.629733,1.1007298e-6 80.359746,1.8819911 9.9822812,27.998624 9.2522676,26.116634 z M 0,0.77897374 1.9041049,0.08767356 11.846734,27.219692 l -1.9040838,0.6913 z" style="fill:#f03735;fill-opacity:1;stroke:none;"/>
+                    <text x="0" y="46" style="font-size:20px;font-weight:bold;letter-spacing:-2px;fill:#4d4d4d;-inkscape-font-specification:Sans Bold">Horizon</text>                    
+                </g>
+            </svg>
+        </Content>
+    </Shape>
+    <Shape id="customShape" displayName="Custom Shape" icon="images/Horizon.png">
+        <Properties>
+            <PropertyGroup>
+                <Property name="box" type="Dimension" displayName="Size" p:lockRatio="true">100,100</Property>
+                <Property name="svg" displayName="SVG Spec" type="RichText"><!<![CDATA[Enter SVG here]]></Property>
+            </PropertyGroup>
+            <PropertyGroup name="Colors">
+                <Property name="color" type="Color" displayName="Color"><E>$$color</E></Property>
+            </PropertyGroup>
+        </Properties>
+        <Behaviors>
+            <For ref="glyph">
+                <Box>$box</Box>
+                <Fill>$color</Fill>
+            </For>
+        </Behaviors>
+        <Content>
+            <svg xmlns="http://www.w3.org/2000/svg" id="glyph" width="100" height="100" viewBox="0 0 100 100">
+                    <path d="<![CDATA[svg.value]]>" style="stroke:none;"/>
+                    <text x="0" y="46" style="font-size:20px;font-weight:bold;letter-spacing:-2px;fill:#4d4d4d;-inkscape-font-specification:Sans Bold">Horizon</text>                    
+                </g>
+            </svg>
+        </Content>
+    </Shape>
+</Shapes>

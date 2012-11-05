@@ -1,28 +1,37 @@
-<Shapes xmlns="http://www.evolus.vn/Namespace/Pencil" 
-		xmlns:p="http://www.evolus.vn/Namespace/Pencil" 
-		xmlns:svg="http://www.w3.org/2000/svg" 
-		xmlns:xlink="http://www.w3.org/1999/xlink" 
-		id="testshape" 
-		displayName="Testshape" 
-		description="Common elements for Web Portal" 
-		author="Hoiio" 
-		url="http://www.evolus.vn/Pencil">
+<Shapes
+    xmlns="http://www.evolus.vn/Namespace/Pencil"
+    xmlns:p="http://www.evolus.vn/Namespace/Pencil"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:cc="http://web.resource.org/cc/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    id="testShape"
+    displayName="Test Shape"
+    description="Collection of basic items that are regularly used in web designs."
+    author="Henry Wahyu"
+    url="http://">
 
 	<Properties>
-        <PropertyGroup name="Commons">
+        <PropertyGroup name="Font Sizes">
+            <Property name="defaultFont11" type="Font">Segoe UI|normal|normal|11px</Property>
             <Property name="defaultFont12" type="Font">Segoe UI|normal|normal|12px</Property>
 			<Property name="defaultFont14" type="Font">Segoe UI|normal|normal|14px</Property>
 			<Property name="defaultFont14Bold" type="Font">Segoe UI|bold|normal|14px</Property>
 			<Property name="defaultFont16Bold" type="Font">Segoe UI|bold|normal|16px</Property>
 			<Property name="defaultFont18Bold" type="Font">Segoe UI|bold|normal|18px</Property>
 			<Property name="heading3" type="Font">Segoe UI|bold|normal|22px</Property>
+		</PropertyGroup>
+		<PropertyGroup name="Font Color">
 			<Property name="defaultFontColor" type="Color">#595959</Property>
 			<Property name="defaultLinkColor" type="Color">#0081c7</Property>
 			<Property name="defaultDisabledTextColor" type="Color">#999999</Property>
         </PropertyGroup>
     </Properties>
 
-	<Shape id="lineDivider" displayName="Line Divider" icon="Icons/sectionHeader.png">
+	<Shape id="horizontalRuler" displayName="Horizontal Ruler" icon="Icons/sectionHeader.png">
 		<Properties>
 			<PropertyGroup name="Properties">
 				<Property name="hasLine" displayName="Show Line" type="Bool">true</Property>
@@ -74,7 +83,6 @@
 		</p:Content>
 	</Shape>
 
-
 	<Shape id="lineDividerX" displayName="Line Divider X" icon="Icons/sectionHeader.png">
 		<Properties>
 			<PropertyGroup name="Properties">
@@ -83,10 +91,12 @@
 				<Property name="hasShadow" displayName="Show Shadow" type="Bool">false</Property>
 				<Property name="withMargin" displayName="Line has margin?" type="Bool">false</Property>
 			</PropertyGroup>
-			<PropertyGroup name="Appearance">
+			<PropertyGroup name="Line Style">
                 <Property name="lineColor" displayName="Line Color" type="Color">#e8e8e8</Property>
-				<Property name="shadowOpacity" displayName="Shadow Opacity (0.0 - 1.0)" type="PlainText"><![CDATA[0.04]]></Property>               
 				<Property name="customStyle3" displayName="Separator Line CSS" type="PlainText"><![CDATA[]]></Property>
+			</PropertyGroup>
+			<PropertyGroup name="Shadow Style">
+				<Property name="shadowColor" displayName="Shadow Color" type="Color">#0000000a</Property>
 			</PropertyGroup>
 		</Properties>
 
@@ -118,23 +128,30 @@
 				</Attr>
 				<Attr>
 					<Arg>"rx"</Arg>
-					<Arg>($box.w/2)- 20</Arg>
+					<Arg>($box.w/2) - 20</Arg>
 				</Attr>
 				<Attr>
 					<Arg>"ry"</Arg>
 					<Arg>10</Arg>
 				</Attr>
 				<!--Passing opacity value so can adjust from property dialog-->
-				<Attr>
-					<Arg>"style"</Arg>
-					<Arg>"fill-opacity: " + $shadowOpacity.value + ";"</Arg>
-				</Attr>
+				<Fill>$shadowColor</Fill>
 				<Visibility>$hasShadow</Visibility>
 			</For>
 			<For ref="container">
 				<Box>$box</Box>
 			</For>
 		</Behaviors>
+
+		<Actions>
+			<Action id="resizeToOriginal" displayName="Set to original size">
+				<Impl>
+					<![CDATA[
+						this.setProperty("box", new Dimension(800, 23));
+					]]>
+				</Impl>
+			</Action>
+		</Actions>
 
 		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
 			<!--Gaussian Blur filter for half-ellipse shadow-->
@@ -146,18 +163,19 @@
 			</foreignObject>
 
 			<!--Creates an half-ellipse bottom shadow-->
-			<ellipse id="ellipseShadow" style="fill:#000000;fill-opacity:0.04;stroke:none" filter="url(#gausBlur)" />
+			<ellipse id="ellipseShadow" style="stroke:none" filter="url(#gausBlur)" />
 		</p:Content>
 	</Shape>
 
 	<Shape id="BtnBlue" displayName="Blue Button" icon="Icons/btnBlue.png">
 		<Properties>
 			<PropertyGroup>
-				<Property name="box" type="Dimension" >95,30</Property>
+				<Property name="box" type="Dimension" p:lockHeight="true">95,30</Property>
 			</PropertyGroup>
 			<PropertyGroup name="Properties">
 				<Property name="textContent" displayName="Content" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, ($box.h/2)-15, $box.w-10, 30), font: $textFont, align: new Alignment(1, 1), multi: false})">Button</Property>
-				<Property name="state" displayName="State" type="Enum" p:enumValues="['normal|Normal', 'hover|Mouse Over', 'clicked|Clicked']">normal</Property>
+				<Property system="true" name="state" displayName="State" type="Enum" p:enumValues="['normal|Normal', 'hover|Mouse Over', 'clicked|Clicked']">normal</Property>
+				<Property name="position" displayName="Button Group Position" type="Enum" p:enumValues="['none|None','left|Left','middle|Middle','right|Right']">none</Property>
 				<Property name="disabled" displayName="Disabled?" type="Bool">false</Property>
 			</PropertyGroup>
 			<PropertyGroup name="Text">
@@ -170,7 +188,6 @@
 				<Property name="customStyleHidden" type="PlainText"><![CDATA[]]></Property>
 			</PropertyGroup>
 		</Properties>
-		
 		<Behaviors>
             <For ref="divObject">
 				<InnerText>$textContent.value</InnerText>
@@ -187,13 +204,14 @@
 						
 						<!-- Set your CSS behaviours -->
 						"display: inline-block;" + 
-						"width: " + ($box.w-22) + "px;" +
-						"height: " + ($box.h-2) + "px;" +
-						"line-height: " + ($box.h-4) + "px;" +
 						"border-width: 1px;" +
 						"border-style: solid;" +
 						"border-radius: 5px;" +
-						
+
+						"height: " + ($box.h-2) + "px;" +
+						"width: " + ($box.w-2) + "px;" +
+						"line-height: " + ($box.h-4) + "px;" +
+
 						"text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);" +
 						"text-align: center;" +
 						"background-image: -moz-linear-gradient(top, #00a5ff, #0084cc);" +
@@ -204,18 +222,61 @@
 						($state.value == "clicked" ? "background-image: none; background-color: #007DC2; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);" : "") +
 						($state.value == "hover" ? "background-image: none; background-color: #007DC2;" : "") +
 						($disabled.value ? "background-image: none; background-color: #007DC2; box-shadow: none; opacity: 0.65;" : "") +
-						"padding:0px 10px;" +
 						$customStyleHidden.value +
 						$customStyle1.value + 
 						$customStyle2.value
 					</Arg>
                 </Attr>
+				<CustomStyle>
+					<Arg>"border-top-left-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "left" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-top-right-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "right" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-bottom-right-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "right" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-bottom-left-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "left" ? "5px" : "0px"</Arg>
+				</CustomStyle>
             </For>
             <For ref="container">
-                <Box>new Dimension($box.w, $box.h);</Box>
+            	<Box>$box</Box>
             </For>
         </Behaviors>
-		
+		<Actions>
+			<Action id="resizeToMicro" displayName="Resize to Small">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(65, 23));
+						this.setProperty("textFont", "Segoe UI|normal|normal|11px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToStandard" displayName="Resize to Standard">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(95, 30));
+						this.setProperty("textFont", "Segoe UI|normal|normal|14px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToLarge" displayName="Resize to Large">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(110, 41));
+						this.setProperty("textFont", "Segoe UI|normal|normal|16px");
+					]]>
+				</Impl>
+			</Action>
+		</Actions>
 		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
             <foreignObject id="container">
                 <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
@@ -231,6 +292,7 @@
 			<PropertyGroup name="Properties">
 				<Property name="textContent" displayName="Content" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, ($box.h/2)-15, $box.w-10, 30), font: $textFont, align: new Alignment(1, 1), multi: false})">Button</Property>
 				<Property name="state" displayName="State" type="Enum" p:enumValues="['normal|Normal', 'hover|Mouse Over', 'clicked|Clicked']">normal</Property>
+				<Property name="position" displayName="Button Group Position" type="Enum" p:enumValues="['none|None','left|Left','middle|Middle','right|Right']">none</Property>
 				<Property name="disabled" displayName="Disabled ?" type="Bool">false</Property>
 			</PropertyGroup>
 			<PropertyGroup name="Text">
@@ -242,7 +304,6 @@
 				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>30
 			</PropertyGroup>
 		</Properties>
-		
 		<Behaviors>
             <For ref="divObject">
 				<InnerText>$textContent.value</InnerText>
@@ -281,12 +342,56 @@
 						$customStyle2.value
 					</Arg>
                 </Attr>
+				<CustomStyle>
+					<Arg>"border-top-left-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "left" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-top-right-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "right" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-bottom-right-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "right" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-bottom-left-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "left" ? "5px" : "0px"</Arg>
+				</CustomStyle>
             </For>
             <For ref="container">
                 <Box>new Dimension($box.w, $box.h);</Box>
             </For>
         </Behaviors>
-		
+		<Actions>
+			<Action id="resizeToMicro" displayName="Resize to Small">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(65, 23));
+						this.setProperty("textFont", "Segoe UI|normal|normal|11px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToStandard" displayName="Resize to Standard">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(95, 30));
+						this.setProperty("textFont", "Segoe UI|normal|normal|14px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToLarge" displayName="Resize to Large">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(110, 41));
+						this.setProperty("textFont", "Segoe UI|normal|normal|16px");
+					]]>
+				</Impl>
+			</Action>
+		</Actions>
 		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
             <foreignObject id="container">
                 <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
@@ -302,6 +407,7 @@
 			<PropertyGroup name="Properties">
 				<Property name="textContent" displayName="Content" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, ($box.h/2)-15, $box.w-10, 30), font: $textFont, align: new Alignment(1, 1), multi: false})">Purchase</Property>
 				<Property name="state" displayName="State" type="Enum" p:enumValues="['normal|Normal', 'hover|Mouse Over', 'clicked|Clicked']">normal</Property>
+				<Property name="position" displayName="Button Group Position" type="Enum" p:enumValues="['none|None','left|Left','middle|Middle','right|Right']">none</Property>
 				<Property name="disabled" displayName="Disabled?" type="Bool">false</Property>
 			</PropertyGroup>
 			<PropertyGroup name="Text">
@@ -313,7 +419,6 @@
 				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>
 			</PropertyGroup>
 		</Properties>
-		
 		<Behaviors>
             <For ref="divObject">
 				<InnerText>$textContent.value</InnerText>
@@ -353,12 +458,56 @@
 						$customStyle2.value
 					</Arg>
                 </Attr>
+				<CustomStyle>
+					<Arg>"border-top-left-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "left" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-top-right-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "right" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-bottom-right-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "right" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-bottom-left-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "left" ? "5px" : "0px"</Arg>
+				</CustomStyle>
             </For>
             <For ref="container">
                 <Box>new Dimension($box.w, $box.h);</Box>
             </For>
         </Behaviors>
-		
+		<Actions>
+			<Action id="resizeToMicro" displayName="Resize to Small">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(65, 23));
+						this.setProperty("textFont", "Segoe UI|normal|normal|11px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToStandard" displayName="Resize to Standard">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(95, 30));
+						this.setProperty("textFont", "Segoe UI|normal|normal|14px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToLarge" displayName="Resize to Large">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(110, 41));
+						this.setProperty("textFont", "Segoe UI|normal|normal|16px");
+					]]>
+				</Impl>
+			</Action>
+		</Actions>		
 		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
             <foreignObject id="container">
                 <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
@@ -367,8 +516,532 @@
 	</Shape>
 
 	<Shortcut displayName="micro Button" icon="Icons/bntBlue.png" to="BtnBlue">
-		<PropertyValue name="box">39,23</PropertyValue>
-		<PropertyValue name="textFont"><E>$$defaultFont12</E></PropertyValue>
-		<PropertyValue name="customStyleHidden"><![CDATA[padding:0px 6px;]]></PropertyValue>
+		<PropertyValue name="box">65,23</PropertyValue>
+		<PropertyValue name="textFont"><E>$$defaultFont11</E></PropertyValue>
 	</Shortcut>
+
+	<Shape id="allPurposePane" displayName="All Purpose Pane" icon="Icons/pane.png">
+		<Properties>
+			<PropertyGroup>
+				<Property name="box" type="Dimension">200,200</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Background">
+				<Property name="backgroundColor" displayName="Background Color" type="Color">#f5f5f5ff</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Border">
+				<Property name="borderColor" displayName="Border Color" type="Color">#e8e8e800</Property>
+				<Property name="borderStyle" displayName="Style" type="StrokeStyle">0|</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Corner Radius">
+				<Property name="borderRadius" displayName="Border Radius" type="StrokeStyle">4|</Property>
+				<Property name="cornerStyle" displayName="Corner Style" type="Enum" p:enumValues="['none|None', 'all|All rounded', 'top|Rounded top corners', 'bottom|Rounded bottom corners', 'left|Rounded left corners', 'right|Rounded right corners']">none</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Shadow">
+				<Property name="insetShadowStyle" displayName="Inset Shadow" type="ShadowStyle">0|0|3</Property>
+				<Property name="insetShadowColor" displayName="Inset Shadow Color" type="Color">rgba(0,0,0,0)</Property>
+				<Property name="dropShadowStyle" displayName="Drop Shadow" type="ShadowStyle">0|0|3</Property>
+				<Property name="dropShadowColor" displayName="Drop Shadow Color" type="Color">#00000010</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Additional CSS">
+				<Property name="customStyle1" displayName="Background" type="PlainText">//Enter your&#13;&#10;here></Property>
+			</PropertyGroup>
+		</Properties>
+		<Behaviors>
+            <For ref="divObject">
+	     		<Attr>
+                    <Arg>"style"</Arg>
+                    <Arg>"-moz-box-sizing: border-box; overflow: hidden; " + $customStyle1.value</Arg>
+                </Attr>
+                <CustomStyle>
+        			<Arg>"-moz-box-sizing"</Arg>
+        			<Arg>border-box</Arg>
+        		</CustomStyle>
+        		<CustomStyle>
+        			<Arg>"overflow"</Arg>
+        			<Arg>hidden</Arg>
+        		</CustomStyle>
+            	<CustomStyle>
+        			<Arg>"background-color"</Arg>
+        			<Arg>$backgroundColor.toRGBAString()</Arg>
+        		</CustomStyle>
+        		<CustomStyle>
+        			<Arg>"width"</Arg>
+        			<Arg>$box.w + "px"</Arg>
+        		</CustomStyle>
+        		<CustomStyle>
+        			<Arg>"height"</Arg>
+        			<Arg>$box.h + "px"</Arg>
+        		</CustomStyle>
+        		<CustomStyle>
+        			<Arg>"border"</Arg>
+        			<Arg>$borderStyle.w > 0 ? ("solid " + $borderStyle.w + "px " + $borderColor.toRGBAString()) : "none"</Arg>
+        		</CustomStyle>
+                <CustomStyle>
+                    <Arg>"border-top-left-radius"</Arg>
+                    <Arg>($cornerStyle.value == "all" || $cornerStyle.value == "top" || $cornerStyle.value == "left") ? ($borderRadius.w + "px") : "0px"</Arg>
+                </CustomStyle>
+                <CustomStyle>
+                    <Arg>"border-top-right-radius"</Arg>
+                    <Arg>($cornerStyle.value == "all" || $cornerStyle.value == "top" || $cornerStyle.value == "right") ? ($borderRadius.w + "px") : "0px"</Arg>
+                </CustomStyle>
+                <CustomStyle>
+                    <Arg>"border-bottom-left-radius"</Arg>
+                    <Arg>($cornerStyle.value == "all" || $cornerStyle.value == "bottom" || $cornerStyle.value == "left") ? ($borderRadius.w + "px") : "0px"</Arg>
+                </CustomStyle>
+                <CustomStyle>
+                    <Arg>"border-bottom-right-radius"</Arg>
+                    <Arg>($cornerStyle.value == "all" || $cornerStyle.value == "bottom" || $cornerStyle.value == "right") ? ($borderRadius.w + "px") : "0px"</Arg>
+                </CustomStyle>
+                <CustomStyle>
+                	<Arg>"box-shadow"</Arg>
+                	<Arg>$insetShadowStyle.dx + "px " + $insetShadowStyle.dy + "px " + $insetShadowStyle.size + "px " + $insetShadowColor.toRGBAString() + " inset"</Arg>
+                </CustomStyle>
+            </For>
+            <For ref="container">
+            	<Box>$box</Box>
+            </For>
+        </Behaviors>
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject id="container">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
+            </foreignObject>
+        </p:Content>
+	</Shape>
+
+	<Shortcut displayName="Well" icon="Icons/well.png" to="allPurposePane">
+		<PropertyValue name="box">150,150</PropertyValue>
+		<PropertyValue name="cornerStyle">all</PropertyValue>
+		<PropertyValue name="insetShadowStyle">0|1|3</PropertyValue>
+		<PropertyValue name="insetShadowColor">rgba(0,0,0,0.10)</PropertyValue>
+	</Shortcut>
+
+	<Shape id="userAvatar" displayName="Avatar X" icon="Icons/contactIcon.png">
+		<Properties>
+			<PropertyGroup>
+				<Property name="box" type="Dimension" p:lockRatio="true">32,32</Property>
+				<Property name="user" displayName="User" type="Enum" p:enumValues="['glyph|Default', 'special|Heisenberg']">glyph</Property>
+				<Property name="size" displayName="Size" type="Enum" p:enumValues="['small|Small (32px)','standard|Standard (56px)']">small</Property>
+			</PropertyGroup>
+		</Properties>
+		
+		<Behaviors>
+			<For ref="canvas">
+				<Box>$box</Box>
+			</For>
+			<For ref="glyph">
+				<Visibility>$user.value == "glyph" ? true : false</Visibility>
+			</For>
+			<For ref="special">
+				<Visibility>$user.value == "special" ? true : false</Visibility>
+			</For>
+		</Behaviors>
+		
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg" >
+			<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" id="canvas" viewBox="0 0 2048 2048">
+				<rect width="2048" height="2048" style="fill: #f1f1f1; fill-opacity:1; stroke:none;"/>
+				<path id="glyph" d="M 374.41456,1626.3278 v -320.8546 q 0,-30.676 15.33802,-67.9847 15.33801,-37.3087 39.79592,-71.301 24.4579,-33.9923 54.30484,-61.352 29.84694,-27.3597 58.8648,-35.6505 14.92347,-4.9745 54.71938,-11.1927 39.79591,-6.2181 84.98087,-12.0216 45.18494,-5.8036 86.63903,-10.778 41.45408,-4.9746 63.83928,-8.2909 -76.27551,-48.91584 -119.8023,-127.26406 -43.52678,-78.34822 -43.52678,-170.37627 0,-72.95918 28.18877,-137.21301 28.18878,-64.25383 75.86096,-112.7551 47.6722,-48.50128 111.92602,-76.69005 64.25383,-28.18877 137.21303,-28.18877 72.9591,0 137.6275,28.18877 64.6684,28.18877 113.1696,76.69005 48.5013,48.50127 76.2756,112.7551 27.7742,64.25383 27.7742,137.21301 0,90.36989 -43.1123,169.54718 -43.1122,79.17731 -119.3877,128.09315 22.3852,3.3163 63.8393,8.2909 41.454,4.9744 86.2244,10.778 44.7705,5.8035 83.7373,12.0216 38.9669,6.2182 56.3776,11.1927 29.0178,8.2908 58.4502,34.8214 29.4324,26.5306 54.3048,61.352 24.8725,34.8214 40.2105,72.1301 15.338,37.3087 15.338,67.9847 v 320.8546 q -8.2908,3.3163 -18.6543,11.6071 -10.3635,8.2909 -22.3853,16.1671 -12.0216,7.8763 -22.7996,13.6799 -10.7782,5.8036 -18.2399,5.8036 H 455.66457 q -29.01786,0 -43.94133,-17.8253 -14.92347,-17.8253 -37.30868,-29.4324 z" style="fill: #999999; fill-opacity:1; stroke:none;"/>
+				<path id="special" d="M 719.80956,279.34496 c -87.46312,1.5031 -135.16353,16.28376 -138.4063,62.86353 l -26.17004,376.90897 c -0.21584,3.05799 0.0863,5.73872 0.26764,8.36332 -0.18994,0.96523 -0.66478,2.74547 -0.81155,3.50781 -5.95888,30.7208 -208.33727,-26.58963 -209.3638,-4.85724 -4.69579,99.42812 332.46798,183.40156 626.20331,171.86195 316.22298,-12.42282 726.11508,-76.54167 730.88518,-145.42081 2.3137,-33.41446 -3.7608,-6.73245 -185.3522,-32.37585 -46.1757,-6.52092 -61.1662,-15.47392 -66.9101,-27.7897 0.7512,-4.76572 1.0603,-9.69634 0.5353,-15.10872 l -27.2501,-284.90743 c -3.2211,-33.48328 14.3697,-92.1837 -76.3526,-93.07987 -90.7223,-0.89616 -430.30087,-14.41286 -560.37243,-18.88676 -24.38808,-0.83746 -46.72568,-1.42541 -66.91008,-1.0792 z M 1006.6061,1335.8762 c -5.0023,0 -10.85929,0.2676 -18.07694,0.2676 -55.09419,0 -155.15973,38.3848 -184.00194,74.1942 -0.1554,0.19 -0.39714,0.3454 -0.54391,0.544 -0.58709,0.7855 -1.06453,1.604 -1.61793,2.4277 -0.50939,0.7252 -1.17762,1.4375 -1.61966,2.1584 -0.11223,0.19 -0.16403,0.3539 -0.26763,0.5353 -11.53099,19.4333 -13.73514,47.728 -9.71276,71.2269 8.6491,56.5091 -3.85057,70.2573 -7.82374,108.459 -8.25885,27.8251 2.91729,65.7523 33.45505,95.779 73.76175,72.5262 145.22085,78.3486 207.47486,77.1615 62.1909,1.1612 133.2806,-4.7682 206.9361,-77.1615 29.7581,-29.26 41.0724,-66.0096 33.9937,-93.6207 -3.6287,-39.3163 -16.5928,-52.6939 -8.6336,-107.9194 4.6224,-23.6749 2.6273,-52.9504 -8.9029,-73.1159 -0.2331,-0.4575 -0.259,-0.8867 -0.5352,-1.3485 -22.7642,-37.1563 -130.0404,-79.3209 -187.78,-79.3209 -18.9463,0 -29.5492,-0.8288 -35.3431,2.4286 -3.589,-1.946 -8.9798,-2.6729 -16.9978,-2.6988 z M 899.76582,1458.635 c 34.2027,-1.5066 76.48815,9.2682 97.93736,8.6336 5.66972,0.4316 10.85922,0.7942 15.10872,0.2676 4.5516,0.1554 8.8848,0.2677 13.7593,0.2677 3.1547,0 5.8752,-0.1986 8.9038,-0.2677 4.0275,0.4058 8.8019,0.1295 14.0295,-0.2676 31.3882,0.9903 107.7469,-22.6622 137.5965,4.0473 19.6698,17.5996 18.5578,45.0474 18.8868,62.053 -1.1508,12.3054 -5.9468,21.374 -21.5839,30.2174 -21.9439,11.8487 -29.3628,37.5697 -58.5468,34.2648 -0.1035,-0.6302 -0.1554,-1.2527 -0.2676,-1.8889 -11.897,-65.2896 -66.8583,-111.9203 -122.758,-104.4117 -48.50678,6.5157 -81.83921,51.772 -82.01879,106.3006 -29.94291,2.9406 -36.38268,-25.3127 -60.70515,-36.153 -14.83677,-9.2957 -18.43005,-18.9541 -18.88504,-32.6461 0.22447,-17.0988 1.01272,-41.5032 19.15527,-57.7361 9.48656,-8.4884 23.43062,-11.9782 39.39062,-12.6809 z M 620.79388,923.35438 c -29.86867,-0.40578 -50.01939,2.7023 -47.75481,22.39373 l 10.79195,95.23849 c 11.97474,104.0905 83.54781,138.1153 123.56866,138.6765 l 179.68516,2.4287 c 33.34799,0.4662 60.41161,-14.7159 72.03669,-72.8466 l 15.91856,-79.5901 c 4.97379,-15.3513 13.60476,-34.53426 26.17011,-34.53426 20.7913,0 32.1064,47.21436 32.1064,47.21436 l 0.2677,-0.2677 13.4899,67.1794 c 11.6251,58.1307 38.6887,73.3154 72.0358,72.8466 l 179.6868,-2.4286 c 40.02,-0.5612 111.3229,-34.586 123.2976,-138.6765 l 11.0613,-95.23857 c 3.6253,-31.50645 -50.6487,-20.77493 -109.2681,-20.77493 l -137.0577,0 -326.72665,0 -24.01165,0 -154.05558,0 c -21.98191,0 -43.3232,-1.3736 -61.24388,-1.61879 z" style="fill: #999999; fill-opacity:1; stroke:none;"/>
+			</svg>
+		</p:Content>
+	</Shape>
+
+	<Shape id="grouping" system="true" icon="Icons/div_misc.png">
+		<Properties></Properties>
+		<Behaviors></Behaviors>
+		<Content>
+			<svg xmlns="http://www.w3.org/2000/svg" id="glyph" width="800" height="200">
+				<text x="20" y="20" font-size="32" style="fill: red">I'm not really a stencil. Please delete me</text>
+			</svg>
+		</Content>
+	</Shape>
+
+	<Shape id="scrollBar" displayName="Scroll Bar" icon="Icons/scrollBar.png">
+		<Properties>
+			<PropertyGroup>
+				<Property name="box" type="Dimension" p:lockWidth="true">10,200</Property>
+				<Property name="dragHeight" displayName="Drag Height" type="Handle" p:lockX="true" p:minY="10" p:maxY="$box.h-1">0,80</Property>
+				<Property name="dragScroller" displayName="Drag Scroll" type="Handle" p:lockX="true" p:minY="0" p:maxY="$box.h-$dragHeight.y-2">5,0</Property>
+				<Property name="theme" displayName="Theme" type="Enum" p:enumValues="['light|Light', 'dark|Dark']">dark</Property>
+			</PropertyGroup>
+		</Properties>
+		<Behaviors>
+			<For ref="scrollTrack">
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>"display: block; width:8px; border-width: 1px; border-radius: 5px; border-style: solid;"</Arg>
+				</Attr>
+				<CustomStyle>
+					<Arg>"background-color"</Arg>
+					<Arg>$theme.value == "light" ? "#EBEBEB" : "#2B2B2B"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-color"</Arg>
+					<Arg>$theme.value == "light" ? "#999999" : "#0F0F0F"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"height"</Arg>
+					<Arg>($box.h - 2) + "px"</Arg>
+				</CustomStyle>
+			</For>
+			<For ref="scrollDrag">
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>"display: block; width:8px; border-radius: 5px; position: relative"</Arg>
+				</Attr>
+				<CustomStyle>
+					<Arg>"background-color"</Arg>
+					<Arg>"#999999"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"height"</Arg>
+					<Arg>$dragHeight.y + "px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"top"</Arg>
+					<Arg>$dragScroller.y + "px"</Arg>
+				</CustomStyle>
+			</For>
+			<For ref="container">
+				<Box>$box</Box>
+			</For>
+		</Behaviors>
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject id="container">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="scrollTrack">
+                	<div xmlns="http://www.w3.org/1999/xhtml" id="scrollDrag"></div>
+                </div>
+            </foreignObject>
+        </p:Content>
+	</Shape>
+
+	<Shape id="btnX" system="true" displayName="Blue Button" icon="Icons/btnBlue.png">
+		<Properties>
+			<PropertyGroup>
+				<Property name="box" type="Dimension" p:lockHeight="true">95,30</Property>
+				<Property name="topColor" displayName="Top Color" type="Color">#eeeff1</Property>
+				<Property name="bottomColor" displayName="Bottom Color" type="Color">#dadce1</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Button Properties">
+				<!--Set button types-->
+				<Property name="btnType" displayName="Button Type" type="Enum" p:enumValues="['default|Default','primary|Primary','purchase|Purchase']">default</Property>
+				<Property name="state" displayName="State" type="Enum" p:enumValues="['normal|Normal', 'hover|Mouse Over', 'clicked|Clicked']">normal</Property>
+				<Property name="position" displayName="Button Group Position" type="Enum" p:enumValues="['none|None','left|Left','middle|Middle','right|Right']">none</Property>
+				<Property name="disabled" displayName="Disabled?" type="Bool">false</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Text">
+				<Property name="textContent" displayName="Button Label" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, ($box.h/2)-15, $box.w-10, 30), font: $textFont, align: new Alignment(1, 1), multi: false})">Button</Property>
+				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont14</E></Property>
+			</PropertyGroup>
+			<PropertyGroup name="Additional CSS">
+				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
+				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>
+			</PropertyGroup>
+		</Properties>
+		<Behaviors>
+            <For ref="divObject">
+				<InnerText>$textContent.value</InnerText>
+				<Attr>
+                    <Arg>"style"</Arg>
+                    <Arg>
+						<!-- Standard CSS for mapping built-in palettes to CSS -->
+						"font-family: " + $textFont.family + ";" +
+						"font-size: " + $textFont.size + ";" +
+						"font-style: " + $textFont.style + ";" +
+						"font-weight: " + $textFont.weight + ";" +
+						"text-decoration: " + $textFont.decor + ";" +
+						
+						<!-- Set your CSS behaviours -->
+						"display: inline-block;" + 
+						"border-width: 1px;" +
+						"border-style: solid;" +
+
+						"height: " + ($box.h-2) + "px;" +
+						"width: " + ($box.w-2) + "px;" +
+						"line-height: " + ($box.h-4) + "px;" +
+
+						"text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);" +
+						"text-align: center;" +
+						"border-color:rgba(0,0,0,0.15) rgba(0,0,0,0.15) rgba(0,0,0,0.25);" +
+						"text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);" +
+						"box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);" +						
+						($state.value == "clicked" ? "background-image: none; background-color: " + $bottomColor.toRGBString() + "; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);" : "") +
+						($state.value == "hover" ? "background-image: none; background-color: " + $bottomColor.toRGBString() + ";" : "") +
+						($disabled.value ? "background-image: none; background-color: " + $bottomColor.toRGBString() + "; box-shadow: none; opacity: 0.65;" : "") +
+						$customStyle1.value + 
+						$customStyle2.value
+					</Arg>
+                </Attr>
+				<CustomStyle>
+					<Arg>"border-top-left-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "left" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-top-right-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "right" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-bottom-right-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "right" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"border-bottom-left-radius"</Arg>
+					<Arg>$position.value == "none" || $position.value == "left" ? "5px" : "0px"</Arg>
+				</CustomStyle>
+
+				<CustomStyle>
+					<Arg>"color"</Arg>
+					<Arg>$btnType.value == "default" ? "#595959" : "#FFFFFF"</Arg>
+				</CustomStyle>
+
+				<!--Gradient Style for Primary Button-->
+				<CustomStyle>
+					<Arg>"background-image"</Arg>
+					<Arg>$btnType.value == "purchase" ? "-moz-linear-gradient(top, #E7B433, #E79C2C 50%, #E59123 51%, #E97926)" : ""</Arg>
+				</CustomStyle>
+				<CustomStyle>
+					<Arg>"background-image"</Arg>
+					<Arg>$btnType.value == "purchase" ? "-moz-linear-gradient(top, #E7B433, #E79C2C 50%, #E59123 51%, #E97926)" : ""</Arg>
+				</CustomStyle>
+                
+            </For>
+            <For ref="container">
+            	<Box>$box</Box>
+            </For>
+        </Behaviors>
+		<Actions>
+			<Action id="resizeToMicro" displayName="Resize to Small">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(65, 23));
+						this.setProperty("textFont", "Segoe UI|normal|normal|11px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToStandard" displayName="Resize to Standard">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(95, 30));
+						this.setProperty("textFont", "Segoe UI|normal|normal|14px");
+					]]>
+				</Impl>
+			</Action>
+			<Action id="resizeToLarge" displayName="Resize to Large">
+				<Impl>
+					<![CDATA[
+						var box = this.getProperty("box");
+						this.setProperty("box", new Dimension(110, 41));
+						this.setProperty("textFont", "Segoe UI|normal|normal|16px");
+					]]>
+				</Impl>
+			</Action>
+		</Actions>
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject id="container">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>
+            </foreignObject>
+        </p:Content>
+	</Shape>
+
+<Shape id="list" displayName="List" icon="Icons/list.png">
+	  <Properties>
+	    <PropertyGroup>
+	      <Property name="box" displayName="Box" type="Dimension">191,235</Property>
+	      <Property name="handleList" displayName="Adjust List Position" type="Handle" p:lockX="true" p:minY="0" p:maxY="$box.h-10" p:noScale="true">52,0</Property>
+	    </PropertyGroup>
+	    <PropertyGroup name="Item Text">
+	      	<Property name="contentText" displayName="Text Content" type="PlainText"
+	        p:editInfo="({targetName: 'content', bound: Bound.fromBox($box, 0, 52), font: $itemFont, align: new Alignment(0, 0), multi: true})">MenuItem
+	        MenuItem
+	        MenuItem</Property>
+		      <Property name="itemFont" displayName="Text Font" type="Font">
+			        <E>$$defaultFont14</E>
+		      </Property>
+	      <Property name="itemColor" displayName="Text Color" type="Color">#FFFFFFff</Property>
+	    	</PropertyGroup>
+	  </Properties>
+	  <Behaviors>
+	    <For ref="content">
+	      <Bound>Bound.fromBox($box, 0, 54)</Bound>
+	      <Font>$itemFont</Font>
+	      <DomContent>
+	        var items = $contentText.value.split(/[\n\r]+/);
+	        var specs = [];
+	        for (var i = 0; i &lt; items.length; i ++) {
+	          var css = new CSS();
+	          
+	          var title = items[i];
+	          
+	          if(title.match(/\S/) != null) {
+	            var lineHeight = ((i+0) * 46) + 30;
+	            var boxOrigin= (i) * 46;
+	            
+	            var css = new CSS();
+	            css.set("font-size",$itemFont.size);
+	            css.set("font-family",$itemFont.family);
+	            css.set("font-style",$itemFont.style);
+	            css.set("font-weight",$itemFont.weight);
+	            css.set("font-decor",$itemFont.decor);
+	            css.set("fill", $itemColor.toRGBString());
+	            
+	            specs.push({
+	              	_name: "rect",
+	              	_uri: "http://www.w3.org/2000/svg",
+	              	x: 0,
+	              	y: boxOrigin + 1 + $handleList.y,
+	              	width: $box.w,
+	              	height: 46,
+	              	style: "stroke:none; fill:#393939"
+	              },{
+	                _name: "text",
+	                _uri: "http://www.w3.org/2000/svg",
+	                x: 52,
+	                y: lineHeight + 1 + $handleList.y,
+	                _text : title,
+	                style: css
+	              },{
+	              	_name: "rect",
+	              	_uri: "http://www.w3.org/2000/svg",
+	              	x: 0,
+	              	y: boxOrigin + 1 + $handleList.y,
+	              	width: $box.w,
+	              	height: 1,
+	              	style: "stroke:none; fill:#4d4d4d"
+	              },{
+	              	_name: "rect",
+	              	_uri: "http://www.w3.org/2000/svg",
+	              	x: 0,
+	              	y: (boxOrigin + 46 + $handleList.y),
+	              	width: $box.w,
+	              	height: 1,
+	              	style: "stroke:none; fill:#2b2b2b"
+	              });
+	          }
+	        }
+	        Dom.newDOMFragment(specs);
+	      </DomContent>
+	    </For>
+		<For ref="container">
+			<Attr>
+				<Arg>"width"</Arg>
+				<Arg>$box.w</Arg>
+			</Attr>
+			<Attr>
+				<Arg>"height"</Arg>
+				<Arg>$box.h</Arg>
+			</Attr>
+		  	<Fill>Color.fromString("#393939ff")</Fill>
+		  </For>
+	  </Behaviors>
+
+	  <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+	  	<rect id="container" x="0" y="0"/>
+	  	<g id="content"/>
+	  </p:Content>
+</Shape>
+
+	<Shape id="Tablist" displayName="Tab List" icon="Icons/list.png">
+	  <Properties>
+	    <PropertyGroup>
+	      <Property name="box" displayName="Box" type="Dimension">191,235</Property>
+	      <Property name="handleList" displayName="Adjust List Position" type="Handle" p:lockX="true" p:minY="0" p:maxY="$box.h-10" p:noScale="true">52,0</Property>
+	    </PropertyGroup>
+	    <PropertyGroup name="Item Text">
+	      	<Property name="contentText" displayName="Text Content" type="PlainText"
+	        p:editInfo="({targetName: 'content', bound: Bound.fromBox($box, 0, 52), font: $itemFont, align: new Alignment(0, 0), multi: true})">MenuItem
+	        MenuItem
+	        MenuItem</Property>
+		      <Property name="itemFont" displayName="Text Font" type="Font">
+			        <E>$$defaultFont14</E>
+		      </Property>
+	      <Property name="itemColor" displayName="Text Color" type="Color">#FFFFFFff</Property>
+	    	</PropertyGroup>
+	  </Properties>
+	  <Behaviors>
+	    <For ref="content">
+	      <Bound>Bound.fromBox($box, 0, 54)</Bound>
+	      <Font>$itemFont</Font>
+	      <DomContent>
+	        var items = $contentText.value.split(/[\n\r]+/);
+	        var specs = [];
+	        for (var i = 0; i &lt; items.length; i ++) {
+	          var css = new CSS();
+	          
+	          var title = items[i];
+	          
+	          if(title.match(/\S/) != null) {
+	          	var boxOriginX = 0;
+	          	for(var c = 0; c &lt; i; c++) {
+	          		boxOriginX = boxOriginX + items[c].length + 100;
+	          	}
+
+	          	var variableWidth = title.length;
+	            var lineHeight = ((i+0) * 46) + 30;
+	            var boxOrigin= (i) * 46;
+	            
+	            var css = new CSS();
+	            css.set("font-size",$itemFont.size);
+	            css.set("font-family",$itemFont.family);
+	            css.set("font-style",$itemFont.style);
+	            css.set("font-weight",$itemFont.weight);
+	            css.set("font-decor",$itemFont.decor);
+	            css.set("fill", $itemColor.toRGBString());
+	            
+	            specs.push({
+	              	_name: "rect",
+	              	_uri: "http://www.w3.org/2000/svg",
+	              	x: 0,
+	              	y: boxOrigin + 1 + $handleList.y,
+	              	width: $box.w,
+	              	height: 46,
+	              	style: "stroke:none; fill:#393939"
+	              },{
+	                _name: "text",
+	                _uri: "http://www.w3.org/2000/svg",
+	                x: boxOriginX,
+	                y: 30,
+	                _text : title,
+	                style: css
+	              },{
+	              	_name: "rect",
+	              	_uri: "http://www.w3.org/2000/svg",
+	              	x: 0,
+	              	y: boxOrigin + 1 + $handleList.y,
+	              	width: variableWidth + 20,
+	              	height: 1,
+	              	style: "stroke:none; fill:#4d4d4d"
+	              },{
+	              	_name: "rect",
+	              	_uri: "http://www.w3.org/2000/svg",
+	              	x: 0,
+	              	y: (boxOrigin + 46 + $handleList.y),
+	              	width: variableWidth,
+	              	height: 1,
+	              	style: "stroke:none; fill:#2b2b2b"
+	              });
+	          }
+	        }
+	        Dom.newDOMFragment(specs);
+	      </DomContent>
+	    </For>
+		<For ref="container">
+			<Attr>
+				<Arg>"width"</Arg>
+				<Arg>$box.w</Arg>
+			</Attr>
+			<Attr>
+				<Arg>"height"</Arg>
+				<Arg>$box.h</Arg>
+			</Attr>
+		  	<Fill>Color.fromString("#393939ff")</Fill>
+		  </For>
+	  </Behaviors>
+
+	  <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+	  	<rect id="container" x="0" y="0"/>
+	  	<g id="content"/>
+	  </p:Content>
+</Shape>
+
 </Shapes>

@@ -655,6 +655,9 @@
 		</Content>
 	</Shape>
 
+	<Shortcut displayName="" icon="Icons/div_Misc.png" to="grouping">
+	</Shortcut>
+
 	<Shape id="scrollBar" displayName="Scroll Bar" icon="Icons/scrollBar.png">
 		<Properties>
 			<PropertyGroup>
@@ -972,8 +975,9 @@
 	          
 	          if(title.match(/\S/) != null) {
 	          	var boxOriginX = 0;
+	          	var content = items[c];
 	          	for(var c = 0; c &lt; i; c++) {
-	          		boxOriginX = boxOriginX + items[c].length + 100;
+	          		boxOriginX = boxOriginX + content.length + 20;
 	          	}
 
 	          	var variableWidth = title.length;
@@ -986,39 +990,15 @@
 	            css.set("font-style",$itemFont.style);
 	            css.set("font-weight",$itemFont.weight);
 	            css.set("font-decor",$itemFont.decor);
-	            css.set("fill", $itemColor.toRGBString());
+	            css.set("color", $itemColor.toRGBString());
+	            css.set("width", variableWidth + "px");
+	            css.set("height", "44px");
 	            
 	            specs.push({
-	              	_name: "rect",
-	              	_uri: "http://www.w3.org/2000/svg",
-	              	x: 0,
-	              	y: boxOrigin + 1 + $handleList.y,
-	              	width: $box.w,
-	              	height: 46,
-	              	style: "stroke:none; fill:#393939"
-	              },{
-	                _name: "text",
-	                _uri: "http://www.w3.org/2000/svg",
-	                x: boxOriginX,
-	                y: 30,
-	                _text : title,
-	                style: css
-	              },{
-	              	_name: "rect",
-	              	_uri: "http://www.w3.org/2000/svg",
-	              	x: 0,
-	              	y: boxOrigin + 1 + $handleList.y,
-	              	width: variableWidth + 20,
-	              	height: 1,
-	              	style: "stroke:none; fill:#4d4d4d"
-	              },{
-	              	_name: "rect",
-	              	_uri: "http://www.w3.org/2000/svg",
-	              	x: 0,
-	              	y: (boxOrigin + 46 + $handleList.y),
-	              	width: variableWidth,
-	              	height: 1,
-	              	style: "stroke:none; fill:#2b2b2b"
+	              	_name: "div",
+	              	_uri: "http://www.w3.org/1999/xhtml",
+	              	_text: title,
+	              	style: style.toString()
 	              });
 	          }
 	        }
@@ -1039,8 +1019,10 @@
 	  </Behaviors>
 
 	  <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
-	  	<rect id="container" x="0" y="0"/>
-	  	<g id="content"/>
+	  	<foreignObject x="0" y="0" id="container">
+	  		<div xmlns="http://www.w3.org/1999/xhtml" id="content">
+            </div>
+        </foreignObject>
 	  </p:Content>
 </Shape>
 

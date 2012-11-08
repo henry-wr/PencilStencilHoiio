@@ -1,0 +1,526 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"com",
+				"compress"
+			],
+			[
+				"swatch",
+				"swatchmaker"
+			],
+			[
+				"border-bottom",
+				"border-bottom-color"
+			],
+			[
+				"border-bt",
+				"border-bottom"
+			],
+			[
+				"border-",
+				"border-image-source"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"backg",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Program Files/Evolus/Pencil/app/content/pencil/stencil/BasicWebElements/Definition.xml",
+			"settings":
+			{
+				"buffer_size": 62532,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/web/Definition.xml",
+			"settings":
+			{
+				"buffer_size": 110628,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/FontAwesome_874_1350876972136/Definition.xml",
+			"settings":
+			{
+				"buffer_size": 542690,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/Test/definition.xml",
+			"settings":
+			{
+				"buffer_size": 47147,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<Shapes xmlns=\"http://www.evolus.vn/Namespace/Pencil\"\n        xmlns:p=\"http://www.evolus.vn/Namespace/Pencil\"\n        xmlns:svg=\"http://www.w3.org/2000/svg\"\n        xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n		id=\"randomShape\" \n		displayName=\"Random Shapes\" \n		description=\"All Kinds of SVG drawing\" \n		author=\"Henry W\" \n		url=\"http://www.evolus.vn/Pencil\">\n\n    <Properties>\n        <PropertyGroup name=\"Colors\">\n            <Property name=\"color\" type=\"Color\" displayName=\"Color\">#333333FF</Property>\n            <Property name=\"disabledColor\" type=\"Color\" displayName=\"disabledColor\">#AAAAAAFF</Property>\n        </PropertyGroup>\n    </Properties>\n\n    <Shape id=\"carrierSprint\" displayName=\"Sprint\" icon=\"images/Sprint\">\n        <Properties>\n            <PropertyGroup>\n                <Property name=\"box\" type=\"Dimension\" displayName=\"Size\" p:lockRatio=\"true\">56,69</Property>\n                <Property name=\"disabled\" displayName=\"Disabled\" type=\"Bool\">false</Property>\n            </PropertyGroup>\n            <PropertyGroup name=\"Colors\">\n                <Property name=\"color\" type=\"Color\" displayName=\"Color\"><E>$$color</E></Property>\n                <Property name=\"disabledColor\" type=\"Color\" displayName=\"Disabled Color\"><E>$$disabledColor</E></Property>\n            </PropertyGroup>\n        </Properties>\n        <Behaviors>\n            <For ref=\"glyph\">\n                <Box>$box</Box>\n                <Disabled></Disabled>\n                <Fill>$disabled.value ? $disabledColor : $color</Fill>\n            </For>\n        </Behaviors>\n        <Content>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"glyph\" width=\"56\" height=\"69\" viewBox=\"0 0 56 69\"><path d=\"M 18.703354,26.57845 c 0,0 -1.0531,-3.42565 -5.15765,-11.02932 -4.10455,-7.603659 -5.36511,-8.436987 -5.96143,-9.168094 -0.96439,-1.182387 -6.88509,-6.560479 -7.41526,-6.393648 -0.7637,0.240302 -1.01923,0.226791 6.25867,9.460103 3.00077,3.807009 12.27567,17.130959 12.27567,17.130959 z m 3.7963,11.43955 c 0,0 0.88555,-6.81441 0.30761,-14.45521 -0.57794,-7.64078 -1.2865,-8.7747 -1.86298,-9.52188 -0.44396,-0.57542 -4.16453,-6.081308 -4.71401,-6.162197 -0.7915,-0.116525 -0.89955,0.521185 -0.55597,1.42922 6.43346,17.003447 6.82535,28.710067 6.82535,28.710067 z m -0.98309,10.83152 c 0,0 8.32637,-12.71848 10.40373,-20.14819 2.07736,-7.42971 1.70109,-8.01806 0.40515,-9.56863 -0.6605,-0.79027 -3.30489,-3.72335 -3.99783,-4.18868 -0.99815,-0.67028 -1.43535,-0.13904 -1.43075,1.02796 0.0659,16.72499 -5.3803,32.87754 -5.3803,32.87754 z m -5.8393,8.92551 c 0,0 17.44022,-15.17087 23.21889,-21.68724 5.77867,-6.51638 5.57709,-7.39391 5.18078,-8.55829 -0.43058,-1.26513 -3.08157,-3.52157 -3.62699,-3.90475 -1.18907,-0.83538 -1.89933,-0.85059 -2.48726,0.6628 -6.79743,17.49719 -22.28542,33.48748 -22.28542,33.48748 z m -13.55611,11.20856 c 0,0 29.1651,-12.40321 41.30846,-20.53089 12.14336,-8.12769 12.37007,-8.71238 12.37006,-10.53062 0,-1.97556 -4.4982,-6.06077 -5.39784,-6.36382 -0.89963,-0.30303 -1.11526,-1.17674 -2.69891,0.60608 -17.09317,19.24298 -45.58177,36.81925 -45.58177,36.81925 z\" /></svg>\n        </Content>\n    </Shape>\n\n    <Shape id=\"carrierYMobile\" displayName=\"Y-Mobile\" icon=\"images/YMobile.png\">\n        <Properties>\n            <PropertyGroup>\n                <Property name=\"box\" type=\"Dimension\" displayName=\"Size\" p:lockRatio=\"true\">49,47</Property>\n                <Property name=\"disabled\" displayName=\"Disabled\" type=\"Bool\">false</Property>\n            </PropertyGroup>\n            <PropertyGroup name=\"Colors\">\n                <Property name=\"color\" type=\"Color\" displayName=\"Color\"><E>$$color</E></Property>\n                <Property name=\"disabledColor\" type=\"Color\" displayName=\"Disabled Color\"><E>$$disabledColor</E></Property>\n            </PropertyGroup>\n        </Properties>\n        <Behaviors>\n            <For ref=\"glyph\">\n                <Box>$box</Box>\n                <Disabled></Disabled>\n                <Fill>$disabled.value ? $disabledColor : $color</Fill>\n            </For>\n        </Behaviors>\n        <Content>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"glyph\" width=\"49\" height=\"47\" viewBox=\"0 0 49 47\">\n                <g>\n                    <path d=\"m 32.70996,-0.040147 16.167,0 0,1.264648 -0.88867,0 c -0.5925,4.5e-5 -1.45839,0.262089 -2.59766,0.786133 -1.13937,0.524132 -2.17615,1.276085 -3.11035,2.255859 -0.93429,0.979859 -2.085,2.57491 -3.45215,4.785157 l -11.17676,17.602539 0,11.621093 c -3e-5,2.848313 0.31898,4.625655 0.95703,5.332032 0.86586,0.957033 2.23304,1.435548 4.10156,1.435547 l 1.50391,0 0,1.264648 -19.6875,0 0,-1.264648 1.64063,0 c 1.95961,10e-7 3.34959,-0.592446 4.16992,-1.777344 0.50128,-0.729163 0.75193,-2.392573 0.75195,-4.990235 l 0,-10.971679 L 8.37403,7.88954 C 6.87011,5.610935 5.85042,4.186783 5.31495,3.617079 4.77946,3.047461 3.66862,2.363868 1.98243,1.566298 1.52669,1.338478 0.86589,1.224546 0,1.224501 l 0,-1.264648 19.82422,0 0,1.264648 -1.02539,0 c -1.07098,4.5e-5 -2.05649,0.250696 -2.95654,0.751953 -0.90008,0.501346 -1.35011,1.253299 -1.3501,2.25586 -1e-5,0.820353 0.69497,2.301472 2.08496,4.443359 L 26.25,23.612197 35.3418,9.325087 C 36.70895,7.183199 37.39254,5.588149 37.39258,4.539931 37.39254,3.901952 37.22734,3.332292 36.89698,2.830947 36.56654,2.329688 36.09372,1.936622 35.47852,1.651747 34.86325,1.366961 33.9404,1.224546 32.70996,1.224501 z\" style=\"fill:#d3006d;fill-opacity:1;stroke:none;\"/>\n                    <path d=\"m 38.97977,21.884383 8.09178,0 0,8.091776 -8.09178,0 z m -36.71753,0 8.09178,0 0,8.091776 -8.09178,0 z\" style=\"fill:#6e6e6e;fill-opacity:1;stroke:none;\"/>\n                </g>\n            </svg>\n        </Content>\n    </Shape>\n    <Shape id=\"carrierHorizon\" displayName=\"Horizon\" icon=\"images/Horizon.png\">\n        <Properties>\n            <PropertyGroup>\n                <Property name=\"box\" type=\"Dimension\" displayName=\"Size\" p:lockRatio=\"true\">81,47</Property>\n                <Property name=\"disabled\" displayName=\"Disabled\" type=\"Bool\">false</Property>\n            </PropertyGroup>\n            <PropertyGroup name=\"Colors\">\n                <Property name=\"color\" type=\"Color\" displayName=\"Color\"><E>$$color</E></Property>\n                <Property name=\"disabledColor\" type=\"Color\" displayName=\"Disabled Color\"><E>$$disabledColor</E></Property>\n            </PropertyGroup>\n        </Properties>\n        <Behaviors>\n            <For ref=\"glyph\">\n                <Box>$box</Box>\n                <Disabled></Disabled>\n                <Fill>$disabled.value ? $disabledColor : $color</Fill>\n            </For>\n        </Behaviors>\n        <Content>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"glyph\" width=\"81\" height=\"47\" viewBox=\"0 0 81 47\">\n                <g>\n                    <path d=\"M 79.629733,1.1007298e-6 80.359746,1.8819911 9.9822812,27.998624 9.2522676,26.116634 z M 0,0.77897374 1.9041049,0.08767356 11.846734,27.219692 l -1.9040838,0.6913 z\" style=\"fill:#f03735;fill-opacity:1;stroke:none;\"/>\n                    <text x=\"0\" y=\"46\" style=\"font-size:20px;font-weight:bold;letter-spacing:-2px;fill:#4d4d4d;-inkscape-font-specification:Sans Bold\">Horizon</text>                    \n                </g>\n            </svg>\n        </Content>\n    </Shape>\n    <Shape id=\"customShape\" displayName=\"Custom Shape\" icon=\"images/Horizon.png\">\n        <Properties>\n            <PropertyGroup>\n                <Property name=\"box\" type=\"Dimension\" displayName=\"Size\" p:lockRatio=\"true\">100,100</Property>\n                <Property name=\"svg\" displayName=\"SVG Spec\" type=\"RichText\"><!<![CDATA[Enter SVG here]]></Property>\n            </PropertyGroup>\n            <PropertyGroup name=\"Colors\">\n                <Property name=\"color\" type=\"Color\" displayName=\"Color\"><E>$$color</E></Property>\n            </PropertyGroup>\n        </Properties>\n        <Behaviors>\n            <For ref=\"glyph\">\n                <Box>$box</Box>\n                <Fill>$color</Fill>\n            </For>\n        </Behaviors>\n        <Content>\n            <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"glyph\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\">\n                    <path d=\"<![CDATA[svg.value]]>\" style=\"stroke:none;\"/>\n                    <text x=\"0\" y=\"46\" style=\"font-size:20px;font-weight:bold;letter-spacing:-2px;fill:#4d4d4d;-inkscape-font-specification:Sans Bold\">Horizon</text>                    \n                </g>\n            </svg>\n        </Content>\n    </Shape>\n</Shapes>\n",
+			"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/SVG Shapes/definition.xml",
+			"file_size": 8528,
+			"file_write_time": 129962167855927079,
+			"settings":
+			{
+				"buffer_size": 8414,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/Web 2.0/definition.xml",
+			"settings":
+			{
+				"buffer_size": 96581,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/GitHub/PencilStencilHoiio/Pencil_Stencils/web/Definition.xml",
+		"/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/definition_850_1351506102463/definition.xml",
+		"/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/FontAwesome_874_1350876972136/Definition.xml",
+		"/C/Program Files/Evolus/Pencil/app/content/pencil/stencil/Flowchart/Definition.xml",
+		"/C/Program Files/Evolus/Pencil/app/content/pencil/stencil/Common/Definition.xml",
+		"/C/Program Files/Evolus/Pencil/app/content/pencil/stencil/BasicWebElements/Definition.xml",
+		"/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/web_716_1350899819643/Definition.xml",
+		"/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/definition_102_1351496539413/definition.xml",
+		"/C/Program Files/Evolus/Pencil/app/content/pencil/propertyType/dimension.js",
+		"/C/Program Files/Evolus/Pencil/app/content/pencil/propertyType/css.js",
+		"/C/Users/Minh Danh/Desktop/iOS.GUI_v2/Definition.xml",
+		"/C/Users/Minh Danh/Desktop/Font-Awesome-2.0/Font-Awesome-2.0/Definition.xml",
+		"/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/Test/definition.xml",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/less/bootswatch.less",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/less/buttons.less",
+		"/E/GitHub/bootswatch-h/swatchmaker/test/docs.css",
+		"/E/GitHub/bootswatch-h/swatchmaker/test/test.html",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/docs/components.html",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/docs/base-css.html",
+		"/E/GitHub/bootswatch-h/swatchmaker/Makefile",
+		"/E/GitHub/bootswatch-h/README.md",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/less/variables.less",
+		"/E/GitHub/bootswatch-h/swatchmaker/swatch/bootstrap.css",
+		"/E/GitHub/bootswatch-h/swatchmaker/swatchmaker.less",
+		"/E/GitHub/bootswatch-h/swatchmaker/swatchmaker-responsive.less",
+		"/E/GitHub/bootswatch-h/swatchmaker/bootstrap/less/responsive.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/bootswatch.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/variables.less",
+		"/E/GitHub/bootswatch/swatchmaker/test/test.html",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/docs/base-css.html",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/labels-badges.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/breadcrumbs.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/navbar.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/buttons.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/mixins.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/modals.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/scaffolding.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/bootstrap.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/sprites.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/docs/assets/js/bootstrap-modal.js",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/docs/assets/css/bootstrap.min.css",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/docs/assets/css/bootstrap.css",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/forms.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/dropdowns.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/type.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/button-groups.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/grid.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/layouts.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/hero-unit.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/pager.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/code.less",
+		"/E/GitHub/bootswatch/swatchmaker/bootstrap/less/utilities.less",
+		"/E/GitHub/bootswatch/swatchmaker/test/test-full.html",
+		"/E/GitHub/bootswatch/swatchmaker/swatchmaker.less",
+		"/C/Users/Minh Danh/AppData/Roaming/npm/node_modules/less/lib/less/parser.js",
+		"/E/GitHub/bootswatch/swatchmaker/swatch/variables.less",
+		"/E/GitHub/bootswatch/swatchmaker/swatch/bootswatch.less",
+		"/E/GitHub/bootswatch/swatchmaker/Makefile",
+		"/E/Hoiio/Tez folder/Random Images/Test Banner Home/namecard.html",
+		"/E/GitHub/bootswatch/swatchmaker/swatch/United/variables.less",
+		"/E/GitHub/bootswatch/swatchmaker/swatch/United/bootswatch.less",
+		"/E/GitHub/bootswatch/swatchmaker/swatch/bootstrap.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Property name=\"color\"",
+			"$color",
+			"Property Name=\"color\"",
+			"displayName=\"text",
+			"pane",
+			"data:image/svg+xml;charset=utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; id=&quot;glyph&quot; width=&quot;32&quot; height=&quot;32&quot; viewBox=&quot;0 0 2048 2048&quot;&gt;&lt;text x=&quot;0&quot; y=&quot;6&quot; text-size=&quot;18&quot; style=&quot;fill:black&quot;&gt;NAV&lt;/text&gt;&lt;/svg&gt;",
+			">",
+			"<",
+			"\"",
+			"&quot;",
+			"&gt;",
+			"&lt;",
+			"lorem ipsum",
+			"table",
+			"visibility",
+			"DEFAULTfONT14bold",
+			"user",
+			"defaultfont14bold",
+			"Cdata",
+			"rich",
+			"<svg",
+			"$radius.x",
+			"pane",
+			"radius.x",
+			"pane",
+			"toOriginalSize",
+			"shortcut",
+			"rich text",
+			"richtext",
+			"<attr",
+			"width",
+			"<Visibi",
+			"mask",
+			"blur",
+			"mask",
+			"width",
+			"textcolor",
+			"box",
+			"<box>",
+			"<box",
+			"App Icon",
+			"warning",
+			"purchase",
+			"heading",
+			"buttons",
+			"box-shadow",
+			"searchbackgroundfocus",
+			"navbarInverse",
+			"radius",
+			"warning",
+			"@WHITE",
+			"btn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Property name=\"fillColor\"",
+			"$fillColor",
+			"Property Name=\"fillColor\"",
+			"&gt;",
+			"&lt;",
+			"&quot;",
+			"\"",
+			">",
+			"<",
+			"$borderRadius.w",
+			"radius.value",
+			"purchase",
+			"navbarHoiio",
+			"purchase"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Program Files/Evolus/Pencil/app/content/pencil/stencil/BasicWebElements/Definition.xml",
+					"settings":
+					{
+						"buffer_size": 62532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56801,
+								56801
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3651.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/web/Definition.xml",
+					"settings":
+					{
+						"buffer_size": 110628,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91970,
+								91970
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/FontAwesome_874_1350876972136/Definition.xml",
+					"settings":
+					{
+						"buffer_size": 542690,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1485,
+								1220
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1066.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/Test/definition.xml",
+					"settings":
+					{
+						"buffer_size": 47147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								44189,
+								40750
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/SVG Shapes/definition.xml",
+					"settings":
+					{
+						"buffer_size": 8414,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1582,
+								1676
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/Web 2.0/definition.xml",
+					"settings":
+					{
+						"buffer_size": 96581,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63252,
+								63252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1112.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 118.0,
+	"status_bar_visible": true
+}

@@ -273,14 +273,14 @@
 				<Property name="dropShadowColor" displayName="Drop Shadow Color" type="Color">#00000010</Property>
 			</PropertyGroup>
 			<PropertyGroup name="Additional CSS">
-				<Property name="customStyle1" displayName="Background" type="PlainText">//Enter your&#13;&#10;here></Property>
+				<Property name="customStyle1" displayName="Background" type="PlainText">//Enter your&#13;&#10;here</Property>
 			</PropertyGroup>
 		</Properties>
 		<Behaviors>
             <For ref="divObject">
 	     		<Attr>
                     <Arg>"style"</Arg>
-                    <Arg>"-moz-box-sizing: border-box; overflow: hidden; " + $customStyle1.value</Arg>
+                    <Arg>"overflow: hidden; " + $customStyle1.value</Arg>
                 </Attr>
                 <CustomStyle>
         			<Arg>"-moz-box-sizing"</Arg>
@@ -346,6 +346,42 @@
 -->
 
 	<!-- Group: System -->
+	<Shape id="htmlDiv" displayName="HTML Div" icon="Icons/htmlDiv.png">
+		<Properties>
+			<PropertyGroup name="Properties">
+				<Property name="box" type="Dimension">100,100</Property>
+				<Property name="fillColor" type="Color">#f1f1f1</Property>
+			</PropertyGroup>
+			<PropertyGroup name="CSS">
+				<Property name="customStyle1" displayName="Custom Style" type="PlainText">//Text Box&#13;&#10;Multiple Line</Property>
+			</PropertyGroup>
+		</Properties>
+
+		<Behaviors>
+			<For ref="htmlObject">
+				<Box>$box</Box>
+			</For>
+			<For ref="div">
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>
+						"-moz-box-sizing: border-box;" +
+						"background-color: " + $fillColor.toRGBAString() + ";" +
+						"height: " + $box.h + "px;" +
+						"width: " + $box.w + "px;" +
+						$customStyle1.value
+					</Arg>
+				</Attr>
+			</For>
+		</Behaviors>
+
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject id="htmlObject">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="div"></div>
+            </foreignObject>
+        </p:Content>
+    </Shape>
+
 	<Shape id="userAvatar" displayName="User Avatar" icon="Icons/userAvatar.png">
 		<Properties>
 			<PropertyGroup>
@@ -570,6 +606,154 @@
 
 			<!--Creates an half-ellipse bottom shadow-->
 			<ellipse id="ellipseShadow" style="stroke:none" filter="url(#gausBlur)" />
+		</p:Content>
+	</Shape>
+
+		<Shape id="pageHeader" displayName="Page Header" icon="Icons/pageHeader.png">
+		<Properties>
+			<PropertyGroup>
+				<Property name="box" type="Dimension">800,36</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Properties">
+				<Property name="textContent" displayName="Content" type="RichText" p:editInfo="({targetName: 'container', bound: new Bound(5, 0, Math.max($box.w, 150) - 20, Math.max($box.h, 36) - 10), font: $textFont, align: new Alignment(0, 1), multi: false})"><![CDATA[<span style="font-weight:bold;">Page Header</span> Title here.]]></Property>
+				<Property name="hasLine" displayName="Has Line?" type="Bool">true</Property>
+				<Property name="withMargin" displayName="Line has margin?" type="Bool">false</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Text">
+				<Property name="textFont" displayName="Font" type="Font"><E>$$heading3</E></Property>
+				<Property name="textColor" displayName="Color" type="Color" p:disabled="true"><E>$$defaultFontColor</E></Property>
+			</PropertyGroup>
+			<PropertyGroup name="Additional CSS">
+				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
+				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>
+				<Property name="customStyle3" displayName="Separator Line" type="PlainText"><![CDATA[]]></Property>
+			</PropertyGroup>
+		</Properties>
+
+		<Behaviors>
+			<For ref="textObject">
+				<TextContent>$textContent</TextContent>
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>
+					<!-- Standard CSS for mapping built-in palettes to CSS -->
+										   "font-family: " + $textFont.family + ";" +
+										   "font-size: " + $textFont.size + ";" +
+										   "font-style: " + $textFont.style + ";" +
+										   "font-weight: " + $textFont.weight + ";" +
+										   "text-decoration: " + $textFont.decor + ";" +
+										   "color: " + $textColor.toRGBString() + ";" +
+
+					<!-- Set your CSS behaviours -->
+										   "display: inline-block;" +
+										   "width: " + ($box.w) + "px;" +
+										   "height: 36px;" +
+										   "line-height: 36px;" +
+										   "margin-left:15px;" +
+										   $customStyle2.value
+					</Arg>
+				</Attr>
+			</For>
+			<For ref="line">
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>
+					<!-- Drawing of close "x" button -->
+										   ($hasLine.value ? "display: block;" : "display:none;") +
+										   "position:absolute;" +
+										   "bottom:0px;" +
+										   "width: " + ($box.w) + "px;" +
+										   ($withMargin.value ? "width: " + ($box.w-10) + "px; margin-left:5px;" : " ") +
+										   "height: 1px;" +
+										   "background-color: #e8e8e8;" +
+										   $customStyle3.value
+					</Arg>
+				</Attr>
+			</For>
+			<For ref="container">
+				<Box>$box</Box>
+			</For>
+		</Behaviors>
+
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+		<foreignObject id="container">
+			<div xmlns="http://www.w3.org/1999/xhtml" id="textObject"></div>
+			<div xmlns="http://www.w3.org/1999/xhtml" id="line"></div>
+		</foreignObject>
+		</p:Content>
+	</Shape>
+
+	<Shape id="sectionHeader" displayName="Section Header" icon="Icons/sectionHeader.png">
+		<Properties>
+			<PropertyGroup>
+				<Property name="box" type="Dimension">800,36</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Properties">
+				<Property name="textContent" displayName="Content" type="RichText" p:editInfo="({targetName: 'container', bound: new Bound(5, 0, Math.max($box.w, 150) - 20, Math.max($box.h, 36) - 10), font: $textFont, align: new Alignment(0, 1), multi: false})"><![CDATA[<span style="font-weight:bold;">Section Header</span> Title here.]]></Property>
+				<Property name="hasLine" displayName="Has Line?" type="Bool">true</Property>
+				<Property name="withMargin" displayName="Line has margin?" type="Bool">false</Property>
+			</PropertyGroup>
+			<PropertyGroup name="Text">
+				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont18Bold</E></Property>
+				<Property name="textColor" displayName="Color" type="Color" p:disabled="true"><E>$$defaultFontColor</E></Property>
+			</PropertyGroup>
+			<PropertyGroup name="Additional CSS">
+				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
+				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>
+				<Property name="customStyle3" displayName="Separator Line" type="PlainText"><![CDATA[]]></Property>
+			</PropertyGroup>
+		</Properties>
+
+		<Behaviors>
+			<For ref="textObject">
+				<TextContent>$textContent</TextContent>
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>
+					<!-- Standard CSS for mapping built-in palettes to CSS -->
+										   "font-family: " + $textFont.family + ";" +
+										   "font-size: " + $textFont.size + ";" +
+										   "font-style: " + $textFont.style + ";" +
+										   "font-weight: " + $textFont.weight + ";" +
+										   "text-decoration: " + $textFont.decor + ";" +
+										   "color: " + $textColor.toRGBString() + ";" +
+
+					<!-- Set your CSS behaviours -->
+										   "display: inline-block;" +
+										   "width: " + ($box.w) + "px;" +
+										   "height: 36px;" +
+										   "line-height: 36px;" +
+										   ($withMargin.value ? "margin-left: 20px;" : "margin-left: 15px;") +
+										   $customStyle2.value
+					</Arg>
+				</Attr>
+			</For>
+			<For ref="line">
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>
+					<!-- Drawing of close "x" button -->
+										   ($hasLine.value ? "display: block;" : "display:none;") +
+										   "position:absolute;" +
+										   "bottom:0px;" +
+										   "width: " + ($box.w) + "px;" +
+										   ($withMargin.value ? "width: " + ($box.w-30) + "px; margin-left:15px;" : " ") +
+										   "height: 1px;" +
+										   "background-color: #e8e8e8;" +
+										   $customStyle3.value
+					</Arg>
+				</Attr>
+			</For>
+			<For ref="container">
+				<Box>$box</Box>
+			</For>
+		</Behaviors>
+
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+		<foreignObject id="container">
+			<div xmlns="http://www.w3.org/1999/xhtml" id="textObject"></div>
+			<div xmlns="http://www.w3.org/1999/xhtml" id="line"></div>
+		</foreignObject>
 		</p:Content>
 	</Shape>
 	<!-- //////////////////////////////////////// -->
@@ -1079,6 +1263,11 @@
         </p:Content>
 	</Shape>
 
+	<Shortcut displayName="Micro Button: Standard" icon="Icons/btnStandardMicro.png" to="btnStandard">
+		<PropertyValue name="box">65,23</PropertyValue>
+		<PropertyValue name="textFont">Segoe UI|normal|normal|11px</PropertyValue>
+	</Shortcut>
+
 	<Shape id="btnPrimary" displayName="Button: Primary" icon="Icons/btnPrimary.png">
 		<Properties>
 			<PropertyGroup>
@@ -1196,6 +1385,11 @@
         </p:Content>
 	</Shape>
 
+	<Shortcut displayName="Micro Button: Primary" icon="Icons/btnPrimaryMicro.png" to="btnPrimary">
+		<PropertyValue name="box">65,23</PropertyValue>
+		<PropertyValue name="textFont">Segoe UI|normal|normal|11px</PropertyValue>
+	</Shortcut>
+
 	<Shape id="btnPurchase" displayName="Button: Purchase" icon="Icons/btnPurchase.png">
 		<Properties>
 			<PropertyGroup>
@@ -1310,170 +1504,12 @@
             </foreignObject>
         </p:Content>
 	</Shape>
-
-	<Shortcut displayName="Micro Button: Standard" icon="Icons/btnStandardMicro.png" to="btnStandard">
-		<PropertyValue name="box">65,23</PropertyValue>
-		<PropertyValue name="textFont">Segoe UI|normal|normal|11px</PropertyValue>
-	</Shortcut>
-
-	<Shortcut displayName="Micro Button: Primary" icon="Icons/btnPrimaryMicro.png" to="btnPrimary">
-		<PropertyValue name="box">65,23</PropertyValue>
-		<PropertyValue name="textFont">Segoe UI|normal|normal|11px</PropertyValue>
-	</Shortcut>
 	<!-- //////////////////////////////////////// -->
 
 
 	<!-- Group: Typography -->
 	<Shortcut displayName="" icon="Icons/group_typography.png" to="grouping">
 	</Shortcut>
-
-	<Shape id="pageHeader" displayName="Page Header" icon="Icons/pageHeader.png">
-		<Properties>
-			<PropertyGroup>
-				<Property name="box" type="Dimension">800,36</Property>
-			</PropertyGroup>
-			<PropertyGroup name="Properties">
-				<Property name="textContent" displayName="Content" type="RichText" p:editInfo="({targetName: 'container', bound: new Bound(5, 0, Math.max($box.w, 150) - 20, Math.max($box.h, 36) - 10), font: $textFont, align: new Alignment(0, 1), multi: false})"><![CDATA[<span style="font-weight:bold;">Page Header</span> Title here.]]></Property>
-				<Property name="hasLine" displayName="Has Line?" type="Bool">true</Property>
-				<Property name="withMargin" displayName="Line has margin?" type="Bool">false</Property>
-			</PropertyGroup>
-			<PropertyGroup name="Text">
-				<Property name="textFont" displayName="Font" type="Font"><E>$$heading3</E></Property>
-				<Property name="textColor" displayName="Color" type="Color" p:disabled="true"><E>$$defaultFontColor</E></Property>
-			</PropertyGroup>
-			<PropertyGroup name="Additional CSS">
-				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
-				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>
-				<Property name="customStyle3" displayName="Separator Line" type="PlainText"><![CDATA[]]></Property>
-			</PropertyGroup>
-		</Properties>
-
-		<Behaviors>
-			<For ref="textObject">
-				<TextContent>$textContent</TextContent>
-				<Attr>
-					<Arg>"style"</Arg>
-					<Arg>
-					<!-- Standard CSS for mapping built-in palettes to CSS -->
-										   "font-family: " + $textFont.family + ";" +
-										   "font-size: " + $textFont.size + ";" +
-										   "font-style: " + $textFont.style + ";" +
-										   "font-weight: " + $textFont.weight + ";" +
-										   "text-decoration: " + $textFont.decor + ";" +
-										   "color: " + $textColor.toRGBString() + ";" +
-
-					<!-- Set your CSS behaviours -->
-										   "display: inline-block;" +
-										   "width: " + ($box.w) + "px;" +
-										   "height: 36px;" +
-										   "line-height: 36px;" +
-										   "margin-left:15px;" +
-										   $customStyle2.value
-					</Arg>
-				</Attr>
-			</For>
-			<For ref="line">
-				<Attr>
-					<Arg>"style"</Arg>
-					<Arg>
-					<!-- Drawing of close "x" button -->
-										   ($hasLine.value ? "display: block;" : "display:none;") +
-										   "position:absolute;" +
-										   "bottom:0px;" +
-										   "width: " + ($box.w) + "px;" +
-										   ($withMargin.value ? "width: " + ($box.w-10) + "px; margin-left:5px;" : " ") +
-										   "height: 1px;" +
-										   "background-color: #e8e8e8;" +
-										   $customStyle3.value
-					</Arg>
-				</Attr>
-			</For>
-			<For ref="container">
-				<Box>$box</Box>
-			</For>
-		</Behaviors>
-
-		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
-		<foreignObject id="container">
-			<div xmlns="http://www.w3.org/1999/xhtml" id="textObject"></div>
-			<div xmlns="http://www.w3.org/1999/xhtml" id="line"></div>
-		</foreignObject>
-		</p:Content>
-	</Shape>
-
-	<Shape id="sectionHeader" displayName="Section Header" icon="Icons/sectionHeader.png">
-		<Properties>
-			<PropertyGroup>
-				<Property name="box" type="Dimension">800,36</Property>
-			</PropertyGroup>
-			<PropertyGroup name="Properties">
-				<Property name="textContent" displayName="Content" type="RichText" p:editInfo="({targetName: 'container', bound: new Bound(5, 0, Math.max($box.w, 150) - 20, Math.max($box.h, 36) - 10), font: $textFont, align: new Alignment(0, 1), multi: false})"><![CDATA[<span style="font-weight:bold;">Section Header</span> Title here.]]></Property>
-				<Property name="hasLine" displayName="Has Line?" type="Bool">true</Property>
-				<Property name="withMargin" displayName="Line has margin?" type="Bool">false</Property>
-			</PropertyGroup>
-			<PropertyGroup name="Text">
-				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont18Bold</E></Property>
-				<Property name="textColor" displayName="Color" type="Color" p:disabled="true"><E>$$defaultFontColor</E></Property>
-			</PropertyGroup>
-			<PropertyGroup name="Additional CSS">
-				<Property name="customStyle1" displayName="Background" type="PlainText"><![CDATA[]]></Property>
-				<Property name="customStyle2" displayName="Text" type="PlainText"><![CDATA[]]></Property>
-				<Property name="customStyle3" displayName="Separator Line" type="PlainText"><![CDATA[]]></Property>
-			</PropertyGroup>
-		</Properties>
-
-		<Behaviors>
-			<For ref="textObject">
-				<TextContent>$textContent</TextContent>
-				<Attr>
-					<Arg>"style"</Arg>
-					<Arg>
-					<!-- Standard CSS for mapping built-in palettes to CSS -->
-										   "font-family: " + $textFont.family + ";" +
-										   "font-size: " + $textFont.size + ";" +
-										   "font-style: " + $textFont.style + ";" +
-										   "font-weight: " + $textFont.weight + ";" +
-										   "text-decoration: " + $textFont.decor + ";" +
-										   "color: " + $textColor.toRGBString() + ";" +
-
-					<!-- Set your CSS behaviours -->
-										   "display: inline-block;" +
-										   "width: " + ($box.w) + "px;" +
-										   "height: 36px;" +
-										   "line-height: 36px;" +
-										   ($withMargin.value ? "margin-left: 20px;" : "margin-left: 15px;") +
-										   $customStyle2.value
-					</Arg>
-				</Attr>
-			</For>
-			<For ref="line">
-				<Attr>
-					<Arg>"style"</Arg>
-					<Arg>
-					<!-- Drawing of close "x" button -->
-										   ($hasLine.value ? "display: block;" : "display:none;") +
-										   "position:absolute;" +
-										   "bottom:0px;" +
-										   "width: " + ($box.w) + "px;" +
-										   ($withMargin.value ? "width: " + ($box.w-30) + "px; margin-left:15px;" : " ") +
-										   "height: 1px;" +
-										   "background-color: #e8e8e8;" +
-										   $customStyle3.value
-					</Arg>
-				</Attr>
-			</For>
-			<For ref="container">
-				<Box>$box</Box>
-			</For>
-		</Behaviors>
-
-		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
-		<foreignObject id="container">
-			<div xmlns="http://www.w3.org/1999/xhtml" id="textObject"></div>
-			<div xmlns="http://www.w3.org/1999/xhtml" id="line"></div>
-		</foreignObject>
-		</p:Content>
-	</Shape>
 
 	<Shape id="RichTextBoxV2" displayName="Rich Text" icon="Icons/rich-text.png">
         <Properties>
@@ -1767,6 +1803,47 @@
 			</foreignObject>
 		</p:Content>
 	</Shape>
+
+	<Shape id="ComboBoxItem" displayName="Combo Box Item" icon="Icons/comboboxitem.png">
+		<Properties>
+			<PropertyGroup name="Properties">
+				<Property name="box" type="Dimension">150,36</Property>
+				<Property name="fillColor" type="Color">#ffffff</Property>
+				<Property name="position" displayName="Position" type="Enum" p:enumValues="['top|Top', 'middle|Middle', 'bottom|Bottom']">middle</Property>
+			</PropertyGroup>
+			<PropertyGroup name="CSS">
+				<Property name="customStyle1" displayName="Custom Style" type="PlainText">/*Enter CSS&#13;&#10;Below*/</Property>
+			</PropertyGroup>
+		</Properties>
+
+		<Behaviors>
+			<For ref="htmlObject">
+				<Box>$box</Box>
+			</For>
+			<For ref="div">
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>
+						"-moz-box-sizing: border-box;" +
+						"background-color: " + $fillColor.toRGBAString() + ";" +
+						"height: " + $box.h + "px;" +
+						"width: " + $box.w + "px;" +
+
+						($position.value == "top" ? "border-radius: 5px 5px 0 0;" : "") +
+						($position.value == "bottom" ? "border-radius: 0 0 5px 5px;" : "") +
+						"border: 1px solid #e8e8e8;" +
+						$customStyle1.value
+					</Arg>
+				</Attr>
+			</For>
+		</Behaviors>
+
+		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject id="htmlObject">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="div"></div>
+            </foreignObject>
+        </p:Content>
+    </Shape>
 	<!-- //////////////////////////////////////// -->
 
 

@@ -52,14 +52,6 @@
 			}
 		},
 		{
-			"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/web/Definition.xml",
-			"settings":
-			{
-				"buffer_size": 110628,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/FontAwesome_874_1350876972136/Definition.xml",
 			"settings":
 			{
@@ -90,7 +82,18 @@
 			"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/Web 2.0/definition.xml",
 			"settings":
 			{
-				"buffer_size": 96581,
+				"buffer_size": 99129,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "",
+			"file": "/E/Dropbox/Hack-a-thon/withBootstrap/christmas.php",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Windows"
 			}
 		}
@@ -198,6 +201,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"displayName=\"Button",
+			"button",
+			"enum",
 			"Property name=\"color\"",
 			"$color",
 			"Property Name=\"color\"",
@@ -281,7 +287,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -307,40 +313,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3651.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/web/Definition.xml",
-					"settings":
-					{
-						"buffer_size": 110628,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91970,
-								91970
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/XML/XML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 1,
 					"file": "/C/Users/Minh Danh/AppData/Roaming/Mozilla/Firefox/Profiles/8hbmsho5.default/Pencil/Stencils/FontAwesome_874_1350876972136/Definition.xml",
 					"settings":
 					{
@@ -362,7 +341,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1066.0,
+						"translation.y": 511.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -370,11 +349,11 @@
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 3,
+					"buffer": 2,
 					"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/Test/definition.xml",
 					"settings":
 					{
@@ -395,13 +374,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 495.0,
+						"translation.y": 405.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 3,
 					"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/SVG Shapes/definition.xml",
 					"settings":
 					{
@@ -429,19 +408,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 4,
 					"file": "/E/GitHub/PencilStencilHoiio/Pencil_Stencils/Web 2.0/definition.xml",
 					"settings":
 					{
-						"buffer_size": 96581,
+						"buffer_size": 99129,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								63252,
-								63252
+								60347,
+								60366
 							]
 						],
 						"settings":
@@ -450,7 +429,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1112.0,
+						"translation.y": 23822.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/E/Dropbox/Hack-a-thon/withBootstrap/christmas.php",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

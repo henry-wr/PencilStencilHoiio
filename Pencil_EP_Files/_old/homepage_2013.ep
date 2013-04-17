@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<Document xmlns="http://www.evolus.vn/Namespace/Pencil"><Properties/><Pages><Page><Properties><Property name="name">Untitled Page</Property><Property name="id">1358218840804_2833</Property><Property name="width">1280</Property><Property name="height">1800</Property><Property name="dimBackground"/><Property name="transparentBackground">true</Property><Property name="backgroundColor">#FFFFFFFF</Property><Property name="background">transparent</Property></Properties><Content><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:RoundedRect" id="2f49654be5a54ff3a2678eec73a640a3" transform="matrix(1,0,0,1,0,0)" p:locked="true"><p:metadata><p:property name="box"><![CDATA[1280,1800]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="radius"><![CDATA[0,0]]></p:property><p:property name="textPadding"><![CDATA[0,0]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="strokeColor"><![CDATA[#1B3280FF]]></p:property><p:property name="strokeStyle"><![CDATA[0|]]></p:property><p:property name="textContent"><![CDATA[
+                ]]></p:property><p:property name="textFont"><![CDATA["Liberation Sans",Arial,sans-serif|normal|normal|13px|none]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property></p:metadata>
+
+            <defs>
+                <rect width="1280" height="1800" rx="0" ry="0" x="0" y="0" style="stroke-width: 0; fill: rgb(255, 255, 255); fill-opacity: 1; stroke: rgb(27, 50, 128); stroke-opacity: 1;" p:name="rrRect" id="a034b28006e54929b9a832387fb822a4" transform="translate(0,0)"/>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="shadingFilter" id="39e154620ab8471aba5baa9f6d82290b">
+                    <feGaussianBlur stdDeviation="1" in="SourceAlpha"/>
+                </filter>
+            </defs>
+            <use xlink:href="#a034b28006e54929b9a832387fb822a4" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" p:filter="url(#39e154620ab8471aba5baa9f6d82290b)" style="opacity: 0.5; visibility: hidden; display: none;" p:heavy="true" p:name="bgCopy" id="e13a386b598a4eea8eb72cb49a5c70f6"/>
+            <use xlink:href="#a034b28006e54929b9a832387fb822a4" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+            <foreignObject x="0" y="900" width="1280" height="0" p:name="text" id="425732c00f9146738171116460fee941" style="font-family: &quot;Liberation Sans&quot;,Arial,sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(0, 0, 0); fill-opacity: 1; color: rgb(0, 0, 0); opacity: 1; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">
+                </div></foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="4002923221ea4dc1bd68b712c2ccb94e" transform="matrix(1,0,0,1,0,0)"><p:metadata><p:property name="box"><![CDATA[1280,346]]></p:property><p:property name="fillColor"><![CDATA[#0081C7FF]]></p:property><p:property name="customStyle1"><![CDATA[//Text Box
+Multiple Line]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="1039da5e6ebc4d1fb48fdb7b07bdd606" width="1280" height="346">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="a41cf53697a448fea99a767b79b90ef7" style="-moz-box-sizing: border-box;background-color: rgba(0, 129, 199, 1);height: 346px;width: 1280px;//Text Box
+Multiple Line"></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:horizontalRuler" id="f47ea81451394966be2dbcfcc3c0390b" transform="matrix(1,0,0,1,182,32)"><p:metadata><p:property name="box"><![CDATA[916,36]]></p:property><p:property name="hasLine"><![CDATA[true]]></p:property><p:property name="hasShadow"><![CDATA[false]]></p:property><p:property name="withMargin"><![CDATA[false]]></p:property><p:property name="lineColor"><![CDATA[#196C99FF]]></p:property><p:property name="customStyle3"><![CDATA[box-shadow: 0 1px 0 rgba(255,255,255,0.2);]]></p:property><p:property name="shadowColor"><![CDATA[#0000000A]]></p:property></p:metadata>
+			<!--Gaussian Blur filter for half-ellipse shadow-->
+			<filter x="0" y="0.5" p:name="gausBlur" id="f437a9881c88422fadf8d288ab314fd3">
+				<feGaussianBlur stdDeviation="5.45"/>
+			</filter>
+			<foreignObject x="0" y="0" p:name="container" id="dccdaddeb8b146a5a990be7d9d9a33d3" width="916" height="36">
+				<div xmlns="http://www.w3.org/1999/xhtml" p:name="line" id="534c7f6bb06f415ba58529ee6c540852" style="display: block;position:absolute;bottom:18px;width: 916px; height: 1px;background-color: #196C99;box-shadow: 0 1px 0 rgba(255,255,255,0.2);"></div>
+			</foreignObject>
+
+			<!--Creates an half-ellipse bottom shadow-->
+			<ellipse style="stroke: none; fill: rgb(0, 0, 0); fill-opacity: 0.0392157; visibility: hidden; display: none;" filter="url(#f437a9881c88422fadf8d288ab314fd3)" p:name="ellipseShadow" id="09161f95be8449968a3fd3f8946c4172" cx="458" cy="18" rx="438" ry="10"/>
+		</g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="67ad39bad291400d95b92307cc16c3ef" transform="matrix(1,0,0,1,340,51)" p:locked="true"><p:metadata><p:property name="box"><![CDATA[600,348]]></p:property><p:property name="fillColor"><![CDATA[#F1F1F1FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+here*/
+background-image: -moz-radial-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0) 75%);
+background-color: rgba(0,0,0,0);
+background-repeat: no-repeat;
+background-position: center -125px;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="2e6fd1cf40c142bc8b635ec9b7a5d62d" width="600" height="348">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="68800542c8b74a11957cc62da2db1251" style="-moz-box-sizing: border-box;background-color: rgba(241, 241, 241, 1);height: 348px;width: 600px;/*CSS
+here*/
+background-image: -moz-radial-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0) 75%);
+background-color: rgba(0,0,0,0);
+background-repeat: no-repeat;
+background-position: center -125px;"></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="6b9e257301c04d81a011591e0f130eb4" transform="matrix(1,0,0,1,254,87)"><p:metadata><p:property name="textContent"><![CDATA[Simplify Communications<br />]]></p:property><p:property name="textFont"><![CDATA[Segoe UI|bold|normal|64px|none]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="customStyle"><![CDATA[text-shadow: 0 1px 2px rgba(0,0,0,0.2);]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="772" height="87" p:name="htmlObject" id="e8bd4599d77e454f8fb6a793dbcdcc5e" style="color: rgb(255, 255, 255); opacity: 1; font-family: Segoe UI; font-size: 64px; font-weight: bold; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="0837531ffcbf4e14baf75c0204533096" style="display: inline-block; text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Simplify Communications<br /></div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="341468985300402f9a99509018a6df5b" transform="matrix(1,0,0,1,463,15)"><p:metadata><p:property name="textContent"><![CDATA[Learn Pricing Support Partner<br />]]></p:property><p:property name="textFont"><![CDATA[Segoe UI|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="customStyle"><![CDATA[word-spacing: 50px;]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="331" height="20" p:name="htmlObject" id="9446c79008db414ea08b6f73e2563762" style="color: rgb(255, 255, 255); opacity: 1; font-family: Segoe UI; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="ba9930398d654a9b93eef62598a2599d" style="display: inline-block; word-spacing: 50px; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Learn Pricing Support Partner<br /></div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:btnPrimary" id="bdf7b614f2d54e1fbfe32a812a65e1f4" transform="matrix(1,0,0,1,1005,10)"><p:metadata><p:property name="box"><![CDATA[95,30]]></p:property><p:property name="textContent"><![CDATA[Log In]]></p:property><p:property name="state"><![CDATA[normal]]></p:property><p:property name="position"><![CDATA[none]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="textFont"><![CDATA[Segoe UI|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="customStyle1"><![CDATA[]]></p:property><p:property name="customStyle2"><![CDATA[]]></p:property><p:property name="customStyleHidden"><![CDATA[]]></p:property></p:metadata>
+            <foreignObject p:name="container" id="5609cecef5564370aaedf067565d5a72" width="95" height="30" style="">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="divObject" id="296b9c20138643b889b28bce85f26c2c" style="font-family: Segoe UI;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: #FFFFFF;display: inline-block;border-width: 1px;border-style: solid;border-radius: 5px;height: 28px;width: 93px;line-height: 26px;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);text-align: center;background-image: -moz-linear-gradient(top, #00a5ff, #0084cc);border-color:#0f6597;color:#ffffff;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Log In</div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:btnPurchase" id="3705f55346374f069a1c7875f25dbdde" transform="matrix(1,0,0,1,899,10)"><p:metadata><p:property name="box"><![CDATA[95,30]]></p:property><p:property name="textContent"><![CDATA[Sign Up]]></p:property><p:property name="state"><![CDATA[normal]]></p:property><p:property name="position"><![CDATA[none]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="textFont"><![CDATA[Segoe UI|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="customStyle1"><![CDATA[]]></p:property><p:property name="customStyle2"><![CDATA[]]></p:property></p:metadata>
+            <foreignObject p:name="container" id="19143ce8550d4ffd950b807140634927" width="95" height="30" style="">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="divObject" id="8b1b9fd0b0174867a91a08b4412bc37c" style="font-family: Segoe UI;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: #FFFFFF;display: inline-block;width: 93px;height: 28px;line-height: 26px;border-width: 1px;border-style: solid;border-radius: 5px;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);text-align: center;background-color: #E68C24;background-image: -moz-linear-gradient(top, #E7B433, #E79C2C 50%, #E59123 51%, #E97926);border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);color:#ffffff;text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.16);box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.25);">Sign Up</div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="37883b150c654f4aad42598a242cb981" transform="matrix(1,0,0,1,378,15)"><p:metadata><p:property name="textContent"><![CDATA[Home]]></p:property><p:property name="textFont"><![CDATA[Segoe UI|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="customStyle"><![CDATA[background: none repeat scroll #00649a; padding: 2px 8px; border-radius: 15px;]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="53" height="24" p:name="htmlObject" id="3d0b0d5bf73743ea8b5853540b3aaaff" style="color: rgb(255, 255, 255); opacity: 1; font-family: Segoe UI; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="993c60b058064220a565d65618a5b7be" style="display: inline-block; background: none repeat scroll 0% 0% rgb(0, 100, 154); padding: 2px 8px; border-radius: 15px 15px 15px 15px; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Home</div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:horizontalRuler" id="444fda59721e41ec8c2fa2d3c9a8da77" transform="matrix(1,0,0,1,182,477)"><p:metadata><p:property name="box"><![CDATA[916,36]]></p:property><p:property name="hasLine"><![CDATA[false]]></p:property><p:property name="hasShadow"><![CDATA[true]]></p:property><p:property name="withMargin"><![CDATA[false]]></p:property><p:property name="lineColor"><![CDATA[#E8E8E8FF]]></p:property><p:property name="customStyle3"><![CDATA[]]></p:property><p:property name="shadowColor"><![CDATA[#0000000A]]></p:property></p:metadata>
+			<!--Gaussian Blur filter for half-ellipse shadow-->
+			<filter x="0" y="0.5" p:name="gausBlur" id="9c3072f17a924f6881f852c26f1e525c">
+				<feGaussianBlur stdDeviation="5.45"/>
+			</filter>
+			<foreignObject x="0" y="0" p:name="container" id="65dfbc7384dd48d58cc1c23c9827aadf" width="916" height="36">
+				<div xmlns="http://www.w3.org/1999/xhtml" p:name="line" id="918c717db8d1436dbbd91b8c79647905" style="display:none;position:absolute;bottom:18px;width: 916px; height: 1px;background-color: #E8E8E8;"></div>
+			</foreignObject>
+
+			<!--Creates an half-ellipse bottom shadow-->
+			<ellipse style="stroke: none; fill: rgb(0, 0, 0); fill-opacity: 0.0392157; visibility: visible;" filter="url(#9c3072f17a924f6881f852c26f1e525c)" p:name="ellipseShadow" id="c6c469815c504737a600643989f7f83e" cx="458" cy="18" rx="438" ry="10"/>
+		</g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="153d67a03670441a9dcb75472e99a18f" transform="matrix(1,0,0,1,531,543)"><p:metadata><p:property name="textContent"><![CDATA[Mobilize]]></p:property><p:property name="textFont"><![CDATA[Segoe UI|bold|normal|48px|none]]></p:property><p:property name="textColor"><![CDATA[#00000026]]></p:property><p:property name="customStyle"><![CDATA[font-weight: thin;]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="195" height="65" p:name="htmlObject" id="917150dcc96243cc87444cbe7b22119b" style="color: rgb(0, 0, 0); opacity: 0.14902; font-family: Segoe UI; font-size: 48px; font-weight: bold; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="bf06ead7696f454f80e7fb9c8e957cfc" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Mobilize</div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:horizontalRuler" id="2790d8f12d09455a80c8ce6169e28988" transform="matrix(1,0,0,1,476,598)"><p:metadata><p:property name="box"><![CDATA[300,36]]></p:property><p:property name="hasLine"><![CDATA[true]]></p:property><p:property name="hasShadow"><![CDATA[false]]></p:property><p:property name="withMargin"><![CDATA[false]]></p:property><p:property name="lineColor"><![CDATA[#E8E8E8FF]]></p:property><p:property name="customStyle3"><![CDATA[]]></p:property><p:property name="shadowColor"><![CDATA[#0000000A]]></p:property></p:metadata>
+			<!--Gaussian Blur filter for half-ellipse shadow-->
+			<filter x="0" y="0.5" p:name="gausBlur" id="8051a1a9dfe44edd9ce03f52a97623c2">
+				<feGaussianBlur stdDeviation="5.45"/>
+			</filter>
+			<foreignObject x="0" y="0" p:name="container" id="1df8f070bd704774b35f63811c541e4c" width="300" height="36">
+				<div xmlns="http://www.w3.org/1999/xhtml" p:name="line" id="0fb1523c0a33484fbd19b2b3c38eaeb8" style="display: block;position:absolute;bottom:18px;width: 300px; height: 1px;background-color: #E8E8E8;"></div>
+			</foreignObject>
+
+			<!--Creates an half-ellipse bottom shadow-->
+			<ellipse style="stroke: none; fill: rgb(0, 0, 0); fill-opacity: 0.0392157; visibility: hidden; display: none;" filter="url(#8051a1a9dfe44edd9ce03f52a97623c2)" p:name="ellipseShadow" id="798edbcf200e4cc8956781a847dbca0c" cx="150" cy="18" rx="130" ry="10"/>
+		</g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="766032253a6242d9846574719c74db89" transform="matrix(1,0,0,1,226,653)"><p:metadata><p:property name="box"><![CDATA[342,334]]></p:property><p:property name="fillColor"><![CDATA[#F1F1F1FF]]></p:property><p:property name="customStyle1"><![CDATA[//Text Box
+Multiple Line]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="e6c151835864477e87df0f896303f77c" width="342" height="334">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="f3d8d402fad74e609cb895b0be3f4dee" style="-moz-box-sizing: border-box;background-color: rgba(241, 241, 241, 1);height: 334px;width: 342px;//Text Box
+Multiple Line"></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:horizontalRuler" id="1cb62bb1367a443ebc20f306540f4327" transform="matrix(1,0,0,1,189,1257)"><p:metadata><p:property name="box"><![CDATA[916,36]]></p:property><p:property name="hasLine"><![CDATA[false]]></p:property><p:property name="hasShadow"><![CDATA[true]]></p:property><p:property name="withMargin"><![CDATA[false]]></p:property><p:property name="lineColor"><![CDATA[#E8E8E8FF]]></p:property><p:property name="customStyle3"><![CDATA[]]></p:property><p:property name="shadowColor"><![CDATA[#0000000A]]></p:property></p:metadata>
+			<!--Gaussian Blur filter for half-ellipse shadow-->
+			<filter x="0" y="0.5" p:name="gausBlur" id="ccfb5617a055417abb590e9beb78dac6">
+				<feGaussianBlur stdDeviation="5.45"/>
+			</filter>
+			<foreignObject x="0" y="0" p:name="container" id="7325d53cb9264855b18df64967368682" width="916" height="36">
+				<div xmlns="http://www.w3.org/1999/xhtml" p:name="line" id="869f0db84bee4b7e8ac67644124c5328" style="display:none;position:absolute;bottom:18px;width: 916px; height: 1px;background-color: #E8E8E8;"></div>
+			</foreignObject>
+
+			<!--Creates an half-ellipse bottom shadow-->
+			<ellipse style="stroke: none; fill: rgb(0, 0, 0); fill-opacity: 0.0392157; visibility: visible;" filter="url(#ccfb5617a055417abb590e9beb78dac6)" p:name="ellipseShadow" id="3bffd627289e421790909fd46a744900" cx="458" cy="18" rx="438" ry="10"/>
+		</g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="06291c89f9ae425dbd5868844b670b09" transform="matrix(1,0,0,1,528,1323)"><p:metadata><p:property name="textContent"><![CDATA[Centralize]]></p:property><p:property name="textFont"><![CDATA[Segoe UI|bold|normal|48px|none]]></p:property><p:property name="textColor"><![CDATA[#00000026]]></p:property><p:property name="customStyle"><![CDATA[font-weight: thin;]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="225" height="65" p:name="htmlObject" id="02cce210e0cd413c8807607c3625dd5f" style="color: rgb(0, 0, 0); opacity: 0.14902; font-family: Segoe UI; font-size: 48px; font-weight: bold; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="aee5a1381d5e4c159ffecc5ff655f563" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Centralize</div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:horizontalRuler" id="2ec7ff7435fc4815b577903c5bbd665e" transform="matrix(1,0,0,1,483,1378)"><p:metadata><p:property name="box"><![CDATA[300,36]]></p:property><p:property name="hasLine"><![CDATA[true]]></p:property><p:property name="hasShadow"><![CDATA[false]]></p:property><p:property name="withMargin"><![CDATA[false]]></p:property><p:property name="lineColor"><![CDATA[#E8E8E8FF]]></p:property><p:property name="customStyle3"><![CDATA[]]></p:property><p:property name="shadowColor"><![CDATA[#0000000A]]></p:property></p:metadata>
+			<!--Gaussian Blur filter for half-ellipse shadow-->
+			<filter x="0" y="0.5" p:name="gausBlur" id="555b0e32b8884d1096fb8001e9360d5e">
+				<feGaussianBlur stdDeviation="5.45"/>
+			</filter>
+			<foreignObject x="0" y="0" p:name="container" id="ac7b5bf4b2a241df80c12d5197ef25ad" width="300" height="36">
+				<div xmlns="http://www.w3.org/1999/xhtml" p:name="line" id="16510711fead4a85a23d30eda8982a4b" style="display: block;position:absolute;bottom:18px;width: 300px; height: 1px;background-color: #E8E8E8;"></div>
+			</foreignObject>
+
+			<!--Creates an half-ellipse bottom shadow-->
+			<ellipse style="stroke: none; fill: rgb(0, 0, 0); fill-opacity: 0.0392157; visibility: hidden; display: none;" filter="url(#555b0e32b8884d1096fb8001e9360d5e)" p:name="ellipseShadow" id="0096a2f8497743e9a618cc89a14373ad" cx="150" cy="18" rx="130" ry="10"/>
+		</g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="63f0e29464784ba483d8b0a36ce54a86" transform="matrix(1,0,0,1,606,653)"><p:metadata><p:property name="textContent"><![CDATA[It's like you never left your office<br /> at all<br />]]></p:property><p:property name="textFont"><![CDATA[Segoe UI|normal|normal|28px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle"><![CDATA[]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="401" height="78" p:name="htmlObject" id="6674e2cfb7d3479f88a25d22ef17c335" style="color: rgb(89, 89, 89); opacity: 1; font-family: Segoe UI; font-size: 28px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="8b2cc0ba44014041acf5bb21b625ae41" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">It's like you never left your office<br /> at all<br /></div></div>
+            </foreignObject>
+        </g></Content></Page></Pages></Document>

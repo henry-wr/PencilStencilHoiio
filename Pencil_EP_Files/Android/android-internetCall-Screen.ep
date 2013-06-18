@@ -1,0 +1,658 @@
+<?xml version="1.0"?>
+<Document xmlns="http://www.evolus.vn/Namespace/Pencil"><Properties/><Pages><Page><Properties><Property name="name">Internet Call - Screen</Property><Property name="id">1371440535132_8299</Property><Property name="width">384</Property><Property name="height">640</Property><Property name="dimBackground"/><Property name="transparentBackground">false</Property><Property name="backgroundColor">#F1F1F1FF</Property><Property name="fid">internet_call_screen</Property></Properties><Content><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="e25ae0c590154fb0890495d359ddf377" transform="matrix(1,0,0,1,0,597)"><p:metadata><p:property name="box"><![CDATA[384,43]]></p:property><p:property name="fillColor"><![CDATA[#000000FF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSSHere*/]]></p:property><p:property name="customStyle2"><![CDATA[/*CSSHere*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="5fae7d29103b46ba82613d889ffbbd0c" width="384" height="43">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="5cc112be964f4a6f86ece06c3d7f5a8b" style="-moz-box-sizing: border-box;background-color: rgba(0, 0, 0, 1);height: 43px;width: 384px;/*CSSHere*/">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="1b46578e907a4ebdb9bb8c16620ff37b" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 384px;height: 43px;/*CSSHere*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="c7d7c4f254534f7bacc9ebe33689a1a8" transform="matrix(1,0,0,1,16,506)"><p:metadata><p:property name="box"><![CDATA[352,73]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-radius: 2px;
+border-bottom: 1px solid #e8e8e8;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="c9d782afd1d54a9b9cca8e904c08564d" width="352" height="73">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="808818fc0ee641208ded17fd81ab31af" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 73px;width: 352px;/*CSS
+Here*/
+border-radius: 2px;
+border-bottom: 1px solid #e8e8e8;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="78e9ad7cb7ac46a7a0965315b4f83079" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 352px;height: 73px;/*CSS
+Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="18f51155b1d6425597aa79aeb3f04cda" transform="matrix(1,0,0,1,16,56)"><p:metadata><p:property name="box"><![CDATA[352,105]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-radius: 2px;
+border-bottom: 1px solid #e8e8e8;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="2df813ccecbc46c296514dbe734b2ef2" width="352" height="105">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="6f77c18bb3304cb78305ad253b941005" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 105px;width: 352px;/*CSS
+Here*/
+border-radius: 2px;
+border-bottom: 1px solid #e8e8e8;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="a033e8da785e47de8e1c9897f65614de" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 352px;height: 105px;/*CSS
+Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bitmap" id="d2855100dc0b4cdf86485336dc67880d" transform="matrix(1,0,0,1,20,60)"><p:metadata><p:property name="box"><![CDATA[96,96]]></p:property><p:property name="imageData"><![CDATA[128,128,data:image/png;base64,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]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFF00]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[0|]]></p:property></p:metadata>
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="imageShading" id="9fd6c4bb4c6c4bdb8f0cd064e86b0e11">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="60a7e360c787414da2b71bd03beaa79a">
+                    <rect style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 0; fill-opacity: 0;" p:name="bgRect" id="861d2985d21241ac8ee6b3b9d9fd735f" width="96" height="96" transform="translate(0,0)"/>
+                    <g p:name="imageContainer" id="372de2fdb7294ab1856fd9d9405337a7" transform="scale(0.75,0.75)">
+                        <image x="0" y="0" p:name="image" id="966530d1958c424493d867f5b56db74d" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAANzUlEQVR4nO2d248bVx3Hu1KUCKgAQVCkXlQJKFSgUKmlCAnECwURCRAr+kClwAMSlPYlTVUBUhVUoIhutrk2bTaXJt1eSFhCN21SNiHZKMlmGyXU9tqOHY9nxp7xfS7/w4+HyJbXO5dz+Z05x7t++L4lnrPn+znf3++cGY/vqlQqMNLa1V2yBzDSCICRRgDgq1qtokv23zQCIEGz1woUQwsAqUGWZXFrNcMwVAAkYTYWFLLnatUAgGm4bdvEwgRC9hwOJQA8ptMYTSseGGTP6VAAwGI8rYm1Wi1UmEAMAwjKAIBtepTJrMKGQfacKwEAjfFJms0LxbCAIBUAHuNJzKnX62hihYEUhDUFAOmqpzUe03AeIEhBUCENEgeAxXgswxuNBrGwgGABYdUCEGc+lvE0RtNKFAiyIEgEAAzjZZqOCYNqIAgHgNd8DNObzSazMGBQGQKhAESZz2q8SLOxoMAAISkIhAGAvepZTG+1WmhigQE7DYYGAFLzeYynNbzdblOLFggsEJKEAB0ALPNJjccymwcKVhBUgAAVABbzSVd9nPEiTSeFgQSEuDRIGgI0ADDMpzWe1rBOp0MsHhhYQJAFAQoASZhPazyN2ZhQhIGgKgTcAIgwn9X4INMcx4ElqwN/X2jAz2dr8PBbFnz5mAVjeys9bTxYhYffsuAHMzZsv1CHDwttcBynJxYYSEGQDYEwADDNpzG9a9qS1YHnL9bha28uN5tUm6aq8KuzNTidby2DIQgIEhCwIVACAB7zoyKfZNUHmd41/hcf1GD9fnrTw/TYO1YgCIMw0KRBXElICgJmADDNp1n1YcY7jgN/vtKAuw9U0Ywf1M/eq4FWX3ldWhBI0yAJCJgAkGF+lPF2y4Gf/LsmzPh+PXDUgstaOxACEhBUgwANAFnmp6sd5jrPqrsPVOHNVHBJkAFBogDErX7Sho+k3kcZ7zgOXNbasGlKXOTHaediE1zXZQIhri8gaQwxUoAKAJroF21+1nLgnsPyzO9q6mYLXNcNBUEEBJilgBsA2ugnif0o413XhWbHhUfetqWbP7a3Auv3V+CS1ulBEAcCbTkQXQqIAWCN/ritHq35ruvCb+fq0o3v1xffsKDactAgoO0HeFKAGgCa6Mcyv39iL2kdWLdPvumD2nahsWycYSBgQhBXCtAAwFj9GOa7rjrRP6gN+ytws7JyvFgQiEoBKgBkm38q15ZudJS2nqmD53ngeZ4yEHADQLr6SaOf1XzP8+D7M8kc9vCkQKHmokDAUgpYUoAYABGrn8b8nO0qWfsH9eKVZg8AVgiSTIFIAHhXP0v0B5nveR5MftSSbi6Jvv2uvQyAOAiwSgFrClADwLr6ecz3PA+2nFI7/rtat68CVttFg4AnBdAAwF79JNE/OIEbD8o/9SPVqVx7xfgHIRBRCljKQCgApKd+Ilb/4MSVm650U2n08rVmIABREGCkAMvpYCwApM0fz+qPin7P8+B8qSPdVBo9da5BBAAJBCQpwNMMcgHAuvppot/zPHg7o/b+f1BPnK6HAkBSCjBSgAsAnuaPZ/WHTdjU/4ZjB9DVllO1SABoS0FYCmA0g5EAqLD6Pc+D6fRwJcD4bB183x+KFBACAObq9zwP3ssPVw+w9Ww8ADwpIBQAkfHPsvo9z4O0NVy7gBcuN8H3fdQUEFUGuAFgjX9S833fB8fzYQPiY96idTTV7gHACgFLGUAFQJX4707io4reBg5S2nJRAEiiDKABQBP/tOb7vg/PXmhKN5ZE9x+xlo0bMwVoygAaAFGnf0nEf1cfFh3p5pLo1/9pCAOApgxEnQqGAiCi/rPGf9AkPnA02ef/WfRh0QkcexQEtGUAsw+gBgCz/pOu/q52XFG7DGyetkPNJ00BkX0AMQDYDSBv/Hdldzz43Ovq3hU8nm5zA0DTB2A0gigAYDeAUZP44lU1j4W/9a4Njhc+bp4yILIRRAcAowGMmkDH82HztFpbwnX7KnBZD6/9mACE9QFCAODdAWA2gP1aNF34xKvyje+q/+RPBACsjSDJTmAoAfB9Hw7cUOMG0ZZTNWLzhxYAEVtA2gZQxV3Bo2/b0HDIzcfcCfBuBVcFAL7vwwuX5UDwnRM2VNp0Y13zAPBsAePKQZI9wfhsnXrl0wDQD8EIAEItGC48eEzsSeHdB6qw+3qLaXwjAAQD4Ps+tNw7fYGIF0X99L06LNkul/lrHgARPUCQ9JYHz11swkbO18ds2H/nAc/5Mtkef9QDKAJAv+ZuO/DcxQZxedh4sApPnK7DdLoNVpt/xa8KAFQ8B2CZ+HLThYtaB07l2rDregtevtaEXddbcOTjNlzUOpCqOomMY+jOAVYDAHGrT/YYlARAxXsBSUAg4/pK3gtQ8W7goBzPh+lMB54534AFg6xms5pvtlzYMW/DjnkbSnW2/oAXACXvBib1PEC/Gs6dU8BNh5Z3+j/8Vw1mch3UVXvD7MBTZyvw6d0FGJvIw9hEHjZM5mF8xoCPDPJr0W4BpT0PELUTkPlEUFcLhgsPHY/u6jdOVeHJM3U4ke2A1qBPlTP5Fjx3rgpfmSr2TA/Sp3YVYHIh+kkgGgCUeCIoqa0gSxl4ebHF9B2Bew5X4fF/GLB11oRtc1WYXLB72jFvw9ZZE8ZnDHjoULThYdpyogxmK7osJNkAMgGg8lPBvo9w92+3zmQuqb5xtBTaG2DEP/YOYKi+F/DXBaRHwSZvC4XgoUPFwCTArv+JfS9AhW8G7b6O+BzgHhPGJm4JheC709qy5wNZzZf6zSDMPoAnBS7rDv73AneVhQIwNpGHbXNVafFPWv9RAGAtAyQQmC1X3JdBdhaEQ3AiE/6qmCjzeeOfCwCVysD4rMBXw+0xhAPw+b0FuGU7TKtf2vsBMADAeEPIsVQCD32+UhIOwfiMwb36SeJfCAAiygBJClhtN7lfA9kptiEcm8jDB/mVr41jXf2JvCNIdgpsu9BIxvy9FeFnA2MTefj64SJ0XPVWPzcAJLsB2hTIWk7yX/oQfDYwNpGHnQv2CvN5Vj9p988NAOmpIG0KhEHw9DkJPweTwNnAfQeK0HSG6E2hmGWA9F3Bt+uO0F/+jFQCZwO7FuzI6GdZ/TzxTwwASzPIkgLbk6z9QRLcEH7pYBHajpjVT9v8MQOAlQKDEFSaHfjMa5K/+59AQ3jkRo3YfKzVzwwASzPIWgr2fKTI2z8EN4Tfe0tDj37W+KcCgDUFSEvBY+8o8v4fwQ3hup15uKG3mKIfe/UTASA6BdrtNizqir31Q3BDuH3ORIt+ntVPDYAoCH43p+DPwUyyPRlEontfLUCzPUS/GxiXAiyloB+C+xT4EeiVpUDszaLZbI3YfJp9P83qZwKAJwWCILh0W5HmL7AUaMIAeOaswWU+xuqnAiAMgqAUICkFtm1DpVKB5+cM+UZHSdDZwIOv56Fara4wnzb6aff96ACQlIJ+CGzbBl3XQdM0KJfL8NU3TPkmR0ng2cCZxQzk83mwLCvWfJroFwYATymo1+tgWRaUSiUolUqgaRpomgbfnFYcgL0VYWcDM1eXIJPJQDqdBtM0iczHin5mAHhKgaZpPQC6EFzIDEEKIJ8NfPKVPPzpTBbS6XRPmUwm0ehHB4AEgkEAuhAUSxr88ZwOXziogNlhQjgbWD+Zh8ePZ+HMYmaZ+alUCrLZLJP5UgBghcC27RUA9JcDTdPg8DUdfnTShM++poDpg2J8kHTzVA6enc3C/I1ML/L7zc9kMmBZVuLmcwHACkGtVgPDMCJBKJfLUC6X4WxKhz+cN2DLP03YfNyU/+vhBGcD9+7LwyOHc/DLkznY998sLH58p8531W98KpWCYrEItVpNivncAPCUg1qtBpVKBXRdD02DLgi6rvd0La/DzE0DXpo34DcfmPDjGRM2H6/A+qR+U+iVEty/Pw+PHcnB+Ls5+P37OdhzPgsnr2ZhaWlphQaNT6fTkMvloFwuBxqfpPlCASBtDLt/sGVZYBjGMgD6IRgEIUip2wacTt3RyZsGvHTJhL/16emzFXhyNlp/mV/+fw4vmr3PnM8aYBgGlMtlKBQKkM0Gm95vfCaTgaWlJSgUCmCaZi/qabr9QfOVAgALgv5J6QJhWRaYpgm6rlOBoOs6GIaBrqDrlEoluHXrVg+GfD4PxWIRDMMA0zTBtu3A0z0VzEcDQAQEgyeHzWaz9+/6J6Z/EsJMYoEi6P/3/62WZfX+ju5Yg071VDYfFQAsCEhA6L+XEHaLOWziuwnTr7B/12w2V3xu0A0cHuNlmo8OACsEpGlAAkIQDJgKuh6J8XGrXob5QgDAhIAGhDAYeKCI+ryg65Mar4r5wgCggYAXhDAY4oCgVdg1osZFa3zS5gsFYBCCqHMCUgjiQIiCAVNxYwgbO435g3MnyiOhAMRBwAMCCQwYUJBeI2qcPKtepPmJAIABQRwINDBgKm5MQX+HSuYnBgAmCLJhYDFdReOlAEACASYIPGDQfjar8TLNlwJAEASkIETBwAIEj6LGETRuEuOTNl8aADRpwAKCCCBIrkdqvOxVrwwANGkQBgIpDKIUNiZS42WarwQALCBEwSASirhrRo1XNeOVAyAKBF4YaOCg/Sxa01UxXlkAeEBgBQLL8GEyXnkA4kAghYEVDNrPjhqn7DkcagBIYWABgkdxY5E9V6sSABoYMKEgvZbsOVlTALDAIEKy//YRACEamb3GARhpBMBIBPo/+VKn6UJyaDcAAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128"/>
+                    </g>
+                </g>
+            </defs>
+            <use xlink:href="#60a7e360c787414da2b71bd03beaa79a" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#9fd6c4bb4c6c4bdb8f0cd064e86b0e11)" style="opacity: 0.6; visibility: hidden; display: none;" p:name="bgCopy" id="57b523cc1daa4b938b109fe31e588819"/>
+            <use xlink:href="#60a7e360c787414da2b71bd03beaa79a" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.AndroidICSHIFI:statusbar" id="3664e3c7686541c8940615b904b082ee" transform="matrix(1,0,0,1,64,0)"><p:metadata/>
+            <image width="320" height="25" x="0" y="0" xlink:href="data:image/png;base64,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" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="img" id="79c65873afd04cecaea8ced4dfcccd0a"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="abb48e038c9a4962b3eb1caba00f2677" transform="matrix(1,0,0,1,-1,0)"><p:metadata><p:property name="box"><![CDATA[100,25]]></p:property><p:property name="fillColor"><![CDATA[#000000FF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSSHere*/]]></p:property><p:property name="customStyle2"><![CDATA[/*CSSHere*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="247de8f9c1364807979c5929ee166be8" width="100" height="25">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="ccc2ab2538f24600bd4c241e94a06fd4" style="-moz-box-sizing: border-box;background-color: rgba(0, 0, 0, 1);height: 25px;width: 100px;/*CSSHere*/">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="74965d7abb234966861b1688d7076a5c" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 100px;height: 25px;/*CSSHere*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="4e2eb797ab7449f5887b8d26c5fd7940" transform="matrix(1,0,0,1,16,441)"><p:metadata><p:property name="box"><![CDATA[352,56]]></p:property><p:property name="fillColor"><![CDATA[#FF6666FF]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|16px|none]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-radius: 2px;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+text-indent: 32px;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="05ba03fe8ba745198036f35d87c17c6d" width="352" height="56">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="4fbdbbb5ed374304a64dc3c2250c9e86" style="-moz-box-sizing: border-box;background-color: rgba(255, 102, 102, 1);height: 56px;width: 352px;/*CSS
+Here*/
+border-radius: 2px;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="40df6e8c20a84d5281c4ac3017320baa" style="font-family: Roboto;font-size: 16px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(255, 255, 255, 1);display: inline-block;width: 352px;height: 56px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+text-indent: 32px;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="ba4b9ad5858d475b89bdc39ab97d7235" transform="matrix(1,0,0,1,0,25)"><p:metadata><p:property name="box"><![CDATA[385,8]]></p:property><p:property name="fillColor"><![CDATA[#33CC00FF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSSHere*/]]></p:property><p:property name="customStyle2"><![CDATA[/*CSSHere*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="7bbf3b1ebb234a4e943db0e5bf1c9f20" width="385" height="8">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="d15993a691c34d53a504e6d96a0554fa" style="-moz-box-sizing: border-box;background-color: rgba(51, 204, 0, 1);height: 8px;width: 385px;/*CSSHere*/">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="78921ca4ceeb4582b804281e94daf3e3" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 385px;height: 8px;/*CSSHere*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="63ca97a861a042f0a5e3d63089e9d4f2" transform="matrix(1,0,0,1,154,95)"><p:metadata><p:property name="textContent"><![CDATA[Max Tuan Duong<br />]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle"><![CDATA[]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="167" height="27" p:name="htmlObject" id="1472463f29db4d38a099af8d57a9bc99" style="color: rgb(89, 89, 89); opacity: 1; font-family: Roboto; font-size: 22px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="75be24873b96451da577cc35261e158e" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Max Tuan Duong<br /></div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="10bac0f26b354800b01594e3e7d8fa55" transform="matrix(1,0,0,1,16,168)"><p:metadata><p:property name="box"><![CDATA[352,96]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-radius: 2px;
+border-bottom: 1px solid #e8e8e8;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="3f3e1b1657af4dd28ee57cc4a204f199" width="352" height="96">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="c76a46ae925b44caba6a958b903f3f98" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 96px;width: 352px;/*CSS
+Here*/
+border-radius: 2px;
+border-bottom: 1px solid #e8e8e8;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="a74d017f7ab84bc6bffe3b716dc3f842" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 352px;height: 96px;/*CSS
+Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="a14f13829aac406da5ff40b0c97813e4" transform="matrix(1,0,0,1,32,226)"><p:metadata><p:property name="textContent"><![CDATA[Connection Status<br />]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|18px|none]]></p:property><p:property name="textColor"><![CDATA[#C0C0C0FF]]></p:property><p:property name="customStyle"><![CDATA[]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="149" height="23" p:name="htmlObject" id="4f11677cecf847a4940eac65bcee9544" style="color: rgb(192, 192, 192); opacity: 1; font-family: Roboto; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="51dda58bb3084a3a9687f6c84a4eaab2" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Connection Status<br /></div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="7a54bd0f78034cdc9fdef4fbf7170cd1" transform="matrix(1,0,0,1,329,227)"><p:metadata><p:property name="box"><![CDATA[24,24]]></p:property><p:property name="fillColor"><![CDATA[#33CC00FF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-radius: 100px;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="a723cd84ae674f0a8b3e0b9eefa82c50" width="24" height="24">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="d93f1249ebfa4a768510c8373dfe0843" style="-moz-box-sizing: border-box;background-color: rgba(51, 204, 0, 1);height: 24px;width: 24px;/*CSS
+Here*/
+border-radius: 100px;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="d3bb65077abe4d2f866de2ec246d2a64" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 24px;height: 24px;/*CSS
+Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="7fb51a55023b4d6a9549c2a78797218c" transform="matrix(1,0,0,1,104,515)"><p:metadata><p:property name="box"><![CDATA[88,56]]></p:property><p:property name="fillColor"><![CDATA[#F1F1F100]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-left: 1px solid #e8e8e8;
+border-right: 1px solid #e8e8e8;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="e88ea8ecb63b41a89cd3ef9e4516a94b" width="88" height="56">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="2fc333e111cf4ee48ea43d39e4bb13d4" style="-moz-box-sizing: border-box;background-color: rgba(241, 241, 241, 0);height: 56px;width: 88px;/*CSS
+Here*/
+border-left: 1px solid #e8e8e8;
+border-right: 1px solid #e8e8e8;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="924fae0c1e514d16acd4eb5ca531758e" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 88px;height: 56px;/*CSS
+Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.AndroidICSHIFI:navigationbar" id="27e41535c14f41d0bce050b6940d1c7b" transform="matrix(1,0,0,1,39,597)" p:locked="true"><p:metadata><p:property name="press"><![CDATA[none]]></p:property></p:metadata>
+            <image width="320" height="43" x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAArCAYAAAAJ1FGHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAASVSURBVHic7dzPShtbAMfxr2E0oTEhJBKimCgttsFaqAR1UeimW9/BXZ/jPkefou2quC1uCkIX0sS/bUibyOjMRGk0saO5i15zWyjc0jtjYs7vswx4zomYbw7HmRkB/kJExEAjQLffixAR6YdIvxcgItIvCqCIGEsBFBFjKYAiYiwFUESMpQCKiLEUQBExlgIoIsZSAEXEWAqgiBhLARQRY1n9XoCYJxKJEI/HyWQyxGIxHMfB8zx83+/30sQwCqDcmEgkwuTkJOl0mkwm81MAXdfFdV0+f/5Mp9Oh29UzOiR8xj0NplAoMDExwfn5OfV6nZOTk34vaeglEgkymQzpdJrp6WlSqRQAnufRbrdJp9Mkk0lOT0+p1Wq9IJ6cnHBxcdHn1d8OpVIptLE3NzdDG7vfjNoBRqNRFhcXSSaTHBwcUK/X+72koWVZFolEgnw+39vxpVIpPM+jWq3iui6O4/QCeB3Iubk5ZmdnezvCWq2G67p0Op1+v6WBpgD+GWMCaFkWCwsLpFIpqtUqlUpFu78Q/LjbS6fT5PN5ut0ujuNQLpf58uULruvSarW4uroCwHVdPn361NshXgcxl8uRzWZ7MXQcB8dxej8n/wojUlNTU0xOTgY+7iAxIoCWZbG6uko2m+Xdu3dsbW3pwD1AlmVRKBS4f/8+hUIBgMvLS46Pj3nz5g2NRuM/x/B9H9u2sW2799r4+DiLi4vMzc0RjUYBaDab7O/vc3BwQLPZ1FnhP8LapSmAt9zIyAjPnj0jm83Sbrcpl8uKX4CePn3K3bt3GRsbA74H6uPHj+zv7+N53v8K1NevX3n79i0bGxvk83mKxSKFQoFSqcTjx485Ojri9evXQb0VMdDQB3B5eZmZmRkAYrEYa2trgY7farU4OjqiXC5Tq9UCHfs2KBaLANi2ze7uLtvb24F/wVxdXVGtVqlWq+RyOe7du8fMzAy5XC7QeQbd8+fPQ5/jxYsXoc8xSIY+gKOjo6GOH4/HicfjzM7O0mg0WF9fN/LA/uXLlzcyz+HhIYeHh7Tb7VAP/sUMQx/AjY0NbNtmaWmJaDTK+vo69Xo9sIP0O3fukEgkmJqa4tGjR6ysrPD+/XtOT08DGV/kR5ubm6Gc993E7nIQDX0Au90ue3t7jI2NUSqVmJ+f59u3b9i2HcgB+tnZGWdnZziOQywWY3p6momJCQVQ5BYY+gDC9zOkSqVCNBplYWGBi4sLfN/HcZzA5vB9nw8fPlAsFhkfHw9sXBEJjzEPQ/B9n62tLZrNJvl8ngcPHpBMJgOdo9VqYVkWlmXE94rIrWfUJ7XT6fDq1avQxr++1Kbdboc2h8hNCeu8cZAYswMMWywW48mTJ3ieh+d5/V6OiPwGo3aAYbi+fevhw4ckEgl2dnZ+uptBRAaXAvgLpVLpj64xazQaVCoVLi8vQ1jVYDP1Moqb9qd/m/JrCuAvNBqN3z778H2/dzeIiQ9XGPYzokGi33XwjHseoIjINf0TRESMpQCKiLEUQBExlgIoIsZSAEXEWAqgiBhLARQRYymAImIsBVBEjKUAioixFEARMdbfc6PDY4sjFVAAAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="img" id="3262ca4155c24f4aa92c8f6cdd603373"/>
+			<image width="94" height="43" x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAArCAYAAADxPT8cAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJGSURBVGiB7dvBauJQFAbg/5yYEuOMpd2UinSy6rIP0JU+hGUecagPoas+gMuuMkUs3bTUGaM0JmcWTULiFGZR517wnm9lLhF+fg4nEJFEBHXDKVrL1eN3ACHUPiTdzvmPyQDb+iHv3vXr9+MVtPR9CotOGxrFD6dxIEx/3aQ+R5iuhtM4qJ81il9uwkuIHJmN5QCRo+UmvKwfNYqXbBsZDeSQ3W6r4ofTOCChM+OJHEFCZ/V1UxX/kvgXIJCdWA4g0EviX5SXVfE+6JudRO6od8wAcDOGl4P79iK5IQf3b8bwgKL4+HjRg4hvN5YDRPz4eNEDiuLzXNeMKWXXDACyhRZvSNk1X4/nbRA6tgM5g9C5Hs/bnJ2SvpcxLDulkLM167Qblq25w9A3kTaEDF+LN85HyLLVB6tpsoWuGktCBnTiLdCJtyRkEgT/vk/tEwkCFsLGdhDXCGHDABLbQRyUMICV7RQOWunE25EwtXTiTaMWVoxUJ9649H3Ha/HmJey1c101hnntfMXes+jEG+Y9S8J3o/4aog9YYwSru1F/zQBALfy0nccVZdcMAMyixRtSds0AEL32FiBK7UZyAFEavfYWQFH87QgZI5/bTXX4GPn8doTs/XMhha6b/63ecVX8SZg+QCAff0V9mkBOwvShvKyKnwyijZA82Ul1+ITkaTKIqt8+Gn/FIa8VG0/kiN1uG8V3g+QeRG9GE7mA6K0bJPf1o0bxk0G0oVxmZlMdPsplVl8zwAd/MP765XwGfWO5T0nRacMfM9+5Ux8icx0AAAAASUVORK5CYII= " xmlns:xlink="http://www.w3.org/1999/xlink" p:name="coverBg" id="1ad1f4fcab7f418d96aa1e0c3260b2c4" style="visibility: hidden; display: none;" transform="translate(202,0)"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="851b0c156c374dcab1247297a66f2207" transform="matrix(1,0,0,1,32,183)"><p:metadata><p:property name="textContent"><![CDATA[Call Duration<br />]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|18px|none]]></p:property><p:property name="textColor"><![CDATA[#C0C0C0FF]]></p:property><p:property name="customStyle"><![CDATA[]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="105" height="23" p:name="htmlObject" id="0adb9854ccbb448390c13fcacbb79030" style="color: rgb(192, 192, 192); opacity: 1; font-family: Roboto; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="3044361f311142a58fcfd8a54072ea99" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Call Duration<br /></div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="81dbdadc31b94d569a6a55faad76588b" transform="matrix(1,0,0,1,318,182)"><p:metadata><p:property name="textContent"><![CDATA[0:23]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|18px|none]]></p:property><p:property name="textColor"><![CDATA[#C0C0C0FF]]></p:property><p:property name="customStyle"><![CDATA[]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="35" height="23" p:name="htmlObject" id="d4032b202e624e7c8e05e3d4499cb475" style="color: rgb(192, 192, 192); opacity: 1; font-family: Roboto; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="3f648ab1b0884177b653e8072adef210" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">0:23</div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:horizontalRuler" id="69ff6003bbc5451d95b5312ec4c56e54" transform="matrix(1,0,0,1,16,196)"><p:metadata><p:property name="box"><![CDATA[352,36]]></p:property><p:property name="hasLine"><![CDATA[true]]></p:property><p:property name="hasShadow"><![CDATA[false]]></p:property><p:property name="withMargin"><![CDATA[true]]></p:property><p:property name="lineColor"><![CDATA[#E8E8E8FF]]></p:property><p:property name="customStyle3"><![CDATA[]]></p:property><p:property name="shadowColor"><![CDATA[#0000000A]]></p:property></p:metadata>
+			<!--Gaussian Blur filter for half-ellipse shadow-->
+			<filter x="0" y="0.5" p:name="gausBlur" id="9e0fb7832a79478db22093eec4986906">
+				<feGaussianBlur stdDeviation="5.45"/>
+			</filter>
+			<foreignObject x="0" y="0" p:name="container" id="d59d4918df6f4280b893c8d61f9c9654" width="352" height="36">
+				<div xmlns="http://www.w3.org/1999/xhtml" p:name="line" id="dc0c63b7bd11467ca590ecece533ff97" style="display: block;position:absolute;bottom:18px;width: 352px;width: 322px; margin-left:15px;height: 1px;background-color: #E8E8E8;"></div>
+			</foreignObject>
+
+			<!--Creates an half-ellipse bottom shadow-->
+			<ellipse style="stroke: none; fill: rgb(0, 0, 0); fill-opacity: 0.0392157; visibility: hidden; display: none;" filter="url(#9e0fb7832a79478db22093eec4986906)" p:name="ellipseShadow" id="4c412b2496be4dec8b225099d4806036" cx="176" cy="18" rx="156" ry="10"/>
+		</g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="5c2184f3d8704f7481bf8f4a3253ee51" transform="matrix(1,0,0,1,240,226)"><p:metadata><p:property name="textContent"><![CDATA[Excellent]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|18px|none]]></p:property><p:property name="textColor"><![CDATA[#33CC00FF]]></p:property><p:property name="customStyle"><![CDATA[]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="72" height="23" p:name="htmlObject" id="b57b36c70ae74313ada274ded3010fdb" style="color: rgb(51, 204, 0); opacity: 1; font-family: Roboto; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="587793bc57094870af127c88c927b544" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Excellent</div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="a0c9d922874d40e480239b102c5b0c54" transform="matrix(1,0,0,1,191,514)"><p:metadata><p:property name="box"><![CDATA[88,56]]></p:property><p:property name="fillColor"><![CDATA[#F1F1F100]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-left: 1px solid #e8e8e8;
+border-right: 1px solid #e8e8e8;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="d20412d02ab747508a0b461210daa96c" width="88" height="56">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="5e0ff05a1b6c494a8b8e3b1e2325ce6f" style="-moz-box-sizing: border-box;background-color: rgba(241, 241, 241, 0);height: 56px;width: 88px;/*CSS Here*/ border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="e39afc137f004bd5a537e02133b4a668" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 88px;height: 56px;/*CSS Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="619b234b27ba4c19938d21a6f35b335c" transform="matrix(1,0,0,1,294,524)"><p:metadata><p:property name="textContent"><![CDATA[<div style="text-align: center;"><span style="color: rgb(89, 89, 89);"><span style="color: rgb(153, 153, 153);">Switch to</span><br />Call Back<br /></span></div>]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle"><![CDATA[]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="59" height="36" p:name="htmlObject" id="994a73ce94fc4032a4ab668985960f25" style="color: rgb(89, 89, 89); opacity: 1; font-family: Roboto; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="ecbfc7c8ec174c94a0af995c83a1ee4e" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml"><div style="text-align: center;"><span style="color: rgb(89, 89, 89);"><span style="color: rgb(153, 153, 153);">Switch to</span><br />Call Back<br /></span></div></div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bitmap" id="fde1556ffb884be9af76f6e5cb797cef" transform="matrix(1,0,0,1,132,524)"><p:metadata><p:property name="box"><![CDATA[32,32]]></p:property><p:property name="imageData"><![CDATA[32,32,../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_bluetooth.png]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFF00]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[0|]]></p:property></p:metadata>
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="imageShading" id="51d87b0fca0a4af888ab15384a492ab3">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="abf6705997d34c6790a96e7684a1bf3c">
+                    <rect style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 0; fill-opacity: 0;" p:name="bgRect" id="ae5572b938b94597b39110da4352f8a9" width="32" height="32" transform="translate(0,0)"/>
+                    <g p:name="imageContainer" id="eea5b705fd8e4c9daf57f4eab2d33a19" transform="scale(1,1)">
+                        <image x="0" y="0" p:name="image" id="da633de522c645e18df410a471984df4" xlink:href="../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_bluetooth.png" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"/>
+                    </g>
+                </g>
+            </defs>
+            <use xlink:href="#abf6705997d34c6790a96e7684a1bf3c" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#51d87b0fca0a4af888ab15384a492ab3)" style="opacity: 0.6; visibility: hidden; display: none;" p:name="bgCopy" id="fb46e1ad7dfb48edbf6d6bd7c66b3a48"/>
+            <use xlink:href="#abf6705997d34c6790a96e7684a1bf3c" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bitmap" id="13950eeca9494ed782813c50a8368596" transform="matrix(1,0,0,1,39,524)"><p:metadata><p:property name="box"><![CDATA[32,32]]></p:property><p:property name="imageData"><![CDATA[32,32,../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_dialer.png]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFF00]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[0|]]></p:property></p:metadata>
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="imageShading" id="b87ebe2165a24ede874b4e08390c9be7">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="336f26344e354b938e07a5bc7fae54aa">
+                    <rect style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 0; fill-opacity: 0;" p:name="bgRect" id="71b76f186c484e9c84b80c2953eb2a7c" width="32" height="32" transform="translate(0,0)"/>
+                    <g p:name="imageContainer" id="499311437d9e469b817ce658b1bf0ca5" transform="scale(1,1)">
+                        <image x="0" y="0" p:name="image" id="a4c0592fb60b412caba7759c2e7e2fcc" xlink:href="../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_dialer.png" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"/>
+                    </g>
+                </g>
+            </defs>
+            <use xlink:href="#336f26344e354b938e07a5bc7fae54aa" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#b87ebe2165a24ede874b4e08390c9be7)" style="opacity: 0.6; visibility: hidden; display: none;" p:name="bgCopy" id="e037d5abaab94a47bfecf9bf997b3f47"/>
+            <use xlink:href="#336f26344e354b938e07a5bc7fae54aa" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bitmap" id="8ab7c7a77a6f42b1ba30b1f5f347143f" transform="matrix(1,0,0,1,219,524)"><p:metadata><p:property name="box"><![CDATA[32,32]]></p:property><p:property name="imageData"><![CDATA[32,32,../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_micoff.png]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFF00]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[0|]]></p:property></p:metadata>
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="imageShading" id="f93b8451ce5643af88da7ba2bcd29ccd">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="70853aa17e914925a620e6dc05787f9e">
+                    <rect style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 0; fill-opacity: 0;" p:name="bgRect" id="3c646a22d1b24111bcd0e8d92d8adab4" width="32" height="32" transform="translate(0,0)"/>
+                    <g p:name="imageContainer" id="040db9b3df3345ff873a8db5f3385717" transform="scale(1,1)">
+                        <image x="0" y="0" p:name="image" id="e8302bbf689b42b5ad2b094f0da887b7" xlink:href="../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_micoff.png" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"/>
+                    </g>
+                </g>
+            </defs>
+            <use xlink:href="#70853aa17e914925a620e6dc05787f9e" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#f93b8451ce5643af88da7ba2bcd29ccd)" style="opacity: 0.6; visibility: hidden; display: none;" p:name="bgCopy" id="3376c825f351410e9413052e7bbc2d41"/>
+            <use xlink:href="#70853aa17e914925a620e6dc05787f9e" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.AndroidICSHIFI:spinnerV1" id="dce3695b84a34ad0844347ca8a26fd15" transform="matrix(1,0,0,1,121,527)"><p:metadata><p:property name="box"><![CDATA[70,48]]></p:property><p:property name="status"><![CDATA[normal]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="colorTheme"><![CDATA[light]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Roboto",Arial,sans-serif|normal|normal|12px|none]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textAlignment"><![CDATA[0,1]]></p:property></p:metadata>
+			<g p:name="bg" id="7415a433c08a45cba377297f38f11793"><image x="0" y="0" width="4" height="4" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAADElEQVQImWNgoBwAAABEAAGC/mVLAAAAAElFTkSuQmCC" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="4" y="0" width="50" height="4" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAECAYAAACk7+45AAAAC0lEQVQImWNgIAwAACQAAa5tRrMAAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="54" y="0" width="16" height="4" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAECAYAAACHtL/sAAAAC0lEQVQYlWNgGAUAAQQAASbV+Y4AAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="0" y="4" width="4" height="18" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAYAAAB/qH1jAAAAC0lEQVQImWNgIAQAACIAAUazuGwAAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="4" y="4" width="50" height="18" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAC0lEQVQImWNgQAcAABIAAW/6Y7cAAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="54" y="4" width="16" height="18" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAACCAYAAABR7VzxAAAADElEQVQImWNgGGgAAACCAAEK6LaTAAAAAElFTkSuQmCC" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="0" y="22" width="4" height="26" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAaCAYAAACQLf2VAAAADklEQVQYlWNgGAVDEwAAAboAAVQh0r4AAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="4" y="22" width="50" height="26" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAaCAYAAACdM43SAAAADElEQVQImWNgGCkAAADqAAGuUFLGAAAAAElFTkSuQmCC" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="54" y="22" width="16" height="26" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAaCAYAAAC+aNwHAAAAhElEQVQ4je3RIRKDMBBG4S2irsNwiojMiuyzlZW9UC0Kj+K2GAR0mrCJLf/Myu+ZFbn2h+tE5NYkY4x34BlCeDRhM3sDo6oOTdjMZmCqCuyxmS1VgW9cFfiF3YEcdgVK+DRwhosBD84GvDgbSCm9gBGYHPcB+kMA6FV18NyGu+Ibr9VvBZhta1SKzZcvAAAAAElFTkSuQmCC" xmlns:xlink="http://www.w3.org/1999/xlink"/></g>
+			<text p:name="text" id="7aaa16cc7ccc4525baf63267f7fe9179" style="font-family: &quot;Roboto&quot;,Arial,sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(51, 51, 51); fill-opacity: 1;" transform="translate(4,24)"> </text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bitmap" id="6ab53f8b64fa45fda9cfde071e090896" transform="matrix(1,0,0,1,175,445)"><p:metadata><p:property name="box"><![CDATA[48,48]]></p:property><p:property name="imageData"><![CDATA[48,48,../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_dark/hdpi/ic_action_phone_end.png]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFF00]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[0|]]></p:property></p:metadata>
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="imageShading" id="308b93321ebc413aa1e360ba153afc81">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="865cfcc9645a4752acb2f164c7c50556">
+                    <rect style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 0; fill-opacity: 0;" p:name="bgRect" id="b1aa247ed9cf4a50bdbf883ba17391f2" width="48" height="48" transform="translate(0,0)"/>
+                    <g p:name="imageContainer" id="ae9ac01c3b3f424dad69a59867ec9511" transform="scale(1,1)">
+                        <image x="0" y="0" p:name="image" id="781aa0856a5d4f318c1b4ccf96d5802c" xlink:href="../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_dark/hdpi/ic_action_phone_end.png" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48"/>
+                    </g>
+                </g>
+            </defs>
+            <use xlink:href="#865cfcc9645a4752acb2f164c7c50556" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#308b93321ebc413aa1e360ba153afc81)" style="opacity: 0.6; visibility: hidden; display: none;" p:name="bgCopy" id="59456f7800d14c21a75fd5c1c01c5092"/>
+            <use xlink:href="#865cfcc9645a4752acb2f164c7c50556" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="8e321fbf901c40409327e1c6db801817" transform="matrix(1,0,0,1,284,323)"><p:metadata><p:property name="textContent"><![CDATA[Bad]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|16px|none]]></p:property><p:property name="textColor"><![CDATA[#FF6666FF]]></p:property><p:property name="customStyle"><![CDATA[]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="28" height="20" p:name="htmlObject" id="f7a847f9263a44e9ae030bd75cfb47ea" style="color: rgb(255, 102, 102); opacity: 1; font-family: Roboto; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="dcfb3965b19844f29ce5ff0f0f594fef" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Bad</div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="ea112c00ae8c44baad836295e4d35982" transform="matrix(1,0,0,1,329,321)"><p:metadata><p:property name="box"><![CDATA[24,24]]></p:property><p:property name="fillColor"><![CDATA[#FF6666FF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-radius: 100px;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="c239be73efb7425a8372d3205e322d3b" width="24" height="24">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="57f842d128b549fe93722e7fbd7bf671" style="-moz-box-sizing: border-box;background-color: rgba(255, 102, 102, 1);height: 24px;width: 24px;/*CSS
+Here*/
+border-radius: 100px;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="15865efc31f84369a07d9bc5dae10a75" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 24px;height: 24px;/*CSS Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="9002e7bb299a422d85c88e81802069e3" transform="matrix(1,0,0,1,329,276)"><p:metadata><p:property name="box"><![CDATA[24,24]]></p:property><p:property name="fillColor"><![CDATA[#FFCC00FF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-radius: 100px;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="3677594277ec4e31a98a997c46c4f1ad" width="24" height="24">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="a648de703d9c4d4991af94570db5be38" style="-moz-box-sizing: border-box;background-color: rgba(255, 204, 0, 1);height: 24px;width: 24px;/*CSS
+Here*/
+border-radius: 100px;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="25c8e16cccb84e7589de5f49bd14ba75" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 24px;height: 24px;/*CSS Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="f9bae5c8bf6b4ddfa398f2b7387bc4fb" transform="matrix(1,0,0,1,279,276)"><p:metadata><p:property name="textContent"><![CDATA[Good]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|16px|none]]></p:property><p:property name="textColor"><![CDATA[#FFCC00FF]]></p:property><p:property name="customStyle"><![CDATA[]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="38" height="20" p:name="htmlObject" id="4c7bc5e5127b40eb8dce7c0704ccf41a" style="color: rgb(255, 204, 0); opacity: 1; font-family: Roboto; font-size: 16px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="1093cd84d13e408bb00a017dd81c6624" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml">Good</div></div>
+            </foreignObject>
+        </g></Content></Page><Page><Properties><Property name="name">Dialpad - In-call</Property><Property name="id">1371450422923_4063</Property><Property name="width">384</Property><Property name="height">640</Property><Property name="dimBackground"/><Property name="transparentBackground">false</Property><Property name="backgroundColor">#F1F1F1FF</Property><Property name="fid">dialpad_incall</Property></Properties><Content><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="e25ae0c590154fb0890495d359ddf377" transform="matrix(1,0,0,1,0,597)"><p:metadata><p:property name="box"><![CDATA[384,43]]></p:property><p:property name="fillColor"><![CDATA[#000000FF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSSHere*/]]></p:property><p:property name="customStyle2"><![CDATA[/*CSSHere*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="048979f7e7dc42a58928d3bac39d2944" width="384" height="43">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="a1d6ef662c7143f7a346f912df071828" style="-moz-box-sizing: border-box;background-color: rgba(0, 0, 0, 1);height: 43px;width: 384px;/*CSSHere*/">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="08383bf5ec834b15983d7eb5c94fa9ca" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 384px;height: 43px;/*CSSHere*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="c7d7c4f254534f7bacc9ebe33689a1a8" transform="matrix(1,0,0,1,16,507)"><p:metadata><p:property name="box"><![CDATA[352,72]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-radius: 2px;
+border-bottom: 1px solid #e8e8e8;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="242270cfbece463b923d9c51f835b056" width="352" height="72">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="5996665150714023b5924e7f9aa67426" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 72px;width: 352px;/*CSS
+Here*/
+border-radius: 2px;
+border-bottom: 1px solid #e8e8e8;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="91f658984a6749bbb646394617a32c0c" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 352px;height: 72px;/*CSS
+Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.AndroidICSHIFI:statusbar" id="3664e3c7686541c8940615b904b082ee" transform="matrix(1,0,0,1,64,0)"><p:metadata/>
+            <image width="320" height="25" x="0" y="0" xlink:href="data:image/png;base64,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" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="img" id="e62942cc4ff444a0bb23448512a175d1"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="abb48e038c9a4962b3eb1caba00f2677" transform="matrix(1,0,0,1,-1,0)"><p:metadata><p:property name="box"><![CDATA[100,25]]></p:property><p:property name="fillColor"><![CDATA[#000000FF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSSHere*/]]></p:property><p:property name="customStyle2"><![CDATA[/*CSSHere*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="4ee6077ced594447ab306cb06db9958b" width="100" height="25">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="eed33b32f31b4b1c97b7170796cfd2b2" style="-moz-box-sizing: border-box;background-color: rgba(0, 0, 0, 1);height: 25px;width: 100px;/*CSSHere*/">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="a64b931d868445fabc94ddb10c36261a" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 100px;height: 25px;/*CSSHere*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="4e2eb797ab7449f5887b8d26c5fd7940" transform="matrix(1,0,0,1,16,441)"><p:metadata><p:property name="box"><![CDATA[352,56]]></p:property><p:property name="fillColor"><![CDATA[#FF6666FF]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|16px|none]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-radius: 2px;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+text-indent: 32px;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="5c3d26bf032847d4b5fd97c03ab5247a" width="352" height="56">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="baac467f01e14b57a4e19a511fe95f58" style="-moz-box-sizing: border-box;background-color: rgba(255, 102, 102, 1);height: 56px;width: 352px;/*CSS
+Here*/
+border-radius: 2px;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="adc2960cd36e4e0d855319b0be70577f" style="font-family: Roboto;font-size: 16px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(255, 255, 255, 1);display: inline-block;width: 352px;height: 56px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+text-indent: 32px;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="ba4b9ad5858d475b89bdc39ab97d7235" transform="matrix(1,0,0,1,0,25)"><p:metadata><p:property name="box"><![CDATA[385,8]]></p:property><p:property name="fillColor"><![CDATA[#33CC00FF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSSHere*/]]></p:property><p:property name="customStyle2"><![CDATA[/*CSSHere*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="4a0625f9099e4a2a8e0397499d72bea6" width="385" height="8">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="3f42ef2751624ce38e8aafdecbea0ede" style="-moz-box-sizing: border-box;background-color: rgba(51, 204, 0, 1);height: 8px;width: 385px;/*CSSHere*/">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="bde551c4ced04dc695f1615f7116eeca" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 385px;height: 8px;/*CSSHere*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="7fb51a55023b4d6a9549c2a78797218c" transform="matrix(1,0,0,1,104,515)"><p:metadata><p:property name="box"><![CDATA[88,56]]></p:property><p:property name="fillColor"><![CDATA[#F1F1F100]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-left: 1px solid #e8e8e8;
+border-right: 1px solid #e8e8e8;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="935c8847e44e47b08dcdc84f9c6dd4af" width="88" height="56">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="fd746a15a0224784be18c52ec10e0599" style="-moz-box-sizing: border-box;background-color: rgba(241, 241, 241, 0);height: 56px;width: 88px;/*CSS
+Here*/
+border-left: 1px solid #e8e8e8;
+border-right: 1px solid #e8e8e8;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="8425efe8ac9a4f3b90173ed09d82d3d2" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 88px;height: 56px;/*CSS
+Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.AndroidICSHIFI:navigationbar" id="27e41535c14f41d0bce050b6940d1c7b" transform="matrix(1,0,0,1,39,597)" p:locked="true"><p:metadata><p:property name="press"><![CDATA[none]]></p:property></p:metadata>
+            <image width="320" height="43" x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAArCAYAAAAJ1FGHAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAASVSURBVHic7dzPShtbAMfxr2E0oTEhJBKimCgttsFaqAR1UeimW9/BXZ/jPkefou2quC1uCkIX0sS/bUibyOjMRGk0saO5i15zWyjc0jtjYs7vswx4zomYbw7HmRkB/kJExEAjQLffixAR6YdIvxcgItIvCqCIGEsBFBFjKYAiYiwFUESMpQCKiLEUQBExlgIoIsZSAEXEWAqgiBhLARQRY1n9XoCYJxKJEI/HyWQyxGIxHMfB8zx83+/30sQwCqDcmEgkwuTkJOl0mkwm81MAXdfFdV0+f/5Mp9Oh29UzOiR8xj0NplAoMDExwfn5OfV6nZOTk34vaeglEgkymQzpdJrp6WlSqRQAnufRbrdJp9Mkk0lOT0+p1Wq9IJ6cnHBxcdHn1d8OpVIptLE3NzdDG7vfjNoBRqNRFhcXSSaTHBwcUK/X+72koWVZFolEgnw+39vxpVIpPM+jWq3iui6O4/QCeB3Iubk5ZmdnezvCWq2G67p0Op1+v6WBpgD+GWMCaFkWCwsLpFIpqtUqlUpFu78Q/LjbS6fT5PN5ut0ujuNQLpf58uULruvSarW4uroCwHVdPn361NshXgcxl8uRzWZ7MXQcB8dxej8n/wojUlNTU0xOTgY+7iAxIoCWZbG6uko2m+Xdu3dsbW3pwD1AlmVRKBS4f/8+hUIBgMvLS46Pj3nz5g2NRuM/x/B9H9u2sW2799r4+DiLi4vMzc0RjUYBaDab7O/vc3BwQLPZ1FnhP8LapSmAt9zIyAjPnj0jm83Sbrcpl8uKX4CePn3K3bt3GRsbA74H6uPHj+zv7+N53v8K1NevX3n79i0bGxvk83mKxSKFQoFSqcTjx485Ojri9evXQb0VMdDQB3B5eZmZmRkAYrEYa2trgY7farU4OjqiXC5Tq9UCHfs2KBaLANi2ze7uLtvb24F/wVxdXVGtVqlWq+RyOe7du8fMzAy5XC7QeQbd8+fPQ5/jxYsXoc8xSIY+gKOjo6GOH4/HicfjzM7O0mg0WF9fN/LA/uXLlzcyz+HhIYeHh7Tb7VAP/sUMQx/AjY0NbNtmaWmJaDTK+vo69Xo9sIP0O3fukEgkmJqa4tGjR6ysrPD+/XtOT08DGV/kR5ubm6Gc993E7nIQDX0Au90ue3t7jI2NUSqVmJ+f59u3b9i2HcgB+tnZGWdnZziOQywWY3p6momJCQVQ5BYY+gDC9zOkSqVCNBplYWGBi4sLfN/HcZzA5vB9nw8fPlAsFhkfHw9sXBEJjzEPQ/B9n62tLZrNJvl8ngcPHpBMJgOdo9VqYVkWlmXE94rIrWfUJ7XT6fDq1avQxr++1Kbdboc2h8hNCeu8cZAYswMMWywW48mTJ3ieh+d5/V6OiPwGo3aAYbi+fevhw4ckEgl2dnZ+uptBRAaXAvgLpVLpj64xazQaVCoVLi8vQ1jVYDP1Moqb9qd/m/JrCuAvNBqN3z778H2/dzeIiQ9XGPYzokGi33XwjHseoIjINf0TRESMpQCKiLEUQBExlgIoIsZSAEXEWAqgiBhLARQRYymAImIsBVBEjKUAioixFEARMdbfc6PDY4sjFVAAAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink" p:name="img" id="54a474cc0afd41128e5a7177557d678f"/>
+			<image width="94" height="43" x="0" y="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF4AAAArCAYAAADxPT8cAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAN1wAADdcBQiibeAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJGSURBVGiB7dvBauJQFAbg/5yYEuOMpd2UinSy6rIP0JU+hGUecagPoas+gMuuMkUs3bTUGaM0JmcWTULiFGZR517wnm9lLhF+fg4nEJFEBHXDKVrL1eN3ACHUPiTdzvmPyQDb+iHv3vXr9+MVtPR9CotOGxrFD6dxIEx/3aQ+R5iuhtM4qJ81il9uwkuIHJmN5QCRo+UmvKwfNYqXbBsZDeSQ3W6r4ofTOCChM+OJHEFCZ/V1UxX/kvgXIJCdWA4g0EviX5SXVfE+6JudRO6od8wAcDOGl4P79iK5IQf3b8bwgKL4+HjRg4hvN5YDRPz4eNEDiuLzXNeMKWXXDACyhRZvSNk1X4/nbRA6tgM5g9C5Hs/bnJ2SvpcxLDulkLM167Qblq25w9A3kTaEDF+LN85HyLLVB6tpsoWuGktCBnTiLdCJtyRkEgT/vk/tEwkCFsLGdhDXCGHDABLbQRyUMICV7RQOWunE25EwtXTiTaMWVoxUJ9649H3Ha/HmJey1c101hnntfMXes+jEG+Y9S8J3o/4aog9YYwSru1F/zQBALfy0nccVZdcMAMyixRtSds0AEL32FiBK7UZyAFEavfYWQFH87QgZI5/bTXX4GPn8doTs/XMhha6b/63ecVX8SZg+QCAff0V9mkBOwvShvKyKnwyijZA82Ul1+ITkaTKIqt8+Gn/FIa8VG0/kiN1uG8V3g+QeRG9GE7mA6K0bJPf1o0bxk0G0oVxmZlMdPsplVl8zwAd/MP765XwGfWO5T0nRacMfM9+5Ux8icx0AAAAASUVORK5CYII= " xmlns:xlink="http://www.w3.org/1999/xlink" p:name="coverBg" id="aa410095af2849fca9556bb1c45fbaa7" style="visibility: hidden; display: none;" transform="translate(202,0)"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="a0c9d922874d40e480239b102c5b0c54" transform="matrix(1,0,0,1,191,514)"><p:metadata><p:property name="box"><![CDATA[88,56]]></p:property><p:property name="fillColor"><![CDATA[#F1F1F100]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-left: 1px solid #e8e8e8;
+border-right: 1px solid #e8e8e8;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="b20bf110a98d4152be0a0e499a20463c" width="88" height="56">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="1a8ec21130c24a8f8aa9f66ef518a78f" style="-moz-box-sizing: border-box;background-color: rgba(241, 241, 241, 0);height: 56px;width: 88px;/*CSS Here*/ border-left: 1px solid #e8e8e8; border-right: 1px solid #e8e8e8;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="0d1358ab3c7648ec8d9131c2ce090e1c" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 88px;height: 56px;/*CSS Here*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:RichTextBoxV2" id="619b234b27ba4c19938d21a6f35b335c" transform="matrix(1,0,0,1,294,524)"><p:metadata><p:property name="textContent"><![CDATA[<div style="text-align: center;"><span style="color: rgb(89, 89, 89);"><span style="color: rgb(153, 153, 153);">Switch to</span><br />Call Back<br /></span></div>]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle"><![CDATA[]]></p:property></p:metadata>
+
+            <foreignObject x="0" y="0" width="59" height="36" p:name="htmlObject" id="b2935ad0e9be437b995f02fe5e3b26d3" style="color: rgb(89, 89, 89); opacity: 1; font-family: Roboto; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="textDiv" id="ef06701dd44244c38d1ad0da476b09ee" style="display: inline-block; white-space: nowrap; text-decoration: none;"><div xmlns="http://www.w3.org/1999/xhtml"><div style="text-align: center;"><span style="color: rgb(89, 89, 89);"><span style="color: rgb(153, 153, 153);">Switch to</span><br />Call Back<br /></span></div></div></div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bitmap" id="fde1556ffb884be9af76f6e5cb797cef" transform="matrix(1,0,0,1,132,524)"><p:metadata><p:property name="box"><![CDATA[32,32]]></p:property><p:property name="imageData"><![CDATA[32,32,../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_bluetooth.png]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFF00]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[0|]]></p:property></p:metadata>
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="imageShading" id="a22aeef8025a49b8b35a2aa235718fc6">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="3796c7c5e6014f208a46ee2065ede3bf">
+                    <rect style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 0; fill-opacity: 0;" p:name="bgRect" id="245e1772cfde4b528324cf6d8ec04c9c" width="32" height="32" transform="translate(0,0)"/>
+                    <g p:name="imageContainer" id="61b12aae34db4878a452ec6dbe9d2d25" transform="scale(1,1)">
+                        <image x="0" y="0" p:name="image" id="facc69f5745443449f9986c40bd14f1c" xlink:href="../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_bluetooth.png" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"/>
+                    </g>
+                </g>
+            </defs>
+            <use xlink:href="#3796c7c5e6014f208a46ee2065ede3bf" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#a22aeef8025a49b8b35a2aa235718fc6)" style="opacity: 0.6; visibility: hidden; display: none;" p:name="bgCopy" id="5100fda9dcfb4e3e8f71a49c778d5079"/>
+            <use xlink:href="#3796c7c5e6014f208a46ee2065ede3bf" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bitmap" id="13950eeca9494ed782813c50a8368596" transform="matrix(1,0,0,1,45,524)"><p:metadata><p:property name="box"><![CDATA[32,32]]></p:property><p:property name="imageData"><![CDATA[32,32,../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_dialer.png]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFF00]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[0|]]></p:property></p:metadata>
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="imageShading" id="28c7741adcfc429c9e6ee13cb7610df1">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="c9381e02ce944e4f8697a399f84ee3a2">
+                    <rect style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 0; fill-opacity: 0;" p:name="bgRect" id="cf4d72fcd6f446b49704de748b05dced" width="32" height="32" transform="translate(0,0)"/>
+                    <g p:name="imageContainer" id="168f4fb337574f62bb7fa973077afc15" transform="scale(1,1)">
+                        <image x="0" y="0" p:name="image" id="3e1c1be2ebcc4dbc8b21f4387944e6bc" xlink:href="../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_dialer.png" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"/>
+                    </g>
+                </g>
+            </defs>
+            <use xlink:href="#c9381e02ce944e4f8697a399f84ee3a2" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#28c7741adcfc429c9e6ee13cb7610df1)" style="opacity: 0.6; visibility: hidden; display: none;" p:name="bgCopy" id="48fd5818e5704db1bd5a05fab72d8241"/>
+            <use xlink:href="#c9381e02ce944e4f8697a399f84ee3a2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bitmap" id="8ab7c7a77a6f42b1ba30b1f5f347143f" transform="matrix(1,0,0,1,219,524)"><p:metadata><p:property name="box"><![CDATA[32,32]]></p:property><p:property name="imageData"><![CDATA[32,32,../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_micoff.png]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFF00]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[0|]]></p:property></p:metadata>
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="imageShading" id="79293563a60a47ec90aa8dae0c9b8782">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="0c1a30626a9047138b265cb5a9477f00">
+                    <rect style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 0; fill-opacity: 0;" p:name="bgRect" id="334143385474407fb9cbc3c0f0f5f112" width="32" height="32" transform="translate(0,0)"/>
+                    <g p:name="imageContainer" id="ada33164228f4b89b72991963ff5f49b" transform="scale(1,1)">
+                        <image x="0" y="0" p:name="image" id="a1e78858a4d248de92263babe4fda825" xlink:href="../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_light/mdpi/ic_action_micoff.png" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32"/>
+                    </g>
+                </g>
+            </defs>
+            <use xlink:href="#0c1a30626a9047138b265cb5a9477f00" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#79293563a60a47ec90aa8dae0c9b8782)" style="opacity: 0.6; visibility: hidden; display: none;" p:name="bgCopy" id="b8eabebc086741abb75e8af57b13343a"/>
+            <use xlink:href="#0c1a30626a9047138b265cb5a9477f00" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.AndroidICSHIFI:spinnerV1" id="dce3695b84a34ad0844347ca8a26fd15" transform="matrix(1,0,0,1,121,527)"><p:metadata><p:property name="box"><![CDATA[70,48]]></p:property><p:property name="status"><![CDATA[normal]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="colorTheme"><![CDATA[light]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA["Roboto",Arial,sans-serif|normal|normal|12px|none]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textAlignment"><![CDATA[0,1]]></p:property></p:metadata>
+			<g p:name="bg" id="bd7a0f28a45d4c0f8b122fa8cb059a88"><image x="0" y="0" width="4" height="4" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAADElEQVQImWNgoBwAAABEAAGC/mVLAAAAAElFTkSuQmCC" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="4" y="0" width="50" height="4" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAECAYAAACk7+45AAAAC0lEQVQImWNgIAwAACQAAa5tRrMAAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="54" y="0" width="16" height="4" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAECAYAAACHtL/sAAAAC0lEQVQYlWNgGAUAAQQAASbV+Y4AAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="0" y="4" width="4" height="18" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAACCAYAAAB/qH1jAAAAC0lEQVQImWNgIAQAACIAAUazuGwAAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="4" y="4" width="50" height="18" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAC0lEQVQImWNgQAcAABIAAW/6Y7cAAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="54" y="4" width="16" height="18" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAACCAYAAABR7VzxAAAADElEQVQImWNgGGgAAACCAAEK6LaTAAAAAElFTkSuQmCC" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="0" y="22" width="4" height="26" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAaCAYAAACQLf2VAAAADklEQVQYlWNgGAVDEwAAAboAAVQh0r4AAAAASUVORK5CYII=" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="4" y="22" width="50" height="26" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAAaCAYAAACdM43SAAAADElEQVQImWNgGCkAAADqAAGuUFLGAAAAAElFTkSuQmCC" xmlns:xlink="http://www.w3.org/1999/xlink"/><image x="54" y="22" width="16" height="26" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAaCAYAAAC+aNwHAAAAhElEQVQ4je3RIRKDMBBG4S2irsNwiojMiuyzlZW9UC0Kj+K2GAR0mrCJLf/Myu+ZFbn2h+tE5NYkY4x34BlCeDRhM3sDo6oOTdjMZmCqCuyxmS1VgW9cFfiF3YEcdgVK+DRwhosBD84GvDgbSCm9gBGYHPcB+kMA6FV18NyGu+Ibr9VvBZhta1SKzZcvAAAAAElFTkSuQmCC" xmlns:xlink="http://www.w3.org/1999/xlink"/></g>
+			<text p:name="text" id="3048e5dee6c84c098709056baa7578fd" style="font-family: &quot;Roboto&quot;,Arial,sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none; fill: rgb(51, 51, 51); fill-opacity: 1;" transform="translate(4,24)"> </text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.Common:Bitmap" id="6ab53f8b64fa45fda9cfde071e090896" transform="matrix(1,0,0,1,175,445)"><p:metadata><p:property name="box"><![CDATA[48,48]]></p:property><p:property name="imageData"><![CDATA[48,48,../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_dark/hdpi/ic_action_phone_end.png]]></p:property><p:property name="withBlur"><![CDATA[false]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFF00]]></p:property><p:property name="strokeColor"><![CDATA[#000000FF]]></p:property><p:property name="strokeStyle"><![CDATA[0|]]></p:property></p:metadata>
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="imageShading" id="9e754e942eaa4e30afde6dddb5cdbc0a">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>
+                <g p:name="container" id="a457fffc5d9443058981ea38426d9d7e">
+                    <rect style="fill: rgb(255, 255, 255); stroke: rgb(0, 0, 0); stroke-opacity: 1; stroke-width: 0; fill-opacity: 0;" p:name="bgRect" id="edd004554dd048129f8773813ba32086" width="48" height="48" transform="translate(0,0)"/>
+                    <g p:name="imageContainer" id="144abd6c0b1e4935b02de89a31c1a07a" transform="scale(1,1)">
+                        <image x="0" y="0" p:name="image" id="e1f578517cae47adb3c8d3c82d06193b" xlink:href="../../../../..//ts-teliwave/share/HenryW/My Resources/UI Stencils/android_developer_icons_2/assets/holo_dark/hdpi/ic_action_phone_end.png" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48"/>
+                    </g>
+                </g>
+            </defs>
+            <use xlink:href="#a457fffc5d9443058981ea38426d9d7e" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(1, 1)" p:filter="url(#9e754e942eaa4e30afde6dddb5cdbc0a)" style="opacity: 0.6; visibility: hidden; display: none;" p:name="bgCopy" id="a9ab34aaf6d94c51bdfbdc174df5930f"/>
+            <use xlink:href="#a457fffc5d9443058981ea38426d9d7e" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="1abcb998ca7e4442926882d09681a8f0" transform="matrix(1,0,0,1,18,50)"><p:metadata><p:property name="box"><![CDATA[352,48]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|16px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+border-radius: 2px;
+border-bottom: 1px solid #e3e3e3;]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+text-indent: 32px;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="083f0c92ef8c41429ed01f6c6182a819" width="352" height="48">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="061ebbb6391f4feba6a3c9db38a50d7b" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 48px;width: 352px;/*CSS
+Here*/
+border-radius: 2px;
+border-bottom: 1px solid #e3e3e3;">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="62f4a605fa56417bbd62f63b98b1400a" style="font-family: Roboto;font-size: 16px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 352px;height: 48px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+text-indent: 32px;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Group" xmlns:p="http://www.evolus.vn/Namespace/Pencil" transform="matrix(1,0,0,1,18,107)" id="99818f326e154e958ea2156964db0a9a" p:sizing-gow="352" p:sizing-goh="195"><g p:type="Shape" p:def="hoiioWebTemplate.Icons:htmlDiv" id="80d24cc51c03455c9234868a236a8162" transform="matrix(1,0,0,1,0,0)" p:sizing-ox="0" p:sizing-oy="0" p:sizing-ow="116" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[116,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[1]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="e7a33910c8a744e793e026e8b221c081" width="116" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="3519831968384c59a7d3f59e5b4c01bc" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 116px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="cfbfe5b80746452eaf44b046f5de4c8b" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 116px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">1</div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="99312274acb847b49db04a33b71e46d7" transform="matrix(1,0,0,1,117,0)" p:sizing-ox="117" p:sizing-oy="0" p:sizing-ow="118" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[118,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[2 <small><small>ABC</small></small>]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="900845bf3dc1403ba009cf2a5a56ad33" width="118" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="5efff4b4b3684ed4ab1e27fd8d11cc94" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 118px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="7fa7f3c7f2e94ec3bf784bbe1c9c1aff" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 118px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">2 <small><small>ABC</small></small></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="c9e5309e72c14e919a8271dadb775b5a" transform="matrix(1,0,0,1,236,0)" p:sizing-ox="236" p:sizing-oy="0" p:sizing-ow="116" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[116,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[3 <small><small>DEF</small></small>]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="58bda99ac74646dbb37d7a385a64a795" width="116" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="b1474aae0e834790bc2e3c7b6dccbcf5" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 116px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="99eaa160ce8644f4965072879d5d4fdf" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 116px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">3 <small><small>DEF</small></small></div></div>
+                </div>
+            </foreignObject>
+        </g><g p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="f89f481366b2400c98cf753b720cd6f8" transform="matrix(1,0,0,1,0,80)" p:sizing-ox="0" p:sizing-oy="49" p:sizing-ow="116" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[116,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[4 <small><small>GHI</small></small><br />]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="63c0d5767adb4b0698711356be9b1481" width="116" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="70ec4c1bccbb4e85b62dc178c506c6fa" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 116px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="37db8dd7a3624a999d285f01aaa7c156" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 116px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">4 <small><small>GHI</small></small><br /></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="0439bcfee3864ce59f281b8ce72c36c9" transform="matrix(1,0,0,1,117,80)" p:sizing-ox="117" p:sizing-oy="49" p:sizing-ow="118" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[118,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[5 <small><small>JKL</small></small>]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="1c58d0ef004b4715bec48d4a9847b542" width="118" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="58428189333348daa618ab9685940002" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 118px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="ebba761626714faaba384a580a34404f" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 118px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">5 <small><small>JKL</small></small></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="d0731ab129044bae915bb1b1fac2e4c0" transform="matrix(1,0,0,1,236,80)" p:sizing-ox="236" p:sizing-oy="49" p:sizing-ow="116" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[116,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[6 <small><small>MNO</small></small>]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="25f160768cc3450fbe494f7bbf731c73" width="116" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="48b17c630de244049aa1309bc31cc44d" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 116px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="ddbbd663fb2d4ac283d03a6f75211c22" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 116px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">6 <small><small>MNO</small></small></div></div>
+                </div>
+            </foreignObject>
+        </g><g p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="b95067ba67934fc9b57a52497d7684b0" transform="matrix(1,0,0,1,0,160)" p:sizing-ox="0" p:sizing-oy="98" p:sizing-ow="116" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[116,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[7 <small><small>PQRS</small></small><br />]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="f5b6aabbf0bc40c5b6bbfedb02a664dd" width="116" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="93b0165cc05e4e38aa0da0930c66700f" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 116px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="f12b54f1f449427ca74464383f4631f0" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 116px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">7 <small><small>PQRS</small></small><br /></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="39b80441ab7842d1b7f93abdf3abd21b" transform="matrix(1,0,0,1,117,160)" p:sizing-ox="117" p:sizing-oy="98" p:sizing-ow="118" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[118,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[8 <small><small>TUV</small></small>]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="7afe8c18e376485ca2ab2302ea21ab33" width="118" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="94a494bd4338431a9c320177b47ebd17" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 118px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="e946dbd5b8dd4e5ca4a51b439d7d7c36" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 118px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">8 <small><small>TUV</small></small></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="cf870294340240f4b1f376cbbf732b16" transform="matrix(1,0,0,1,236,160)" p:sizing-ox="236" p:sizing-oy="98" p:sizing-ow="116" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[116,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[9 <small><small>WXYZ</small></small>]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="231c2ae6443c4355b6f67d4740f78ade" width="116" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="6d1e21c4b8cc4fd7af88e9f48a2a6dcc" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 116px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="23981852991f4613a7fed6c1532964b4" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 116px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">9 <small><small>WXYZ</small></small></div></div>
+                </div>
+            </foreignObject>
+        </g><g p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="b731dff14cce43ebae3977ac3073e4a8" transform="matrix(1,0,0,1,0,240)" p:sizing-ox="0" p:sizing-oy="147" p:sizing-ow="116" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[116,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[* #]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="7d3b517f47644d27818afc8c744c772c" width="116" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="d51cd468bc3b40278cdbfc7a1cf34555" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 116px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="b2c2c83062ee451483d7bd9ed89d4bb2" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 116px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">* #</div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="952f198e7c594df0a7cf607cdff1c407" transform="matrix(1,0,0,1,117,240)" p:sizing-ox="117" p:sizing-oy="147" p:sizing-ow="118" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[118,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[0 <small><small>+</small></small><br />]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="298ec508b68a4a1582cb2899803b03e6" width="118" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="7514d783b2854adc9a51df372cf3c670" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 118px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="7366e22c5ff64f37abf276de180dc265" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 118px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml">0 <small><small>+</small></small><br /></div></div>
+                </div>
+            </foreignObject>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="d3b694bdb3f84af8bc262711bee184e4" transform="matrix(1,0,0,1,236,240)" p:sizing-ox="236" p:sizing-oy="147" p:sizing-ow="116" p:sizing-oh="48"><p:metadata><p:property name="box"><![CDATA[116,79]]></p:property><p:property name="fillColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textContent"><![CDATA[<br />]]></p:property><p:property name="textFont"><![CDATA[Roboto|normal|normal|22px|none]]></p:property><p:property name="textColor"><![CDATA[#0190DEFF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSS
+Here*/
+]]></p:property><p:property name="customStyle2"><![CDATA[/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="8e9f628b8a944af4be020449611b6bed" width="116" height="79">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="d858f592e43144c4bb12105572de7876" style="-moz-box-sizing: border-box;background-color: rgba(255, 255, 255, 1);height: 79px;width: 116px;/*CSS
+Here*/
+">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="88927fa2bc3649d7b4adae9b6bca3ae7" style="font-family: Roboto;font-size: 22px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(1, 144, 222, 1);display: inline-block;width: 116px;height: 79px;/*CSS
+Here*/
+display: table-cell;
+vertical-align: middle;
+text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml"><br /></div></div>
+                </div>
+            </foreignObject>
+        </g></g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="hoiioWebTemplate.Icons:htmlDiv" id="3c8e0d6e548e4ab1b2b047b8114816a2" transform="matrix(1,0,0,1,18,569)"><p:metadata><p:property name="box"><![CDATA[86,8]]></p:property><p:property name="fillColor"><![CDATA[#0190DEFF]]></p:property><p:property name="textContent"><![CDATA[]]></p:property><p:property name="textFont"><![CDATA[Source Sans Pro|normal|normal|14px|none]]></p:property><p:property name="textColor"><![CDATA[#595959FF]]></p:property><p:property name="customStyle1"><![CDATA[/*CSSHere*/]]></p:property><p:property name="customStyle2"><![CDATA[/*CSSHere*/]]></p:property></p:metadata>
+            <foreignObject p:name="htmlObject" id="c3a605882ea1471bb42b8a865a65c1a6" width="86" height="8">
+                <div xmlns="http://www.w3.org/1999/xhtml" p:name="div" id="038bafeb4f1341d69c98ca21c1f40a73" style="-moz-box-sizing: border-box;background-color: rgba(1, 144, 222, 1);height: 8px;width: 86px;/*CSSHere*/">
+                	<div xmlns="http://www.w3.org/1999/xhtml" p:name="textObject" id="9aa33a3166b946088d7e58cdf92c8321" style="font-family: Source Sans Pro;font-size: 14px;font-style: normal;font-weight: normal;text-decoration: none;color: rgba(89, 89, 89, 1);display: inline-block;width: 86px;height: 8px;/*CSSHere*/"><div xmlns="http://www.w3.org/1999/xhtml"></div></div>
+                </div>
+            </foreignObject>
+        </g></Content></Page></Pages></Document>

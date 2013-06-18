@@ -20,16 +20,16 @@
 
 	<Properties>
         <PropertyGroup name="Font Sizes">
-            <Property name="defaultFont12" displayName="Hint Text Font" type="Font">Segoe UI|normal|normal|12px</Property>
-			<Property name="defaultFont14" displayName="Body Text" type="Font">Segoe UI|normal|normal|14px</Property>
-			<Property name="defaultFont14Bold" displayName="Body Text (Bold)" type="Font">Segoe UI|bold|normal|14px</Property>
-			<Property name="defaultFont16Bold" displayName="Heading 16px" type="Font">Segoe UI|bold|normal|16px</Property>
-			<Property name="defaultFont18Bold" displayName="Heading 18px" type="Font">Segoe UI|bold|normal|18px</Property>
-			<Property name="heading3" displayName="Heading 22px" type="Font">Segoe UI|bold|normal|22px</Property>
+            <Property name="defaultFont12" displayName="Hint Text Font" type="Font">Source Sans Pro|normal|normal|12px</Property>
+			<Property name="defaultFont14" displayName="Body Text" type="Font">Source Sans Pro|normal|normal|14px</Property>
+			<Property name="defaultFont14Bold" displayName="Body Text (Bold)" type="Font">Source Sans Pro|bold|normal|14px</Property>
+			<Property name="defaultFont16Bold" displayName="Heading 16px" type="Font">Source Sans Pro|bold|normal|16px</Property>
+			<Property name="defaultFont18Bold" displayName="Heading 18px" type="Font">Source Sans Pro|bold|normal|18px</Property>
+			<Property name="heading3" displayName="Heading 22px" type="Font">Source Sans Pro|bold|normal|22px</Property>
 		</PropertyGroup>
 		<PropertyGroup name="Font Color">
 			<Property name="defaultFontColor" displayName="Font Color" type="Color">#595959</Property>
-			<Property name="defaultLinkColor" displayName="Link Color" type="Color">#0081c7</Property>
+			<Property name="defaultLinkColor" displayName="Link Color" type="Color">#0190de</Property>
 			<Property name="defaultDisabledTextColor" displayName="Disabled Text Color" type="Color">#999999</Property>
         </PropertyGroup>
     </Properties>
@@ -352,15 +352,18 @@
 				<Property name="box" type="Dimension">100,100</Property>
 				<Property name="fillColor" type="Color">#f1f1f1</Property>
 			</PropertyGroup>
+			<PropertyGroup name="Text">
+				<Property name="textContent" displayName="Content" type="RichText" p:editInfo="({targetName: 'htmlObject', bound: new Bound(0, 0, $box.w, $box.h), font: $textFont, align: new Alignment(1, 1), multi: false})"><![CDATA[]]></Property>
+				<Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont14</E></Property>
+				<Property name="textColor" displayName="Color" type="Color" p:disabled="false"><E>$$defaultFontColor</E></Property>
+			</PropertyGroup>
 			<PropertyGroup name="CSS">
-				<Property name="customStyle1" displayName="Custom Style" type="PlainText">//Text Box&#13;&#10;Multiple Line</Property>
+				<Property name="customStyle1" displayName="Custom Style" type="PlainText">/&#42;CSS&#13;Here&#42;/</Property>
+				<Property name="customStyle2" displayName="Text Style" type="PlainText">/&#42;CSS&#13;Here&#42;/</Property>
 			</PropertyGroup>
 		</Properties>
 
 		<Behaviors>
-			<For ref="htmlObject">
-				<Box>$box</Box>
-			</For>
 			<For ref="div">
 				<Attr>
 					<Arg>"style"</Arg>
@@ -373,11 +376,37 @@
 					</Arg>
 				</Attr>
 			</For>
+			<For ref="textObject">
+				<TextContent>$textContent</TextContent>
+				<Attr>
+					<Arg>"style"</Arg>
+					<Arg>
+					<!-- Standard CSS for mapping built-in palettes to CSS -->
+										   "font-family: " + $textFont.family + ";" +
+										   "font-size: " + $textFont.size + ";" +
+										   "font-style: " + $textFont.style + ";" +
+										   "font-weight: " + $textFont.weight + ";" +
+										   "text-decoration: " + $textFont.decor + ";" +
+										   "color: " + $textColor.toRGBAString() + ";" +
+
+					<!-- Set your CSS behaviours -->
+										   "display: inline-block;" +
+										   "width: " + ($box.w) + "px;" +
+										   "height: " + ($box.h) + "px;" +
+										   $customStyle2.value
+					</Arg>
+				</Attr>
+			</For>
+			<For ref="htmlObject">
+				<Box>$box</Box>
+			</For>
 		</Behaviors>
 
 		<p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
             <foreignObject id="htmlObject">
-                <div xmlns="http://www.w3.org/1999/xhtml" id="div"></div>
+                <div xmlns="http://www.w3.org/1999/xhtml" id="div">
+                	<div xmlns="http://www.w3.org/1999/xhtml" id="textObject"></div>
+                </div>
             </foreignObject>
         </p:Content>
     </Shape>

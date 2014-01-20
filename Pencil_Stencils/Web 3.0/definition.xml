@@ -1,0 +1,150 @@
+<Shapes xmlns="http://www.evolus.vn/Namespace/Pencil" 
+        xmlns:p="http://www.evolus.vn/Namespace/Pencil" 
+        xmlns:svg="http://www.w3.org/2000/svg" 
+        xmlns:xlink="http://www.w3.org/1999/xlink" 
+        id="hoiioWebTemplate3.Icons" 
+        displayName="Hoiio Bootstrap 3.0" 
+        description="Common elements for Web Portal" 
+        author="Hoiio" 
+        url="http://www.evolus.vn/Pencil">
+
+    <Properties>
+        <PropertyGroup name="Font Sizes">
+            <Property name="defaultFont12" displayName="Hint Text Font" type="Font">Source Sans Pro|normal|normal|12px</Property>
+            <Property name="defaultFont14" displayName="Body Text" type="Font">Source Sans Pro|normal|normal|14px</Property>
+            <Property name="defaultFont14Bold" displayName="Body Text (Bold)" type="Font">Source Sans Pro|bold|normal|14px</Property>
+            <Property name="defaultFont16Bold" displayName="Heading 16px" type="Font">Source Sans Pro|bold|normal|16px</Property>
+            <Property name="defaultFont18Bold" displayName="Heading 18px" type="Font">Source Sans Pro|bold|normal|18px</Property>
+            <Property name="heading3" displayName="Heading 22px" type="Font">Source Sans Pro|bold|normal|22px</Property>
+        </PropertyGroup>
+        <PropertyGroup name="Font Color">
+            <Property name="defaultFontColor" displayName="Font Color" type="Color">#595959</Property>
+            <Property name="defaultLinkColor" displayName="Link Color" type="Color">#0190de</Property>
+            <Property name="defaultDisabledTextColor" displayName="Disabled Text Color" type="Color">#999999</Property>
+        </PropertyGroup>
+    </Properties>
+
+    <Shape id="btnStandard" displayName="Default Btn" icon="Icons/btnStandard.png">
+        <Properties>
+            <PropertyGroup name="Properties">
+                <Property name="textContent" displayName="Content" type="PlainText" p:editInfo="({targetName: 'container', bound: new Bound(5, 0, 100, 36), font: $textFont, align: new Alignment(0, 1), multi: false})"><![CDATA[Button Lbl]]></Property>
+                <Property name="state" displayName="State" type="Enum" p:enumValues="['normal|Normal', 'hover|Hover', 'active|Active', 'disabled|Disabled']">normal</Property>
+                <Property name="position" displayName="Button Group Position" type="Enum" p:enumValues="['none|None','left|Left','middle|Middle','right|Right']">none</Property>
+                <Property name="btnColor" displayName="Button Color" type="Color">#e4e5ea</Property>
+            </PropertyGroup>
+            <PropertyGroup name="Text">
+                <Property name="textFont" displayName="Font" type="Font"><E>$$defaultFont14</E></Property>
+                <Property name="textColor" displayName="Color" type="Color">#666666</Property>
+            </PropertyGroup>
+            <PropertyGroup name="Additional CSS">
+                <Property name="customCSS" displayName="CSS" type="CSS"></Property>
+                <Property name="customStyle1" displayName="Background" type="PlainText">/&#42;CSS&#13;Here&#42;/</Property>
+                <Property name="customStyle2" displayName="Text" type="PlainText">/&#42;CSS&#13;Here&#42;/</Property>
+            </PropertyGroup>
+        </Properties>
+        <Behaviors>
+            <For ref="divObject">
+                <TextContent>
+                    <Arg>$textContent</Arg>
+                    <Arg>true</Arg>
+                </TextContent>
+                <Color>$textColor</Color>
+                <Font>$textFont</Font>
+                <Attr>
+                    <Arg>"style"</Arg>
+                    <Arg>
+                        <!-- Standard CSS for mapping built-in palettes to CSS -->
+                        "font-family: " + $textFont.family + ";" +
+                        "font-size: " + $textFont.size + ";" +
+                        "font-style: " + $textFont.style + ";" +
+                        "font-weight: " + $textFont.weight + ";" +
+                        "text-decoration: " + $textFont.decor + ";" +
+                        "color: " + $textColor.toRGBString() + ";" +
+                        
+                        
+                        <!-- Set your CSS behaviours -->
+                        "display: inline-block;" +
+                        "padding: 6px 12px;" +
+                        "border-radius: 3px;" +
+                        
+                        "text-align: center;" +
+                        "background-color:" + $btnColor.toRGBAString() + ";" +
+                        $customStyle1.value
+                    </Arg>
+                </Attr>
+                <CustomStyle>
+                    <Arg>"white-space"</Arg>
+                    <Arg>"nowrap"</Arg>
+                </CustomStyle>
+                <CustomStyle>
+                    <Arg>"border-top-left-radius"</Arg>
+                    <Arg>$position.value == "none" || $position.value == "left" ? "3px" : "0px"</Arg>
+                </CustomStyle>
+                <CustomStyle>
+                    <Arg>"border-top-right-radius"</Arg>
+                    <Arg>$position.value == "none" || $position.value == "right" ? "3px" : "0px"</Arg>
+                </CustomStyle>
+                <CustomStyle>
+                    <Arg>"border-bottom-right-radius"</Arg>
+                    <Arg>$position.value == "none" || $position.value == "right" ? "3px" : "0px"</Arg>
+                </CustomStyle>
+                <CustomStyle>
+                    <Arg>"border-bottom-left-radius"</Arg>
+                    <Arg>$position.value == "none" || $position.value == "left" ? "3px" : "0px"</Arg>
+                </CustomStyle>
+                <CustomStyle>
+                    <Arg>"border-width"</Arg>
+                    <Arg>$position.value == "none" || $position.value == "left" ? "0px" : "1px"</Arg>
+                </CustomStyle>
+            </For>
+            <For ref="container">
+                <Box>var size = F.elementSize("divObject"); new Dimension(size.w, size.h); /* depends $textFont $textContent $customStyle1 */</Box>
+            </For>
+        </Behaviors>
+        <Actions>
+            <Action id="resizeToXSmall" displayName="Resize to Xtra Small">
+                <Impl>
+                    <![CDATA[
+                        var box = this.getProperty("box");
+                        this.setProperty("box", new Dimension(65, 22));
+                        this.setProperty("textFont", "Source Sans Pro|normal|normal|12px");
+                    ]]>
+                </Impl>
+            </Action>
+            <Action id="resizeToSmall" displayName="Resize to Small">
+                <Impl>
+                    <![CDATA[
+                        var box = this.getProperty("box");
+                        this.setProperty("box", new Dimension(75, 30));
+                        this.setProperty("textFont", "Source Sans Pro|normal|normal|12px");
+                    ]]>
+                </Impl>
+            </Action>
+            <Action id="resizeToStandard" displayName="Resize to Standard">
+                <Impl>
+                    <![CDATA[
+                        var box = this.getProperty("box");
+                        this.setProperty("box", new Dimension(95, 34));
+                        this.setProperty("textFont", "Source Sans Pro|normal|normal|14px");
+                    ]]>
+                </Impl>
+            </Action>
+            <Action id="resizeToLarge" displayName="Resize to Large">
+                <Impl>
+                    <![CDATA[
+                        var css = new CSS();
+                        css.set("padding", "50px");
+                        this.setProperty("textFont", "Source Sans Pro|normal|normal|18px");
+                        this.setProperty("customStyle1", css.toString());
+                    ]]>
+                </Impl>
+            </Action>
+        </Actions>
+        <p:Content xmlns:p="http://www.evolus.vn/Namespace/Pencil" xmlns="http://www.w3.org/2000/svg">
+            <foreignObject x="0" y="0" width="200" height="150" id="container">
+                <div xmlns="http://www.w3.org/1999/xhtml" id="divObject"></div>                
+            </foreignObject>
+        </p:Content>
+    </Shape>
+
+</Shapes>

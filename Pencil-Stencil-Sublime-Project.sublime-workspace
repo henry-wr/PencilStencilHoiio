@@ -1,0 +1,398 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"colP",
+				"colParentWidth"
+			],
+			[
+				"col",
+				"colPaddingLeft"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"colPadding",
+				"colPaddingRight"
+			],
+			[
+				"window",
+				"window_width"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"ws",
+				"wsite-multicol-col"
+			],
+			[
+				"card",
+				"card-number"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"column",
+				"column-right"
+			],
+			[
+				"all",
+				"all-container"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"view-app",
+				"view-app-header-namebox"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"mari",
+				"margin-left"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"inline-",
+				"inline-block"
+			],
+			[
+				"featured",
+				"featured-app"
+			],
+			[
+				"feature",
+				"featured-app"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Sidebar Specs:\n\n- Sidebar act as secondary navigation.\n- Sidebar nav points should be closely related. They should either:\n    - Show different subsets of the same data source (e.g All inbox, important, sent)\n    - Show different mode to perform separate but related action, that otherwise would've taken too much space if combined in one stream. (e.g Set extension during office hour, after office hour, public holiday )\n- Sidebar should always be located on the left.\n\n\n-Not all apps will require sidebar.\n",
+			"settings":
+			{
+				"buffer_size": 508,
+				"line_ending": "Windows",
+				"name": "Sidebar Specs:"
+			}
+		},
+		{
+			"file": "Pencil_Stencils/Web 3.0/definition-old.xml",
+			"settings":
+			{
+				"buffer_size": 96679,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Pencil_Stencils/Web 3.0/definition.xml",
+			"settings":
+			{
+				"buffer_size": 8198,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Hoiio/Desktop/Putu Html/GOB (HC)_email campain_JP.htm",
+		"/C/Users/Hoiio/Desktop/Putu Html/GOB (HC)_email campain_JP_files/host.jsp",
+		"/D/Github/PencilStencilHoiio/Pencil_Stencils/Web 3.0/definition.xml",
+		"/C/Users/Hoiio/Downloads/mainline_html/index.html",
+		"/C/Users/Hoiio/Downloads/mainline_html/css/application.css",
+		"/D/SkyDrive/Weebly Theme/adjust_theme/customScript.js",
+		"/D/SkyDrive/Weebly Theme/adjust_theme/layout_customize.js",
+		"/D/SkyDrive/Weebly Theme/adjust_theme/main_style.css",
+		"/D/SkyDrive/Weebly Theme/adjust_theme/customize_layout.js",
+		"/J/Website/2013/Input/jquery.magnific-popup.js",
+		"//ts-teliwave/share/HenryW/Archive/Website/2013/Input/magnific-popup.css",
+		"/C/Users/Hoiio/Downloads/FitVids.js-master/FitVids.js-master/README.md",
+		"/C/Users/Hoiio/Downloads/FitVids.js-master/FitVids.js-master/jquery.fitvids.js",
+		"/C/Users/Hoiio/Downloads/FitVids.js-master/FitVids.js-master/component.json",
+		"/D/SkyDrive/Weebly Theme/adjust_theme/tall-header.html",
+		"/D/SkyDrive/Weebly Theme/adjust_theme/short-header.html",
+		"/D/Github/PencilStencilHoiio/Pencil_Stencils/Web 2.0/definition.xml",
+		"/D/SkyDrive/Weebly Theme/adjust_theme/selectivizr-min.js",
+		"/D/SkyDrive/Weebly Theme/adjust_theme/modernizr.custom.js",
+		"/D/Github/bootswatch-h/swatchmaker/swatch/bootstrap.css",
+		"/C/Users/Hoiio/Downloads/bootstrap/bootstrap/css/bootstrap.css",
+		"/D/Github/bootswatch-h/swatchmaker/bootstrap/less/pagination.less",
+		"/D/Github/bootswatch-h/swatchmaker/bootstrap/less/variables.less",
+		"/D/Github/bootswatch-h/swatchmaker/bootstrap/less/bootstrap.less",
+		"/D/Github/bootswatch-h/swatchmaker/swatch/bootstrap.min.css",
+		"/D/Github/bootswatch-h/swatchmaker/bootstrap/less/type.less",
+		"/D/Github/bootswatch-h/bootstrap-hoiio/css/bootstrap.css",
+		"/D/Dropbox/Public/protoio_mainLine.css",
+		"/D/Work-in-Progress/AppCenter/application-responsive.css",
+		"/D/Work-in-Progress/AppCenter/resources/css/application.css",
+		"/D/Work-in-Progress/AppCenter/iframe-responsive.css",
+		"/D/Work-in-Progress/directory-modif.css",
+		"/D/Dropbox/Public/hoiio_logo_optimised.svg",
+		"//ts-teliwave/share/HenryW/Archive/Logo Launch/hoiio_logo.svg",
+		"/D/Dropbox/Public/application.css",
+		"/D/Work-in-Progress/AppCenter/resources/css/bootstrap.min.css",
+		"/D/Work-in-Progress/AppCenter/resources/templates/detailedapp.html",
+		"/D/Work-in-Progress/AppCenter/resources/templates/screenshot.html",
+		"/D/Work-in-Progress/AppCenter/resources/templates/featuredapp.html",
+		"/D/Work-in-Progress/AppCenter/resources/js/views/featuredAppView.js",
+		"/D/Work-in-Progress/AppCenter/index.html",
+		"/D/Work-in-Progress/AppCenter/resources/templates/app.html",
+		"/D/Work-in-Progress/AppCenter/resources/css/application2.css",
+		"/D/Work-in-Progress/AppCenter/resources/css/bootstrap-responsive.min.css",
+		"/D/Work-in-Progress/AppCenter/resources/templates/screenshotModal.html",
+		"/D/Work-in-Progress/AppCenter/resources/js/application.js"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"heisenberg",
+			"ol",
+			".agenda",
+			"type=\"PlainText\"",
+			"html text",
+			"box",
+			"btn-show-edit",
+			"blockquote",
+			".nav-button",
+			"container",
+			"#navigation",
+			"button",
+			"pagination ul",
+			"paginationacti",
+			"@baselineHeight",
+			"btn",
+			"tab",
+			"html div",
+			"tab",
+			"Segoe UI",
+			"app-container",
+			"all-image",
+			"app-container",
+			"feature-app"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Source Sans Pro"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								471,
+								471
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Sidebar Specs:",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Pencil_Stencils/Web 3.0/definition-old.xml",
+					"settings":
+					{
+						"buffer_size": 96679,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								35719,
+								38849
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 10962.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Pencil_Stencils/Web 3.0/definition.xml",
+					"settings":
+					{
+						"buffer_size": 8198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7754,
+								7754
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 343.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
